@@ -1,0 +1,1900 @@
+[
+  {
+    "number": 0,
+    "roman_numeral": null,
+    "label": "The Fleeing Atalanta",
+    "motto_latin": null,
+    "motto_english": null,
+    "epigram_latin": null,
+    "epigram_english": null,
+    "discourse_summary": "Maier's introductory apparatus presents Atalanta Fugiens as an exercise in multi-sensory pedagogy: the subtitle promises emblems for the eyes, fugues for the ears, and epigrams for the intellect, engaging sight, he a ring, and reason simultaneously in the pursuit of Nature's secrets. The myth of the footrace serves as a heuristic model for the reader's own engagement — just as Hippomenes must distract the swift Atalanta with golden apples to win the race, the reader must use the sensory enticements of image, music, and verse to catch the fleeting truths of alchemical philosophy. De Jong characterizes this as Maier's 'lusus serius' or serious game, a Renaissance pedagogical strategy in which play, meditation, and intellectual pursuit are fused into a single practice of discovery. The frontispiece thus functions not merely as decoration but as an instruction manual for how to read the fifty emblems that follow — each a puzzle requiring the reader to chase meaning across multiple registers.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "woman_running",
+      "man_pursuing",
+      "apple_golden",
+      "meadow",
+      "sky"
+    ],
+    "animation_hints": {
+      "type": "chase",
+      "motion": "horizontal_pursuit",
+      "loop": true,
+      "duration": 14,
+      "particles": "golden_apple_trail",
+      "mood": "breathless"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-00.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-00.jpg"
+  },
+  {
+    "number": 1,
+    "roman_numeral": "I",
+    "label": "His nurse is the Earth",
+    "motto_latin": "Nutrix ejus terra est",
+    "motto_english": "The wind carried it in its belly.",
+    "epigram_latin": null,
+    "epigram_english": "Romulus is said to have been nursed at the coarse udders of a wolf,\nAnd Jupiter to have been nursed by a goat, and these facts are said to be believed:\nShould we then wonder if we assert\nThat the earth suckles the tender Child of the Philosophers with its milk?\nMaier, Examen Fucorum Pseudo-Chymicorum, 41:\nIf an insignificant animal nursed such great heroes,\nShall not the Terrestrial Globe be a nurse?",
+    "discourse_summary": "Maier develops the Tabula Smaragdina's declaration that 'the wind carried it in its belly' into an extended analogy between alchemical generation and natural gestation. He argues that the philosophical substance must first be conceived in air (the volatile spirit) before being nourished by earth (the fixed body), just as an embryo is carried in the womb before being nursed after birth. The discourse draws on Peripatetic natural philosophy to assert that nourishment must share the nature of what it feeds, establishing the principle that the Stone requires earth — that is, a fixed, corporeal substrate — as its nurse. Maier cites Hermes Trismegistus as the ultimate authority for this teaching.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "infant",
+      "earth_figure",
+      "wind_bellowing",
+      "nurse_figure",
+      "landscape"
+    ],
+    "animation_hints": {
+      "type": "descent",
+      "motion": "gravity_pull",
+      "loop": true,
+      "duration": 12,
+      "particles": "earth_absorption",
+      "mood": "primal"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-01.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-01.jpg"
+  },
+  {
+    "number": 2,
+    "roman_numeral": "II",
+    "label": "Its nurse is the Earth",
+    "motto_latin": null,
+    "motto_english": "Its nurse is the Earth.",
+    "epigram_latin": null,
+    "epigram_english": "Romulus is said to have been nursed at the coarse udders of a wolf,\nAnd Jupiter to have been nursed by a goat, and these facts are said to be believed:\nShould we then wonder if we assert\nThat the earth suckles the tender Child of the Philosophers with its milk?\nIf an insignificant animal nursed such great heroes,\nShall not the Terrestrial Globe be a nurse?",
+    "discourse_summary": "Maier continues the the me of Emblem I, now emphasizing that the earth is specifically the nurse, not the mother, of the philosophical substance. He distinguishes between generation (which occurs through the volatile principle, the wind) and nourishment (which requires the fixed, earthy body). The discourse argues that just as human food must be converted into the substance of the body it feeds, so the alchemical earth must be assimilated into the growing Stone. Maier draws a careful analogy between the stages of infant feeding — blood in utero, milk after birth, solid food later — and the progressive fixation of the volatile philosophical substance.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "earth_figure",
+      "infant_nursing",
+      "landscape",
+      "classical_columns"
+    ],
+    "animation_hints": {
+      "type": "nourishment",
+      "motion": "gentle_feeding",
+      "loop": true,
+      "duration": 12,
+      "particles": "earth_glow",
+      "mood": "maternal"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-02.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-02.jpg"
+  },
+  {
+    "number": 3,
+    "roman_numeral": "III",
+    "label": "Go to the woman who washes the sheets",
+    "motto_latin": null,
+    "motto_english": "Go to the woman who washes the sheets and do as she does.",
+    "epigram_latin": null,
+    "epigram_english": "Go to the woman who washes the sheets and do as she does.\nShe moistens the dirty linen with warm water;\nImitate her, and you will not go wrong in your art.\nFor the water washes the blackness from the body,\nAnd what was stained by dirt becomes white through repeated washing,\nDrenched by rain, dried by sun-warmth.",
+    "discourse_summary": "Maier argues that the alchemical purification process mirrors the everyday work of washing dirty linen: just as earth-stains on fabric are removed by water and then dried by sun and wind, so the impurities of the philosophical substance must be cleansed through repeated washing and exposure to the elements. The discourse develops the principle that what comes from earth is cleaned by the next element in the sequence — water purifies earth, air dries what water has cleaned. Maier presents the was her woman as a figure for the alchemist who must patiently repeat the cycle of dissolution and drying, an operation the tradition calls the albedo or whitening stage.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "woman_washing",
+      "sheet_cloth",
+      "stream_water",
+      "sun",
+      "wind"
+    ],
+    "animation_hints": {
+      "type": "purification",
+      "motion": "washing_cycle",
+      "loop": true,
+      "duration": 12,
+      "particles": "water_cleanse",
+      "mood": "laborious"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-03.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-03.jpg"
+  },
+  {
+    "number": 4,
+    "roman_numeral": "IV",
+    "label": "Join brother and sister",
+    "motto_latin": null,
+    "motto_english": "Join brother and sister and give them the cup of love.",
+    "epigram_latin": null,
+    "epigram_english": "From her own father, Myrrha received the beautiful Adonis.\nAs a marriage of brother and sister they unite:\nGive them the cup of love, let them drink,\nAnd bring forth from the work of their union\nA nobler offspring than was ever produced\nBy the embraces of Mars and Venus.",
+    "discourse_summary": "Maier frames the alchemical coniunctio as a marriage between brother and sister — the masculine and feminine principles of the same substance — who must be united by the 'cup of love,' the solvent that dissolves both into a single new body. He draws on Oedipus's unwitting marriage to his mother Jocasta as an analogy for the paradoxical union of opposites that share a common origin. The discourse argues that the philosophical work is fundamentally gendered labor: the masculine role is to beget and govern, the feminine to conceive and nourish. Maier cites both classical mythology and Arabic alchemical sources to establish that this conjunction of fixed and volatile is the central operation of the entire art.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "brother_figure",
+      "sister_figure",
+      "cup_wine",
+      "wedding_table",
+      "oedipus_sphinx"
+    ],
+    "animation_hints": {
+      "type": "union",
+      "motion": "orbital_merge",
+      "loop": true,
+      "duration": 12,
+      "particles": "love_spark",
+      "mood": "erotic_sacred"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-04.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-04.jpg"
+  },
+  {
+    "number": 5,
+    "roman_numeral": "V",
+    "label": "Woman suckling the toad",
+    "motto_latin": null,
+    "motto_english": "Put a toad to the breasts of a woman, that she may suckle it, and the woman may die and the toad grow big from the milk.",
+    "epigram_latin": null,
+    "epigram_english": "Put a cold toad at the breast of a woman,\nSo that it may drink from the source of milk like a child.\nLet it swell into a large growth,\nAnd let the woman become ill and die.\nMake a noble medicine from it,\nWhich drives the poison out of the human heart and takes away destruction.",
+    "discourse_summary": "Maier frames the alchemical operation as gendered labor, arguing that the masculine principle be gets and governs while the feminine conceives, bears, and nourishes. He develops the toad as a figure for the volatile, poisonous agent that must be fed by the maternal body of the prima materia — a feeding that kills the nurse but matures the product. Maier draws the analogy to Cleopatra's death by asp-venom, suggesting that the transfer of vital essence from woman to toad mirrors the fixation of the volatile sulphur through prolonged contact with a liquid menstruum. The discourse cites the Pseudo-Aristotelian Tractatulus de Practica Lapidis as the source of this toad-nursing imagery.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "woman_reclining",
+      "toad_large",
+      "breasts",
+      "milk_stream",
+      "death_shadow"
+    ],
+    "animation_hints": {
+      "type": "grotesque_feeding",
+      "motion": "growth_drain",
+      "loop": true,
+      "duration": 12,
+      "particles": "milk_transfer",
+      "mood": "horrific_tender"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-05.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-05.jpg"
+  },
+  {
+    "number": 6,
+    "roman_numeral": "VI",
+    "label": "Sow your gold in the white foliated earth",
+    "motto_latin": null,
+    "motto_english": "Sow your gold in the white foliated earth.",
+    "epigram_latin": null,
+    "epigram_english": "The farmers entrust their seed to the fat earth,\nAfter having foliated it with the ploughshare;\nSow your gold in the white foliated earth,\nWhich will yield you fruit with interest.\nIf you do this, you will rejoice in a rich harvest,\nWhen the grain has multiplied in good soil.",
+    "discourse_summary": "Maier develops an extended agricultural analogy: just as the farmer must sow grain in prepared soil to reap a harvest, the alchemist must 'sow' philosophical gold in 'white foliated earth' — a specially prepared mercurial substrate — to produce the Stone. Drawing on Plato's division of the civic body into physicians and farmers, Maier argues that the alchemist combines both roles, healing metals while cultivating them. The discourse establishes a key principle: the seed (gold) must be of the same species as what it produces, and the earth (mercury) must be receptive and properly tempered. The white, foliated quality of the earth indicates the albedo stage, where the purified substrate is ready to receive the active seed.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "farmer_sowing",
+      "golden_seed",
+      "white_earth",
+      "field",
+      "classical_architecture"
+    ],
+    "animation_hints": {
+      "type": "sowing",
+      "motion": "agricultural_cycle",
+      "loop": true,
+      "duration": 12,
+      "particles": "gold_seeds",
+      "mood": "patient"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-06.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-06.jpg"
+  },
+  {
+    "number": 7,
+    "roman_numeral": "VII",
+    "label": "Young bird flying from nest and falling back",
+    "motto_latin": null,
+    "motto_english": "A young bird flies up from the nest and falls back into the nest again.",
+    "epigram_latin": null,
+    "epigram_english": "The eagle had built a nest in a hollow rock,\nIn which it hid and fed its young:\nOne of them, trying to fly, fell back into the nest,\nFor the feathers were not yet fully grown.\nThe bird rises again, and falls back, until\nIts wings have grown strong enough to sustain flight.",
+    "discourse_summary": "Maier describes a species of bird that flies upward from its nest only to fall back again repeatedly, developing this as an analogy for the alchemical process of sublimation and condensation. He argues that the volatile philosophical substance must be repeatedly driven upward (sublimated) and allowed to fall back (condensed) until it is sufficiently matured to sustain it self. The discourse connects this to the broader principle that Nature works through cyclical repetition rather than linear progress. Maier suggests that the bird's eventual success in flight corresponds to the moment when the volatile spirit is finally fixed and can maintain its elevated state.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "bird_small",
+      "nest",
+      "tree",
+      "sky_vault",
+      "falling_arc"
+    ],
+    "animation_hints": {
+      "type": "failed_ascent",
+      "motion": "rise_and_fall",
+      "loop": true,
+      "duration": 12,
+      "particles": "feather_drift",
+      "mood": "sisyphean"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-07.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-07.jpg"
+  },
+  {
+    "number": 8,
+    "roman_numeral": "VIII",
+    "label": "Emblem VIII",
+    "motto_latin": null,
+    "motto_english": "Take the egg and pierce it with a fiery sword.",
+    "epigram_latin": null,
+    "epigram_english": "There is a bird in the world, more sublime than all,\nWhose egg to search for is your only care.\nA soft white surrounds the yellow yolk;\nStrike it cautiously with a fiery sword, as is the custom.\nLet Mars lend his aid to Vulcan: the chick thence arising\nShall be the conqueror of iron and fire.",
+    "discourse_summary": "Maier develops the egg as a figure for the sealed vessel containing the prima materia, arguing that it must be pierced — that is, opened to the action of fire — with a fiery sword to release and transform its contents. The discourse draws on the widespread alchemical tradition of the philosophical egg (ovum philosophicum), where the shell represents the vessel, the white the mercury, and the yolk the sulphur. Maier argues that the sword of fire must be applied with precision — too little heat fails to open the egg, too much destroys the embryonic substance within. The operation described is calcination, the controlled application of heat to break down the initial form of the material.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "cosmic_egg",
+      "fiery_sword",
+      "hand_divine",
+      "flames",
+      "alchemical_vessel"
+    ],
+    "animation_hints": {
+      "type": "violent_opening",
+      "motion": "pierce_and_expand",
+      "loop": true,
+      "duration": 10,
+      "particles": "fire_burst",
+      "mood": "explosive"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-08.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-08.jpg"
+  },
+  {
+    "number": 9,
+    "roman_numeral": "IX",
+    "label": "Emblem IX",
+    "motto_latin": null,
+    "motto_english": "Fix the old man to the tree in the garden of the dew, and the old man becomes young again.",
+    "epigram_latin": null,
+    "epigram_english": "Fix the old man to the tree\nIn the garden of celestial dew,\nAnd the old man will become young again,\nRejuvenated by the moisture from above.\nThe tree gives its fruit to him who tends it,\nAnd the aged one grows young with the tree.",
+    "discourse_summary": "Maier argues that the old man represents the fixed, aged substance of the philosophical body that must be rejuvenated through exposure to celestial dew — the volatile, purifying spirit descending from above. He develops a parallel between this image and classical accounts of rejuvenation through divine intervention, including the myth of Aeson restored to youth by Medea. The discourse emphasizes that the tree functions as the apparatus of fixation: the old body is held in place while the volatile moisture penetrates and renews it. Maier cites the Turba Philosophorum and the pronouncement of Balgus as authorities for this doctrine of rejuvenation through the marriage of fixed and volatile.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "old_man",
+      "tree_garden",
+      "dew_drops",
+      "youth_figure",
+      "garden_walls"
+    ],
+    "animation_hints": {
+      "type": "rejuvenation",
+      "motion": "dew_falling_age_reversal",
+      "loop": true,
+      "duration": 14,
+      "particles": "dew_drops",
+      "mood": "mystical"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-09.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-09.jpg"
+  },
+  {
+    "number": 10,
+    "roman_numeral": "X",
+    "label": "Emblem X",
+    "motto_latin": null,
+    "motto_english": "Give fire to fire, Mercury to Mercury, and that is enough for you.",
+    "epigram_latin": null,
+    "epigram_english": "You want to know the reason why so many poets sing of Helicon,\nAnd say that everybody must try to reach the top of it?\nAt its summit a Stone has been placed as a souvenir,\nThe Stone that was devoured and spat out by Saturn.\nGive fire to fire, Mercury to Mercury,\nAnd that is enough for you.",
+    "discourse_summary": "Maier develops the principle that like produces like: fire must be added to fire, and mercury to mercury, for the philosophical work to succeed. He argues against the common error of mixing incompatible substances, insisting that the alchemist must recognize the common nature hidden beneath different appearances. The discourse draws on the allegory of Saturn devouring his children, which Maier interprets as the dissolution of metals back into their mercurial prima materia. He cites the Turba Philosophorum's dictum that the Stone is nourished only by its own kind, establishing the principle of philosophical homogeneity that governs the entire citrinitas stage.",
+    "alchemical_stage": "CITRINITAS",
+    "visual_elements": [
+      "fire_flames",
+      "mercury_vessel",
+      "saturn_devouring",
+      "children",
+      "alchemical_fire"
+    ],
+    "animation_hints": {
+      "type": "elemental_recursion",
+      "motion": "feed_itself",
+      "loop": true,
+      "duration": 12,
+      "particles": "mercury_silver",
+      "mood": "recursive"
+    },
+    "stage_palette": {
+      "primary": "#c8a820",
+      "secondary": "#8a7000",
+      "accent": "#f0d040",
+      "particle": "#ffe040",
+      "glow": "#ffd000",
+      "bloom_intensity": 0.6
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-10.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-10.jpg"
+  },
+  {
+    "number": 11,
+    "roman_numeral": "XI",
+    "label": "Emblem XI",
+    "motto_latin": null,
+    "motto_english": "Make Latona white and tear up the books.",
+    "epigram_latin": null,
+    "epigram_english": "Only one thing of little value is found in the world,\nWhich is the key to the whole Work.\nMake Latona white and tear up the books,\nThat your heart may not be rent asunder.\nFor knowledge without practice is worth nothing;\nPractice without knowledge stumbles in darkness.",
+    "discourse_summary": "Maier commands two simultaneous actions: whiten Latona and tear up the books. He develops Latona as a figure for the imperfect philosophical body — an alloy of Sol and Luna stained with black impurities — that must be purified through the albedo. De Jong traces the name Latona to 'laton,' meaning electrum or yellow silver, connecting the mythological goddess to the metallurgical process of whitening a dark alloy. The instruction to destroy books signals Maier's insistence that neither theory alone nor book-learning can substitute for practical laboratory work — the alchemist must act on matter directly, not merely read about it. The discourse argues that both intellect and manual labor are necessary, but that practice takes precedence.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "latona_figure",
+      "books_torn",
+      "whitening_light",
+      "classical_scene"
+    ],
+    "animation_hints": {
+      "type": "whitening",
+      "motion": "book_torn_light_fills",
+      "loop": true,
+      "duration": 12,
+      "particles": "white_pages",
+      "mood": "revelatory"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-11.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-11.jpg"
+  },
+  {
+    "number": 12,
+    "roman_numeral": "XII",
+    "label": "Emblem XII",
+    "motto_latin": null,
+    "motto_english": "Make Latona white and tear up the books.",
+    "epigram_latin": null,
+    "epigram_english": "Make Latona white and tear up the books,\nSo that your hearts may not be torn apart;\nFor she who is bright-skinned is whiter in the Stone,\nAnd out of white lead originates red lead,\nWhich is the beginning and the end.\nWithout this process, the art is in vain.",
+    "discourse_summary": "Maier continues the argument of Emblem XI, now emphasizing the bewildering variety and obscurity of alchemical writings as the reason books must be abandoned. He argues that the sheer volume of contradictory texts drives seekers to despair, and that the only path forward is direct engagement with the material. The discourse develops the Latona allegory further: she is an impure body of mixed Sol and Luna that must be found in a humble place, immersed in dung where she becomes white lead, from which red lead originates. Maier presents this as the beginning and end of the opus — the albedo whitening that initiates the final reddening toward the rubedo.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "latona_figure",
+      "whitening_water",
+      "classical_scene",
+      "sun_rays"
+    ],
+    "animation_hints": {
+      "type": "whitening_wash",
+      "motion": "water_light",
+      "loop": true,
+      "duration": 12,
+      "particles": "luminous_water",
+      "mood": "serene"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-12.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-12.jpg"
+  },
+  {
+    "number": 13,
+    "roman_numeral": "XIII",
+    "label": "Dropsical ore washed in Jordan",
+    "motto_latin": null,
+    "motto_english": "The ore of the philosophers is dropsical and wants to be washed seven times in the river, just as Naaman the leper washed in the Jordan.",
+    "epigram_latin": null,
+    "epigram_english": "The ore of the philosophers is dropsical\nAnd wants to be washed seven times in the river,\nJust as Naaman the leper washed in the Jordan.\nThen the leprosy departs, and the body becomes clean,\nAs white as snow, more precious than gold,\nIf you understand what the wise men mean.",
+    "discourse_summary": "Maier draws on the biblical story of Naaman the leper, healed by washing seven times in the Jordan, as an allegory for the purification of the philosophical ore. He argues that the 'dropsical' stone — swollen with impurities — must undergo repeated washing to be cleansed, just as Naaman's leprosy was cured only through sevenfold immersion. The discourse connects this to the albedo purification and to the sacramental symbolism of baptism as a prefiguration of alchemical cleansing. Maier cites the Clangor Buccinae as the source of the dropsical ore metaphor, linking it explicitly to the Latona-whitening sequence of the preceding emblems.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "naaman_leper",
+      "jordan_river",
+      "washing_scene",
+      "ore_vessel",
+      "seven_dips"
+    ],
+    "animation_hints": {
+      "type": "sevenfold_washing",
+      "motion": "dipping_cycle_7x",
+      "loop": true,
+      "duration": 14,
+      "particles": "river_current",
+      "mood": "ritualistic"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-13.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-13.jpg"
+  },
+  {
+    "number": 14,
+    "roman_numeral": "XIV",
+    "label": "Emblem XIV",
+    "motto_latin": null,
+    "motto_english": "This is the dragon that devours its own tail.",
+    "epigram_latin": null,
+    "epigram_english": "This is the dragon that devours its own tail,\nThe serpent of the philosophers,\nWhich bites itself and generates itself,\nDissolving and coagulating itself.\nA serpent that devours another serpent becomes a dragon;\nThis is the secret of the wise.",
+    "discourse_summary": "Maier develops the ancient image of the serpent devouring another serpent to become a dragon, an allegory for the dissolution of one metallic substance by another of similar but more active nature. He argues that in antiquity the serpent represented both poison and medicine — the pharmakon — and that the alchemical dragon born from this mutual consumption combines the properties of both parents. The discourse cites classical accounts of dragon-generation and connects them to the Hermetic principle that the Stone is produced when like consumes like. Maier emphasizes that this is a nigredo operation: the death of both serpents precedes the birth of the more powerful dragon.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "ouroboros_dragon",
+      "tail_biting",
+      "circular_form",
+      "fire_ring"
+    ],
+    "animation_hints": {
+      "type": "ouroboros",
+      "motion": "circular_consumption",
+      "loop": true,
+      "duration": 12,
+      "particles": "fire_ring",
+      "mood": "cyclical_horror"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-14.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-14.jpg"
+  },
+  {
+    "number": 15,
+    "roman_numeral": "XV",
+    "label": "Emblem XV",
+    "motto_latin": null,
+    "motto_english": "Let the work of the potter, consisting of dry and wet, teach you.",
+    "epigram_latin": null,
+    "epigram_english": "Let the work of the potter, consisting of dry and wet, teach you.\nHe moistens the clay with water,\nShapes it with his hands upon the wheel,\nThen dries it in the sun and fires it in the kiln.\nSo should you work with your substance:\nMoisten, shape, dry, and fire.",
+    "discourse_summary": "Maier presents the potter's craft as a model for the alchemical work, arguing that the artisan who shapes clay from wet and dry elements teaches the principles governing the philosophical operation. He develops the analogy between the potter's sequence — moistening, forming, drying, firing — and the alchemist's manipulation of the mercurial and sulphurous components through successive stages. The discourse emphasizes that Nature provides the model, but art must apply it: the potter does not invent the properties of clay but learns to work with them. Maier cites this as evidence that alchemical skill is a techne learned through observation of natural processes.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "potter",
+      "clay_vessel",
+      "water",
+      "fire_kiln",
+      "dry_wet_duality"
+    ],
+    "animation_hints": {
+      "type": "crafting",
+      "motion": "hands_shaping",
+      "loop": true,
+      "duration": 12,
+      "particles": "clay_dust",
+      "mood": "meditative"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-15.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-15.jpg"
+  },
+  {
+    "number": 16,
+    "roman_numeral": "XVI",
+    "label": "Winged and wingless lion",
+    "motto_latin": null,
+    "motto_english": "The feathers one lion has not, the other has.",
+    "epigram_latin": null,
+    "epigram_english": "Two lions engage in battle:\nOne has wings, the other has none.\nThe winged one is volatile and swift,\nThe wingless one is fixed and strong.\nUnite them, and from their conjunction\nThe Stone of the philosophers is born.",
+    "discourse_summary": "Maier develops the two lions as figures for the volatile and fixed principles of the alchemical work. The winged lion represents the philosophical mercury — fugitive, aerial, unstable — while the wingless lion is the philosophical sulphur — earthy, fixed, enduring. He argues that mastery requires capturing the winged lion and joining it to its wingless counterpart, producing a stable union of volatile and fixed. The discourse connects the lion's magnanimity in classical natural history to the nobility of the alchemical substances, and draws on the solar symbolism of the lion as the king of beasts to establish its connection to gold and the citrinitas stage of yellowing.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "winged_lion",
+      "wingless_lion",
+      "comparison_scene",
+      "forest"
+    ],
+    "animation_hints": {
+      "type": "contrast",
+      "motion": "comparison_reveal",
+      "loop": true,
+      "duration": 12,
+      "particles": "feather_emerge",
+      "mood": "paradox"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-16.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-16.jpg"
+  },
+  {
+    "number": 17,
+    "roman_numeral": "XVII",
+    "label": "Fourfold fire-ball",
+    "motto_latin": null,
+    "motto_english": "A fourfold fire-ball controls this work.",
+    "epigram_latin": null,
+    "epigram_english": "A fourfold fire-ball controls this work:\nThere is the fire of the lamp, the fire of the ash-bath,\nThe fire of the substance itself, and the fire of water.\nFour fires are needed, not one alone;\nHe who knows how to manage them all\nHas found the key to the art.",
+    "discourse_summary": "Maier argues that the alchemical work requires not one fire but four distinct types, each governing a different phase of the operation. He identifies these as the fire of the lamp (external heat), the fire of the ash-bath (gentle, sustained warmth), the fire of the substance it self (intrinsic reactive heat), and the fire of the water-bath (moist, temperate heat). The discourse develops the principle that fire transforms by making things fiery — communicating its own nature — but can not make gold directly, only prepare the conditions for gold's emergence. Maier cites this fourfold fire as the master key to the practical art, without which even correct materials will fail.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "four_flames",
+      "elemental_sphere",
+      "four_directions",
+      "fire_ball"
+    ],
+    "animation_hints": {
+      "type": "elemental_fire",
+      "motion": "fourfold_ignition",
+      "loop": true,
+      "duration": 10,
+      "particles": "elemental_sparks",
+      "mood": "powerful"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-17.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-17.jpg"
+  },
+  {
+    "number": 18,
+    "roman_numeral": "XVIII",
+    "label": "Emblem XVIII",
+    "motto_latin": null,
+    "motto_english": "Fire likes making things fiery, but not, like gold, making gold.",
+    "epigram_latin": null,
+    "epigram_english": "Fire likes making things fiery,\nBut not, like gold, making gold.\nFire transforms what is placed within it\nInto its own nature, communicating its heat.\nBut gold requires a different art:\nPatience, knowledge, and the right degree of warmth.",
+    "discourse_summary": "Maier continues the fire the me from Emblem XVII, arguing that fire delights in making things partake of its own fiery nature but can not directly transmute base metals into gold. He develops a distinction between fire as agent of transformation and gold as the goal: fire prepares, purifies, and refines, but the ultimate product — the philosopher's stone or philosophical gold — emerges from the properly prepared matter's own latent potential, not from fire alone. The discourse cites the Aristotelian principle of like acting upon like to explain why the fire must be matched in kind and degree to the substance it works upon.",
+    "alchemical_stage": "CITRINITAS",
+    "visual_elements": [
+      "fire_figure",
+      "gold_ore",
+      "transmutation",
+      "flames"
+    ],
+    "animation_hints": {
+      "type": "transmutation",
+      "motion": "like_feeds_like",
+      "loop": true,
+      "duration": 12,
+      "particles": "gold_sparks",
+      "mood": "alchemical"
+    },
+    "stage_palette": {
+      "primary": "#c8a820",
+      "secondary": "#8a7000",
+      "accent": "#f0d040",
+      "particle": "#ffe040",
+      "glow": "#ffd000",
+      "bloom_intensity": 0.6
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-18.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-18.jpg"
+  },
+  {
+    "number": 19,
+    "roman_numeral": "XIX",
+    "label": "Emblem XIX",
+    "motto_latin": null,
+    "motto_english": "If you kill one of the four, every body will be dead immediately.",
+    "epigram_latin": null,
+    "epigram_english": "If you kill one of the four,\nEverybody will be dead immediately.\nFor the four are bound together so tightly\nThat the death of one means the death of all.\nSeparate them gently, not by force,\nOr the whole work will be destroyed.",
+    "discourse_summary": "Maier develops the idea that the four elements or components of the philosophical substance are so intimately connected that destroying one annihilates all. He argues that this demonstrates their essential unity — they are not truly four separate things but four aspects of a single body. The discourse draws on the myth of Geryon, the three-bodied king of Spain, and his pure-bred cattle guarded by the dog Orthrus, developing this as an allegory for the composite nature of the prima materia. Maier uses this to warn the alchemist against violent separation: the elements must be gently distinguished, not forcibly torn apart, lest the entire work be destroyed.",
+    "alchemical_stage": "NIGREDO",
+    "visual_elements": [
+      "four_elements",
+      "earth_water_fire_air",
+      "death_of_one",
+      "body"
+    ],
+    "animation_hints": {
+      "type": "elemental_death",
+      "motion": "one_dies_all_collapse",
+      "loop": true,
+      "duration": 12,
+      "particles": "dissolving_elements",
+      "mood": "catastrophic"
+    },
+    "stage_palette": {
+      "primary": "#1a0a00",
+      "secondary": "#4a1a08",
+      "accent": "#8b2500",
+      "particle": "#cc3300",
+      "glow": "#ff4400",
+      "bloom_intensity": 0.4
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-19.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-19.jpg"
+  },
+  {
+    "number": 20,
+    "roman_numeral": "XX",
+    "label": "Emblem XX",
+    "motto_latin": null,
+    "motto_english": "Nature teaches Nature, Nature conquers Nature, Nature rules Nature.",
+    "epigram_latin": null,
+    "epigram_english": "Nature teaches Nature how to conquer fire;\nThe teacher and the pupil are of the same kind.\nA woman is taught by another woman to wash clothes;\nThe skilled one leads the unskilled.\nNature teaches, Nature conquers, Nature rules:\nAll wisdom comes from following her.",
+    "discourse_summary": "Maier articulates one of alchemy's foundational maxims: Nature teaches Nature, Nature conquers Nature, Nature rules Nature. He argues that the alchemist must learn by observing natural processes, then apply those lessons to guide and finally master the transformations of matter. The discourse connects this to Democritus's principle that art imitates nature, and extends it: the alchemical art does not merely copy natural processes but accelerates and perfects them. Maier cites the washing of dirty linen (Emblem III) as an example — Nature provides rain and sun, and the was her woman learns to replicate these cleansing agents.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "hermaphrodite_figure",
+      "stone_forming",
+      "classical_landscape"
+    ],
+    "animation_hints": {
+      "type": "stone_forming",
+      "motion": "gradual_solidification",
+      "loop": true,
+      "duration": 14,
+      "particles": "stone_particles",
+      "mood": "emergent"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-20.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-20.jpg"
+  },
+  {
+    "number": 21,
+    "roman_numeral": "XXI",
+    "label": "Circle-square-triangle-circle formula",
+    "motto_latin": null,
+    "motto_english": "Make a circle out of a man and a woman, out of this a square, out of this a triangle, make a circle, and you will have the Philosopher's Stone.",
+    "epigram_latin": null,
+    "epigram_english": "Make a circle out of a man and a woman,\nFrom which a quadrangular body arises with equal sides.\nDerive from it a triangle, which is in contact on all sides with a round sphere:\nThen the Stone will have come into existence.\nIf this great thing does not immediately present itself to your mind,\nLearn all the doctrine of Geometry, and you will know everything.",
+    "discourse_summary": "Maier develops the famous geometric formula attributed to the Rosarium Philosophorum: make a circle from a man and woman (the coniunctio of opposites), transform this into a square (the four elements), reduce the square to a triangle (the tria prima of salt, sulphur, and mercury), and finally resolve the triangle back into a circle (the unified philosopher's stone). He argues that this sequence encodes the entire alchemical opus in geometric form, drawing on Platonic philosophy to connect ideal mathematical forms to material transformations. The discourse cites the principle of squaring the circle — an impossibility in mathematics but achievable in alchemy — as evidence that the philosophical art transcends ordinary reason.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "hermaphrodite_washing",
+      "bath_vessel",
+      "white_stone",
+      "water"
+    ],
+    "animation_hints": {
+      "type": "hermaphrodite_wash",
+      "motion": "purification_union",
+      "loop": true,
+      "duration": 12,
+      "particles": "white_water",
+      "mood": "transcendent"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-21.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-21.jpg"
+  },
+  {
+    "number": 22,
+    "roman_numeral": "XXII",
+    "label": "Emblem XXII",
+    "motto_latin": null,
+    "motto_english": "When you have obtained the white lead, then do woman's work, that is to say: cook.",
+    "epigram_latin": null,
+    "epigram_english": "Whoever wants to achieve much with little trouble\nShould throw snow in Saturn's belly.\nWhen you have obtained the white lead,\nThen do woman's work, that is to say: cook.\nPatience and steady warmth are all you need;\nThe rest Nature will accomplish for you.",
+    "discourse_summary": "Maier instructs that once the white lead (the product of the albedo) has been obtained, the alchemist must perform 'women's work' — that is, cook the substance with steady, patient heat. He develops cooking as the central metaphor for the post-albedo operations, arguing that the white substance must be slowly heated and matured, just as food is transformed by cooking from raw to nourishing. The discourse emphasizes patience and temperature control: the philosophical substance must simmer, not boil. Maier draws on the herms — three-forked road markers — as guides that show the way to straying travelers, an allegory for the textual guideposts left by earlier alchemists.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "alchemical_bath",
+      "purification_scene",
+      "woman_man_bathing"
+    ],
+    "animation_hints": {
+      "type": "bath_purification",
+      "motion": "immersion_emerge",
+      "loop": true,
+      "duration": 12,
+      "particles": "steam_rising",
+      "mood": "cleansing"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-22.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-22.jpg"
+  },
+  {
+    "number": 23,
+    "roman_numeral": "XXIII",
+    "label": "Emblem XXIII",
+    "motto_latin": null,
+    "motto_english": "It rains gold when Pallas is born at Rhodes.",
+    "epigram_latin": null,
+    "epigram_english": "When Pallas was born on the island of Rhodes,\nIt rained gold upon the citizens.\nIf you wish for golden rain in your work,\nLet the sun-god join with Venus,\nAnd from their conjunction golden drops will fall,\nMore precious than any earthly treasure.",
+    "discourse_summary": "Maier develops the mythological tradition that golden rain fell on Rhodes when Pallas Athena was born from the head of Zeus, interpreting this as an allegory for the moment when the philosophical gold descends or precipitates during the citrinitas stage. He argues that just as Athena emerges fully armed and wise from the mind of the supreme deity, the philosopher's stone appears fully potent when the right conditions are met — it is not assembled gradually but manifests suddenly. The discourse connects the golden rain to the 'golden shower' of Zeus and Danae, weaving multiple classical myths into a single alchemical reading of divine gold falling from the heavens as precipitation of the tincture.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "seed_multiplying",
+      "field_growth",
+      "farmer",
+      "hundred_fold"
+    ],
+    "animation_hints": {
+      "type": "multiplication",
+      "motion": "exponential_growth",
+      "loop": true,
+      "duration": 14,
+      "particles": "seed_multiply",
+      "mood": "generative"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-23.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-23.jpg"
+  },
+  {
+    "number": 24,
+    "roman_numeral": "XXIV",
+    "label": "Alchemical King (garbed)",
+    "motto_latin": null,
+    "motto_english": "The wolf devoured the king, and after the wolf had been burnt, it returned the king to life.",
+    "epigram_latin": null,
+    "epigram_english": "The voracious wolf devoured the king,\nThen was thrown upon a funeral pyre.\nIn the consuming fire the wolf perished,\nBut the king returned to life, restored and young.\nThus through sacrifice and fire\nThe tincture is prepared that cures all disease.",
+    "discourse_summary": "Maier narrates a two-stage allegory: the wolf devours the king (antimony dissolves gold), then the wolf is burned, returning the king to life purified and renewed. He develops this as the central nigredo-to-rubedo sequence: the base, voracious substance (the wolf/antimony) must consume the noble but impure metal (the king/gold), and then the consuming agent it self must be destroyed by fire to liberate the purified king. The discourse draws on the metallurgical practice of antimony refining, where antimony sulphide is used to extract and purify gold from alloys. Maier cites this as one of the most practically grounded of all alchemical allegories, noting that the wolf's voracity is well known in natural history.",
+    "alchemical_stage": "CITRINITAS",
+    "visual_elements": [
+      "sun_moon_conjunction",
+      "celestial_scene",
+      "transition"
+    ],
+    "animation_hints": {
+      "type": "conjunction_transition",
+      "motion": "day_night_merge",
+      "loop": true,
+      "duration": 12,
+      "particles": "celestial_transition",
+      "mood": "liminal"
+    },
+    "stage_palette": {
+      "primary": "#c8a820",
+      "secondary": "#8a7000",
+      "accent": "#f0d040",
+      "particle": "#ffe040",
+      "glow": "#ffd000",
+      "bloom_intensity": 0.6
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-24.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-24.jpg"
+  },
+  {
+    "number": 25,
+    "roman_numeral": "XXV",
+    "label": "Emblem XXV",
+    "motto_latin": null,
+    "motto_english": "The Dragon does not die, if it is not killed by its brother and sister, that is to say by Sol and Luna.",
+    "epigram_latin": null,
+    "epigram_english": "The Dragon does not die, if it is not killed\nBy its brother and sister, that is to say by Sol and Luna.\nTwo must join together to slay the third;\nNeither alone can accomplish the deed.\nWhen the dragon's blood has flowed,\nThe golden treasure lies revealed.",
+    "discourse_summary": "Maier argues that the philosophical dragon — the unreformed prima materia — can not be killed by any single agent but only by the combined action of its own brother and sister, Sol and Luna (gold and silver, sulphur and mercury). He develops the myth of the Golden Fleece, where the dragon guarding the treasure must be slain before the fleece can be obtained, as an allegory for the alchemical work. The discourse cites Jason's quest and connects it to the Hermetic tradition that the Stone is guarded by a dragon that can only be overcome by substances of its own kind. Maier emphasizes that both the masculine (active, fiery) and feminine (passive, moist) principles must cooperate in this killing.",
+    "alchemical_stage": "ALBEDO",
+    "visual_elements": [
+      "whitening_final",
+      "stone_white",
+      "classical_setting"
+    ],
+    "animation_hints": {
+      "type": "final_whitening",
+      "motion": "full_luminescence",
+      "loop": true,
+      "duration": 12,
+      "particles": "pure_light",
+      "mood": "complete"
+    },
+    "stage_palette": {
+      "primary": "#e8e4dc",
+      "secondary": "#c8c4b8",
+      "accent": "#a0c4d8",
+      "particle": "#e0f0ff",
+      "glow": "#ffffff",
+      "bloom_intensity": 0.8
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-25.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-25.jpg"
+  },
+  {
+    "number": 26,
+    "roman_numeral": "XXVI",
+    "label": "Lady Sapientia / Tree of Life",
+    "motto_latin": null,
+    "motto_english": "The fruit of human wisdom is the Tree of Life.",
+    "epigram_latin": null,
+    "epigram_english": "In human affairs there is no greater wisdom\nThan that from which arise wealth and health.\nThe fruit of human wisdom is the Tree of Life;\nWhoever eats of it shall never hunger.\nSeek this tree in the garden of the sages,\nAnd you will find what the whole world desires.",
+    "discourse_summary": "Maier identifies the fruit of human wisdom as the Tree of Life it self, arguing that the philosopher's stone is the true 'wood of life' sought by sages across all traditions. He draws on Cicero's distinction between humans and animals — that only humans possess reason and the capacity for philosophical inquiry — to argue that alchemy is the highest expression of rational wisdom applied to Nature. The discourse connects the Tree of Life to the biblical Garden of Eden, the Hesperides, and the alchemical tradition of the arbor philosophica — the philosophical tree whose roots are mercury and whose fruit is gold. Maier presents this emblem as marking the rubedo: the tree has borne its fruit, wisdom has been attained.",
+    "alchemical_stage": "CITRINITAS",
+    "visual_elements": [
+      "yellowing_scene",
+      "citrinitas_light",
+      "transition_space"
+    ],
+    "animation_hints": {
+      "type": "yellowing",
+      "motion": "gold_tinge_spreads",
+      "loop": true,
+      "duration": 12,
+      "particles": "citrine_sparks",
+      "mood": "anticipatory"
+    },
+    "stage_palette": {
+      "primary": "#c8a820",
+      "secondary": "#8a7000",
+      "accent": "#f0d040",
+      "particle": "#ffe040",
+      "glow": "#ffd000",
+      "bloom_intensity": 0.6
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-26.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-26.jpg"
+  },
+  {
+    "number": 27,
+    "roman_numeral": "XXVII",
+    "label": "Companion to Sapientia sequence",
+    "motto_latin": null,
+    "motto_english": "He who tries to enter the Philosophical Rose-garden without the key is like a man who wants to walk without feet.",
+    "epigram_latin": null,
+    "epigram_english": "He who tries to enter the Philosophical Rose-garden without the key\nIs like a man who wants to walk without feet.\nThe gate is locked with strong bolts;\nOnly the prepared may enter.\nThree things are needed: patience, knowledge, and labor.\nWithout these, the garden remains forever closed.",
+    "discourse_summary": "Maier argues that attempting to enter the Philosophical Rose-garden without the proper key is as futile as trying to walk without feet. He develops this as a warning against shortcuts in the alchemical work: the three 'cooking' or 'consuming' processes that occur in the human body — digestion in the stomach, refinement in the liver, and distribution through the blood — mirror the three stages of alchemical preparation that can not be by passed. The discourse grounds this in Old Testament wisdom literature, connecting the rose-garden to the Song of Songs and the Solomonic tradition of enclosed gardens as figures for hidden wisdom accessible only through proper preparation.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "king_figure",
+      "queen_figure",
+      "wedding_chamber",
+      "bed",
+      "alchemical_union"
+    ],
+    "animation_hints": {
+      "type": "sacred_marriage",
+      "motion": "king_queen_embrace",
+      "loop": true,
+      "duration": 14,
+      "particles": "love_sparks",
+      "mood": "ecstatic"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-27.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-27.jpg"
+  },
+  {
+    "number": 28,
+    "roman_numeral": "XXVIII",
+    "label": "King Duenech in steam bath",
+    "motto_latin": null,
+    "motto_english": "The king is bathed, sitting in a steam-bath, and is freed from the black bile by Pharut.",
+    "epigram_latin": null,
+    "epigram_english": "The king is bathed, sitting in a steam-bath,\nAnd is freed from the black bile by Pharut.\nIn the warmth of the moist vapors\nThe saturnine corruption is expelled.\nThe physicians attend him with care,\nUntil health returns to the royal body.",
+    "discourse_summary": "Maier develops the Allegoria Merlini's narrative of King Duenech, who is bathed in a steam-bath to purge the black bile that ails him. He argues that the king represents philosophical gold in its impure state, and the bath is the vessel in which dissolution occurs: the black bile is the nigredo impurity that must be expelled through gentle, sustained heat. The discourse connects this to the Merlini tradition's account of royal purification, where the king's illness is cured not by violent means but by the patient application of warm moisture. Maier cites the medical practice of therapeutic bathing as a parallel, drawing on his own training as a physician to validate the alchemical analogy.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "king_crowned",
+      "queen_crowned",
+      "throne",
+      "celestial_orbs",
+      "sceptre"
+    ],
+    "animation_hints": {
+      "type": "coronation",
+      "motion": "crown_descent",
+      "loop": true,
+      "duration": 14,
+      "particles": "gold_radiance",
+      "mood": "triumphant"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-28.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-28.jpg"
+  },
+  {
+    "number": 29,
+    "roman_numeral": "XXIX",
+    "label": "Emblem XXIX",
+    "motto_latin": null,
+    "motto_english": "Just as the Salamander lives in the fire, so also the Stone.",
+    "epigram_latin": null,
+    "epigram_english": "Just as the Salamander lives in the fire\nAnd is not consumed by the flames,\nSo also the Stone endures the test of fire,\nGrowing stronger where other things perish.\nWhat fire cannot destroy is truly fixed;\nThis is the mark of the perfected substance.",
+    "discourse_summary": "Maier develops the ancient belief that the salamander lives in fire without being consumed, applying it as an allegory for the philosopher's stone, which endures the test of fire and emerges unchanged or improved. He argues that just as the salamander is nourished rather than destroyed by flames, the perfected stone with stands any degree of heat — a key test of its authenticity. The discourse connects this to the broader principle of fixation: a substance is 'fixed' when it can endure fire without volatilizing. Maier cites classical natural historians including Pliny on the salamander's fire-resistance, while noting that the philosophical salamander transcends the merely natural creature.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "hermaphrodite_crowned",
+      "rising_figure",
+      "victory",
+      "celestial_light"
+    ],
+    "animation_hints": {
+      "type": "hermaphrodite_crown",
+      "motion": "rise_and_crown",
+      "loop": true,
+      "duration": 12,
+      "particles": "victory_light",
+      "mood": "transcendent"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-29.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-29.jpg"
+  },
+  {
+    "number": 30,
+    "roman_numeral": "XXX",
+    "label": "Emblem XXX",
+    "motto_latin": null,
+    "motto_english": "The Hermaphrodite, lying in darkness like a dead man, needs fire.",
+    "epigram_latin": null,
+    "epigram_english": "The Hermaphrodite, lying in darkness like a dead man,\nNeeds fire to be brought back to life.\nWithout warmth, the joined substance lies inert;\nWith it, the union stirs and breathes.\nBorn of two mountains, of Mercury and Venus,\nThe Rebis awaits the alchemist's art.",
+    "discourse_summary": "Maier argues that the Hermaphrodite — the unified philosophical substance combining masculine and feminine principles — lies inert in darkness until awakened by fire. He develops this as an allegory for the transition from nigredo (the death-like darkness) to the active stages of the work: the combined substance has been successfully joined but remains dormant until heat reactivates it. Drawing on the myth of the Hermaphrodite born from the two mountains of Mercury and Venus, Maier connects the figure to Morienus's teaching that the Rebis (the 'two-thing') is found not in books but through living masters. The discourse frames the Hermaphrodite as the philosophical Mercury's two-topped Parnassus, where Apollo and the Muses reside.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "sun_disc",
+      "moon_crescent",
+      "unity_scene",
+      "light_rays"
+    ],
+    "animation_hints": {
+      "type": "solar_lunar_union",
+      "motion": "orbs_merge",
+      "loop": true,
+      "duration": 14,
+      "particles": "combined_light",
+      "mood": "cosmic"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-30.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-30.jpg"
+  },
+  {
+    "number": 31,
+    "roman_numeral": "XXXI",
+    "label": "King transformation continued",
+    "motto_latin": null,
+    "motto_english": "The king, swimming in the sea, calling in a loud voice: He who saves me will receive a great reward.",
+    "epigram_latin": null,
+    "epigram_english": "The king, on whose head the crown pressed heavily,\nSwims in the wide sea and continually cries:\nHe who saves me will receive a great reward.\nIf you can rescue the king from the deep,\nHe will repay you many times over;\nFor the stone multiplies in the hands of the worthy.",
+    "discourse_summary": "Maier recounts the allegory of the king swimming in the sea who cries out that whoever saves him will receive a great reward. He develops this as a figure for philosophical gold dissolved in the mercurial sea — the noble substance submerged in the volatile solvent, needing to be rescued through fixation. The discourse argues that the king's promise of reward represents the multiplication of the stone: whoever successfully extracts and fixes the dissolved gold will be repaid many times over. Maier connects this to the broader tradition of the 'vegetable stone' that grows and multiplies like a living thing once properly fixed and nourished.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "king_enthroned",
+      "solar_crown",
+      "red_robes",
+      "court"
+    ],
+    "animation_hints": {
+      "type": "solar_throne",
+      "motion": "king_radiance",
+      "loop": true,
+      "duration": 12,
+      "particles": "solar_rays",
+      "mood": "regal"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-31.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-31.jpg"
+  },
+  {
+    "number": 32,
+    "roman_numeral": "XXXII",
+    "label": "Emblem XXXII",
+    "motto_latin": null,
+    "motto_english": "As coral grows under water and, exposed to the air, gets hard, so also the Stone.",
+    "epigram_latin": null,
+    "epigram_english": "As coral grows underwater,\nSoft and plant-like in the liquid depths,\nAnd exposed to the air gets hard as stone,\nSo also the substance of the philosophers:\nFluid in the vessel during preparation,\nIt solidifies into the permanent Stone.",
+    "discourse_summary": "Maier draws on the natural history of coral — soft and plant-like under water but hardening to stone when exposed to air — as an analogy for the philosopher's stone, which is fluid and mutable during preparation but becomes fixed and permanent once complete. He argues that this natural transformation demonstrates the possibility of a substance changing its fundamental state without losing its essential nature. The discourse connects coral's petrifaction to the alchemical fixation process, where the volatile philosophical substance 'hardens' through exposure to air (the volatile spirit) just as coral solidifies above the water line. Maier cites this as evidence that the rubedo — the final reddening — involves a transition from fluid process to solid product.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "red_stone",
+      "multiplication",
+      "transmutation_vessels",
+      "projection"
+    ],
+    "animation_hints": {
+      "type": "stone_multiply",
+      "motion": "red_stone_proliferates",
+      "loop": true,
+      "duration": 12,
+      "particles": "rubedo_sparks",
+      "mood": "abundant"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-32.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-32.jpg"
+  },
+  {
+    "number": 33,
+    "roman_numeral": "XXXIII",
+    "label": "Hermaphrodite lying in darkness needs fire",
+    "motto_latin": null,
+    "motto_english": "The Hermaphrodite, lying in darkness like a dead man, needs fire.",
+    "epigram_latin": null,
+    "epigram_english": "He is conceived in the bath,\nAnd born in the air;\nHaving become red, he walks upon the waters.\nThe Hermaphrodite, child of Sun and Moon,\nUnites the virtues of both parents,\nAnd rules over the kingdoms of Nature.",
+    "discourse_summary": "Maier returns to the Hermaphrodite-in-darkness motif, now explicitly connecting it to the practice of ritual purification through fire and water. He argues that divine origin was ascribed to certain individuals in antiquity through a process of trial — passing through fire and water — and that the Hermaphrodite must undergo the same or deal. The discourse develops the parallel between baptism (purification by water) and calcination (purification by fire) as the two modes of cleansing that the combined philosophical substance must endure. Maier frames the darkness as a necessary passage: the substance must die fully before it can be reborn in the rubedo.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "hermaphrodite_full",
+      "androgyne",
+      "crown",
+      "dual_nature",
+      "light"
+    ],
+    "animation_hints": {
+      "type": "hermaphrodite_full",
+      "motion": "gender_oscillation",
+      "loop": true,
+      "duration": 14,
+      "particles": "dual_light",
+      "mood": "paradox_beautiful"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-33.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-33.jpg"
+  },
+  {
+    "number": 34,
+    "roman_numeral": "XXXIV",
+    "label": "Celestial conception / hierogamy",
+    "motto_latin": null,
+    "motto_english": "He is conceived in the bath and born in the air, but having become red he walks upon the waters.",
+    "epigram_latin": null,
+    "epigram_english": "He is conceived in the bath and born in the sky,\nBut having become red, he walks upon the waters.\nFrom the sacred marriage of heaven and earth\nThe divine child descends,\nBearing the power to transform all things\nFrom imperfection to perfection.",
+    "discourse_summary": "Maier develops the motto — 'He is conceived in the bath and born in the air' — as an allegory for the philosophical substance that begins in the liquid phase (conception in the bath) and emerges in the aerial or volatile state (birth in the air), before finally walking upon the waters as a perfected, red tincture. He argues that this threefold progression — liquid, aerial, solid — mirrors the three stages of generation in nature. The discourse connects the celestial conception to the Hermetic doctrine of 'as above, so below,' with the heavenly hierogamy producing its earthly analogue in the alchemist's vessel. Maier frames this as the rubedo moment: the substance has been perfected and can now act upon lesser metals.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "hermaphrodite_detail",
+      "masculine_feminine_merged",
+      "symbolism"
+    ],
+    "animation_hints": {
+      "type": "hermaphrodite_detail",
+      "motion": "gender_merge_detail",
+      "loop": true,
+      "duration": 14,
+      "particles": "gender_shift_particles",
+      "mood": "uncanny"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-34.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-34.jpg"
+  },
+  {
+    "number": 35,
+    "roman_numeral": "XXXV",
+    "label": "Emblem XXXV",
+    "motto_latin": null,
+    "motto_english": "As Ceres accustomed Triptolemus, and Thetis Achilles, to endure fire, so the artist does with the Stone.",
+    "epigram_latin": null,
+    "epigram_english": "As Ceres accustomed Triptolemus to endure fire,\nAnd Thetis hardened Achilles in the flames,\nSo the artist tempers the Stone:\nGradually, patiently, with repeated applications.\nWhat does not kill the substance makes it stronger;\nThe child of fire becomes invulnerable.",
+    "discourse_summary": "Maier draws on two parallel myths — Ceres hardening Triptolemus in fire and Thetis dipping Achilles in the Styx — to argue that the philosopher's stone, like a divine child, must be tempered through exposure to fire to achieve its full power. He develops the principle that what does not kill the substance makes it stronger, drawing an explicit parallel between mythological fire-baptism and the alchemical calcination that hardens and fixes the volatile components. The discourse argues that the artist must follow these divine mothers' example, applying fire gradually and repeatedly rather than all at once, to produce a substance that endures any test.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "dead_king",
+      "resurrection",
+      "tomb",
+      "light_emerging",
+      "angel"
+    ],
+    "animation_hints": {
+      "type": "resurrection",
+      "motion": "rise_from_tomb",
+      "loop": true,
+      "duration": 14,
+      "particles": "resurrection_light",
+      "mood": "sublime"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-35.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-35.jpg"
+  },
+  {
+    "number": 36,
+    "roman_numeral": "XXXVI",
+    "label": "Emblem XXXVI",
+    "motto_latin": null,
+    "motto_english": "The Stone has been thrown on to the earth and lifted on to the mountains, and it dwells in the air and feeds in the river.",
+    "epigram_latin": null,
+    "epigram_english": "The Stone has been thrown onto the earth,\nAnd lifted onto the mountains, and dwells in the air,\nAnd feeds in the river:\nIt participates in all four elements,\nYet belongs wholly to none.\nDespised by the many, it is treasure to the wise.",
+    "discourse_summary": "Maier develops the paradox that the philosopher's stone has been thrown on to the earth (despised, found in humble places) yet lifted on to mountains (exalted, valued above all things). He argues that the stone dwells in the air and feeds in the river — occupying all four elements simultaneously — because it is the quintessence that participates in all elemental natures without being limited to any one. The discourse draws on the biblical metaphor of the rejected cornerstone and connects it to the alchemical tradition that the prima materia is found every where yet recognized by none. De Jong identifies a nationalistic element in Maier's treatment, connecting the earth-as-mother imagery to German territorial symbolism.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "pelican_feeding",
+      "chicks",
+      "blood",
+      "nest",
+      "sacrifice"
+    ],
+    "animation_hints": {
+      "type": "pelican_sacrifice",
+      "motion": "blood_feed_cycle",
+      "loop": true,
+      "duration": 12,
+      "particles": "blood_drops",
+      "mood": "sacrificial"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-36.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-36.jpg"
+  },
+  {
+    "number": 37,
+    "roman_numeral": "XXXVII",
+    "label": "Emblem XXXVII",
+    "motto_latin": null,
+    "motto_english": "Three things are sufficient for mastery: white smoke, that is water, the green Lion, that is the Ore of Hermes, and stinking water.",
+    "epigram_latin": null,
+    "epigram_english": "Three things are sufficient for mastery:\nWhite smoke, that is water;\nThe green Lion, that is the Ore of Hermes;\nAnd stinking water.\nWith these three, rightly combined,\nThe Work may be brought to completion.",
+    "discourse_summary": "Maier argues that mastery requires only three things: white smoke (water in its volatile form), the green lion (the raw ore of Hermes, vitriol or an impure metallic substance), and stinking water (the foul aqua foetida that dissolves metals). He develops the principle of simplicity in the art: despite the bewildering variety of alchemical texts, the practical requirements are minimal. The discourse uses the metaphor of building a house — foundation, walls, roof — to argue that the alchemist needs only three components properly combined and treated. Maier cites this triadic simplicity against the accusations of fraud and impossibility leveled at the art.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "phoenix_rising",
+      "flames",
+      "ash",
+      "rebirth",
+      "sun_above"
+    ],
+    "animation_hints": {
+      "type": "phoenix",
+      "motion": "burn_and_rise",
+      "loop": true,
+      "duration": 14,
+      "particles": "phoenix_flames",
+      "mood": "triumphant_rebirth"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-37.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-37.jpg"
+  },
+  {
+    "number": 38,
+    "roman_numeral": "XXXVIII",
+    "label": "Standing hermaphrodite",
+    "motto_latin": null,
+    "motto_english": "The Hermaphrodite, born of two mountains, of Mercury and Venus.",
+    "epigram_latin": null,
+    "epigram_english": "By his art, Oedipus made the Sphinx kill herself,\nThe Sphinx, who was terrifying everybody with her riddle.\nThe Hermaphrodite, born of two mountains,\nStands complete, combining male and female.\nWhat was divided is now united;\nThe work of conjunction is accomplished.",
+    "discourse_summary": "Maier presents the standing Hermaphrodite — born of the two mountains of Mercury and Venus — as the completed product of the alchemical work. He develops Socrates' declaration that he was a citizen not of one city but of the world as an analogy for the Hermaphrodite who inhabits two domains simultaneously. The discourse argues that the Rebis has been successfully produced: the philosophical Mercury and Venus have been permanently united, and the resulting substance stands on its own — no longer needing the fire that revived it from darkness (Emblems XXX, XXXIII). Maier frames this as the culmination of the rubedo, where the joined substance achieves autonomous stability.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "hermaphrodite_crowned_victory",
+      "classical_landscape",
+      "triumph"
+    ],
+    "animation_hints": {
+      "type": "crowned_victory",
+      "motion": "triumph_pose",
+      "loop": true,
+      "duration": 12,
+      "particles": "victory_gold",
+      "mood": "completion"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-38.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-38.jpg"
+  },
+  {
+    "number": 39,
+    "roman_numeral": "XXXIX",
+    "label": "Emblem XXXIX",
+    "motto_latin": null,
+    "motto_english": "Oedipus, having conquered the Sphinx and having killed his father Laius, married his mother Jocasta.",
+    "epigram_latin": null,
+    "epigram_english": "By his art, Oedipus made the Sphinx kill herself,\nThe Sphinx, who was terrifying everybody with her riddle.\nWhat walks on four legs in the morning, two at noon, three at evening?\nThe answer is not what the common crowd believes;\nThe alchemist reads it differently:\nFour elements, two principles, three substances.",
+    "discourse_summary": "Maier retells the Oedipus myth as an alchemical allegory: conquering the Sphinx (solving the riddle of Nature) leads to killing the father (destroying the original metallic form) and marrying the mother (reuniting with the prima materia from which the metal was born). He argues that this seemingly transgressive sequence — patricide and incest — is actually the normal order of alchemical transformation, where the product must dissolve its parent substance and recombine with its own origin. The discourse frames the Sphinx's riddle as the central question of alchemy: what walks on four legs, then two, then three? Maier reads this as the three stages of the Stone — unstable, bipedal, and finally supported by the 'third leg' of the tincture.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "stone_manifest",
+      "radiance",
+      "alchemical_apparatus",
+      "projection"
+    ],
+    "animation_hints": {
+      "type": "stone_manifest",
+      "motion": "radiance_expanding",
+      "loop": true,
+      "duration": 12,
+      "particles": "stone_glow",
+      "mood": "manifest"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-39.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-39.jpg"
+  },
+  {
+    "number": 40,
+    "roman_numeral": "XL",
+    "label": "Emblem XL",
+    "motto_latin": null,
+    "motto_english": "Make one water out of two waters, and it will be the water of holiness.",
+    "epigram_latin": null,
+    "epigram_english": "Make one water out of two waters,\nAnd it will be the water of holiness.\nLet the volatile and the fixed unite,\nThe ascending and the descending merge.\nFrom this marriage of two contrary streams\nThe universal medicine is born.",
+    "discourse_summary": "Maier instructs the alchemist to make one water from two waters, producing the 'water of holiness.' He develops this as the final mercurial conjunction: the two philosophical waters — one volatile and ascending, the other fixed and descending — must be combined into a single, unified menstruum. The discourse connects this to the Hermetic tradition of the two serpents of the caduceus and to the mystical waters of baptism that cleanse and renew. Maier argues that this united water is the universal solvent that can dissolve all metals and serve as the medium for the final projection. The rubedo is achieved when the two contrary waters cease to separate and remain permanently joined.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "stone_multiplying",
+      "vessels",
+      "transmutation",
+      "gold_forming"
+    ],
+    "animation_hints": {
+      "type": "projection",
+      "motion": "stone_to_metal",
+      "loop": true,
+      "duration": 12,
+      "particles": "gold_projection",
+      "mood": "alchemical_power"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-40.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-40.jpg"
+  },
+  {
+    "number": 41,
+    "roman_numeral": "XLI",
+    "label": "Emblem XLI",
+    "motto_latin": null,
+    "motto_english": "Adonis is killed by a boar, and Venus, rushing up to him, painted the roses red with her blood.",
+    "epigram_latin": null,
+    "epigram_english": "Adonis is killed by a boar,\nAnd Venus, rushing up to him,\nPainted the roses red with her blood.\nSo the white stone must be reddened\nThrough the sacrifice of Venus's blood,\nAnd from albedo the rubedo is born.",
+    "discourse_summary": "Maier retells the death of Adonis — beloved of Venus, killed by a boar, his blood dyeing white roses red — as an allegory for the transition from albedo to rubedo. He argues that the beautiful, white philosophical substance (Adonis/the white stone) must be 'killed' — subjected to a final violent transformation — and that the resulting reddening (Venus's blood on the roses) produces the red tincture. The discourse develops the boar as a figure for the aggressive sulphurous agent that destroys the passive, beautiful white form. Maier cites Ovid's Metamorphoses as his primary source, while De Jong traces the alchemical reading of this myth through the Rosarium tradition.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "stone_conquering",
+      "metals_converting",
+      "king_stone",
+      "victory"
+    ],
+    "animation_hints": {
+      "type": "dominion",
+      "motion": "stone_conquers_all",
+      "loop": true,
+      "duration": 12,
+      "particles": "conquest_light",
+      "mood": "sovereign"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-41.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-41.jpg"
+  },
+  {
+    "number": 42,
+    "roman_numeral": "XLII",
+    "label": "Emblem XLII",
+    "motto_latin": null,
+    "motto_english": "What Nature, Reason, Experience and Reading teach you, let that be the fire, the vessel, the water and the earth.",
+    "epigram_latin": null,
+    "epigram_english": "What Nature, Reason, Experience, and Reading teach you,\nLet that be the fire, the vessel, the water, and the earth.\nFour guides attend the alchemist:\nNature shows the way, Reason illuminates,\nExperience confirms, and Reading transmits\nThe wisdom of earlier masters.",
+    "discourse_summary": "Maier develops the Tabula Smaragdina's teaching by identifying four guides that together constitute the alchemical method: Nature provides the raw material and model, Reason supplies theoretical understanding, Experience offers practical knowledge gained through trial, and Reading transmits the wisdom of earlier masters. He argues that these four correspond to the fire, the vessel, the water, and the earth of the work — each indispensable, none sufficient alone. The discourse emphasizes the balance between textual learning and hands-on practice, a the me running through the entire Atalanta Fugiens. Maier presents this emblem as a methodological summation of the principles scattered across the preceding forty-one.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "king_and_stone",
+      "throne_room",
+      "royal_court",
+      "alchemical_emblem"
+    ],
+    "animation_hints": {
+      "type": "king_stone",
+      "motion": "stone_throne",
+      "loop": true,
+      "duration": 12,
+      "particles": "royal_radiance",
+      "mood": "crowned"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-42.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-42.jpg"
+  },
+  {
+    "number": 43,
+    "roman_numeral": "XLIII",
+    "label": "Emblem XLIII",
+    "motto_latin": null,
+    "motto_english": "Listen to the screech owl's voice, which it produces it self, and the water and do not heed any bird that cries in the evening.",
+    "epigram_latin": null,
+    "epigram_english": "Listen to the screech owl's voice,\nWhich it produces itself, and the water.\nDo not heed any bird that cries in the evening;\nFor the owl alone speaks truth in the darkness.\nThe philosophical mercury is nocturnal;\nOnly by night-wisdom is the Stone found.",
+    "discourse_summary": "Maier instructs the alchemist to listen to the screech owl's voice and the sound of running water while ignoring the cries of evening birds — a parable about discerning true signals from false. He develops the owl as a figure for philosophical mercury (the lunar, nocturnal principle) whose call reveals the correct path, while the other birds represent misleading doctrines and false alchemists. The discourse connects the biblical story of Naaman (Emblem XIII) to this emblem, reprising the the me of purification through water. Maier argues that the alchemist must develop sensory discernment — learning to hear and see what Nature reveals — rather than following the loud but empty promises of charlatans.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "stone_as_medicine",
+      "healing_scene",
+      "figures_restored",
+      "light"
+    ],
+    "animation_hints": {
+      "type": "healing",
+      "motion": "medicine_restores",
+      "loop": true,
+      "duration": 12,
+      "particles": "healing_light",
+      "mood": "restorative"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-43.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-43.jpg"
+  },
+  {
+    "number": 44,
+    "roman_numeral": "XLIV",
+    "label": "Osiris killed and resurrected",
+    "motto_latin": null,
+    "motto_english": "Typhon kills Osiris by a ruse, and after that he scatters his limbs far and wide, but Is is gathers them together again.",
+    "epigram_latin": null,
+    "epigram_english": "Syria has Adonis, Greece has Dionysus,\nEgypt has Osiris, who is nobody else but the Sun of Wisdom.\nIsis is the sister, wife, and mother of Osiris,\nWhose limbs are dissected by Typhon,\nBut which she joins together again.\nSo death and dismemberment precede resurrection.",
+    "discourse_summary": "Maier retells the Egyptian myth of Osiris — murdered by Typhon through treachery, his body scattered, then painstakingly reassembled by Is is — as the complete arc of the alchemical opus. He identifies Typhon's killing with the nigredo dissolution, the scattering of limbs with the separation of elements, and Is is's gathering with the reconstitution and final rubedo. The discourse develops Osiris as the archetypal philosophical body that must be destroyed, dispersed, and reunited to achieve perfection. De Jong traces Maier's treatment of this myth through multiple alchemical traditions, noting that the Osiris-Is is cycle became one of the most enduring allegories in Western alchemy precisely because it encodes all three stages — death, purification, and resurrection — in a single narrative.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "sol_figure",
+      "luna_figure",
+      "final_conjunction",
+      "celestial_embrace"
+    ],
+    "animation_hints": {
+      "type": "final_conjunction",
+      "motion": "sol_luna_embrace",
+      "loop": true,
+      "duration": 14,
+      "particles": "unified_light",
+      "mood": "ecstatic_completion"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-44.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-44.jpg"
+  },
+  {
+    "number": 45,
+    "roman_numeral": "XLV",
+    "label": "Emblem XLV",
+    "motto_latin": null,
+    "motto_english": "Sol and his shadow complete the work.",
+    "epigram_latin": null,
+    "epigram_english": "Sol and his shadow complete the work.\nTwo stones are given, one manifest, one hidden;\nThe visible and invisible aspects of a single substance.\nNeglect neither the light nor the dark;\nBoth are needed for the final projection,\nWhen the stone achieves its full power.",
+    "discourse_summary": "Maier argues that Sol and his shadow together complete the work — the visible, noble gold (Sol) must be joined with its shadowy, hidden counterpart (the impure, dark aspect) to produce the philosopher's stone. He develops the principle that the stone requires both the light and dark aspects of the same substance, and that ignoring the shadow — the nigredo remainder — makes completion impossible. The discourse draws on the Consilium Conjugii and the Massa Solis et Lunae tradition to argue that the two stones spoken of by the philosophers are actually the manifest and hidden aspects of a single substance. Maier presents this penultimate teaching as the key to unlocking the entire series.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "sublimation_vessel",
+      "spirit_ascending",
+      "completion"
+    ],
+    "animation_hints": {
+      "type": "sublimation_complete",
+      "motion": "spirit_freed",
+      "loop": true,
+      "duration": 12,
+      "particles": "ascending_light",
+      "mood": "liberation"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-45.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-45.jpg"
+  },
+  {
+    "number": 46,
+    "roman_numeral": "XLVI",
+    "label": "Emblem XLVI",
+    "motto_latin": null,
+    "motto_english": "Two eagles meet, the one from the East, the other from the West.",
+    "epigram_latin": null,
+    "epigram_english": "Two eagles meet, one from the East,\nThe other from the West.\nOne is winged and swift, the other steady;\nThey converge at the center of the sky.\nFrom their meeting, the volatile and fixed unite\nIn the aerial conjunction of the great work.",
+    "discourse_summary": "Maier develops the meeting of two eagles — one from the East, the other from the West — as an allegory for the conjunction of the two philosophical principles that originate from opposite ends of the alchemical process. He identifies the Eastern eagle with sulphur (the hot, solar principle born from fire) and the Western eagle with mercury (the cool, lunar principle born from water). Their meeting in mid-air represents the volatile conjunction where both principles abandon their fixed natures and unite in the aerial, spiritual realm. The discourse connects the circumnavigation imagery — east to west, west to east — to the Hermetic principle of universal circulation, where all things return to their origin.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "quintessence_distilling",
+      "five_elements",
+      "celestial_apparatus"
+    ],
+    "animation_hints": {
+      "type": "quintessence",
+      "motion": "fifth_element_distilled",
+      "loop": true,
+      "duration": 14,
+      "particles": "quintessence_light",
+      "mood": "pure"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-46.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-46.jpg"
+  },
+  {
+    "number": 47,
+    "roman_numeral": "XLVII",
+    "label": "Emblem XLVII",
+    "motto_latin": null,
+    "motto_english": "The wolf coming from the East, and the Dog coming from the West, have bitten each other.",
+    "epigram_latin": null,
+    "epigram_english": "The Wolf comes from the place where the Sun rises;\nBut from where the Sun sinks in the West comes the Dog.\nThey bite and tear at each other\nUntil both are consumed by fury.\nFrom their mutual destruction\nThe medicine of the philosophers emerges.",
+    "discourse_summary": "Maier parallels the eagle meeting of Emblem XLVI with a more violent version: the wolf from the East and the dog from the West bite each other in mutual destruction. He argues that while the eagles' conjunction was aerial and spiritual, the wolf-and-dog encounter is terrestrial and material — the same union of opposites enacted at a lower, more physical register. The discourse develops the wolf as the more aggressive, dissolving agent (philosophical mercury in its corrosive aspect) and the dog as the resistant, fixed body that must be broken down. Their mutual biting — each wounding the other — represents the reciprocal action of dissolution, where both substances are transformed by their encounter.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "stone_projection",
+      "base_metal",
+      "gold_transformation",
+      "flame"
+    ],
+    "animation_hints": {
+      "type": "projection_final",
+      "motion": "transmutation_cascade",
+      "loop": true,
+      "duration": 12,
+      "particles": "gold_cascade",
+      "mood": "powerful"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-47.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-47.jpg"
+  },
+  {
+    "number": 48,
+    "roman_numeral": "XLVIII",
+    "label": "King Duenech receives potion",
+    "motto_latin": null,
+    "motto_english": "The king, fallen ill from drinking, is restored to health by a physician.",
+    "epigram_latin": null,
+    "epigram_english": "The king, fallen ill from drinking bad water,\nCalls for physicians to restore his health.\nEgyptian and Alexandrian doctors attend him,\nEach with their remedies and arts.\nDressed at last in black, white, and red,\nThe king rises cured, the work complete.",
+    "discourse_summary": "Maier develops the Merlini allegory of King Duenech in its final phase: the king, fallen ill from drinking foul waters, is restored to health by physicians who administer the correct elixir. He draws on Xerxes drinking muddy water in the desert as an analogy for the philosophical substance contaminated by impurities. The discourse describes the king's cure through successive stages — first Egyptian, then Alexandrian physicians — corresponding to different alchemical traditions' approaches to purification. Bernard of Treves's allegory describes the restored king dressed in a black cuirass, white tunic, and purple-red cloak — the three colors of the opus (nigredo, albedo, rubedo) worn simultaneously, signaling the completion of the work.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "king_steam_bath",
+      "sweat_house",
+      "attendants",
+      "heat",
+      "renewal"
+    ],
+    "animation_hints": {
+      "type": "royal_bath",
+      "motion": "steam_renewal",
+      "loop": true,
+      "duration": 14,
+      "particles": "steam_particles",
+      "mood": "renewal"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-48.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-48.jpg"
+  },
+  {
+    "number": 49,
+    "roman_numeral": "XLIX",
+    "label": "Emblem XLIX",
+    "motto_latin": null,
+    "motto_english": "The Philosophical Child acknowledges three fathers, just as Orion.",
+    "epigram_latin": null,
+    "epigram_english": "The Philosophical Child acknowledges three fathers,\nJust as Orion was born of three gods.\nSalt, Sulphur, and Mercury contribute\nEach their portion to the generation.\nNo single father suffices for the birth;\nThe Stone requires a triple origin.",
+    "discourse_summary": "Maier argues that the philosopher's stone, like the mythological Orion, acknowledges three fathers — three distinct sources or principles that contribute to its generation. He develops this as an allegory for the tria prima: the stone is born from salt (the bodily principle), sulphur (the soul principle), and mercury (the spirit principle), each 'fat he ring' a different aspect of the complete substance. The discourse draws on the Orion myth — conceived from the combined seed of Zeus, Poseidon, and Hermes — to argue that no single source suffices for the generation of the philosophical child. Maier presents this as one of the final teachings: the stone's triple origin explains why it can not be produced from any single starting material.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "dying_king",
+      "dissolution",
+      "grief_figures",
+      "transformation"
+    ],
+    "animation_hints": {
+      "type": "royal_death",
+      "motion": "dissolution_mourning",
+      "loop": true,
+      "duration": 12,
+      "particles": "death_dissolve",
+      "mood": "elegy"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-49.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-49.jpg"
+  },
+  {
+    "number": 50,
+    "roman_numeral": "L",
+    "label": "The Dragon kills the woman",
+    "motto_latin": null,
+    "motto_english": "The Dragon kills the woman, and she kills it, and together they bathe in blood.",
+    "epigram_latin": null,
+    "epigram_english": "Have a deep grave dug for the poisonous Dragon,\nWith which the woman should be tightly joined.\nThey bite each other in mortal combat,\nAnd bathe together in their mingled blood.\nThe Dragon kills the woman, she kills the Dragon;\nFrom this mutual death the Stone is born.",
+    "discourse_summary": "Maier narrates the final emblem as a double death: the dragon kills the woman and she kills it, and together they bathe in the blood of their mutual destruction. He develops this as the ultimate expression of the alchemical principle that the Stone is born from the death of both its parents — the volatile (the dragon, dwelling in caves under ground) and the fixed (the woman, dwelling in the adjacent air). The discourse argues that their commingled blood — the shared substance released by reciprocal dissolution — becomes the bath of regeneration from which the philosopher's stone emerges. Maier presents this as the closing image of the entire series: the work ends where it began, in mutual consumption and transformation.",
+    "alchemical_stage": "RUBEDO",
+    "visual_elements": [
+      "philosophers_stone",
+      "crowned_completion",
+      "sol_luna_unified",
+      "radiance",
+      "ouroboros"
+    ],
+    "animation_hints": {
+      "type": "completion",
+      "motion": "stone_eternal_radiance",
+      "loop": true,
+      "duration": 16,
+      "particles": "ouroboros_light",
+      "mood": "eternal"
+    },
+    "stage_palette": {
+      "primary": "#8b0000",
+      "secondary": "#c00000",
+      "accent": "#ffd700",
+      "particle": "#ff8800",
+      "glow": "#ffcc00",
+      "bloom_intensity": 1.0
+    },
+    "fugue_mode": null,
+    "image_filename": "emblem-50.jpg",
+    "image_url": null,
+    "image_local": "/images/emblems/emblem-50.jpg"
+  }
+]

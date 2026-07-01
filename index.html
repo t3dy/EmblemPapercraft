@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Emblem Papercraft — Atalanta Fugiens</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; background: #171310; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: #e8ddc4; }
+  #c { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; }
+
+  #ui { position: fixed; inset: 0; z-index: 5; pointer-events: none; }
+
+  #title {
+    position: absolute; top: 1.4rem; left: 1.6rem;
+    font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: #b89a64;
+  }
+  #title small { display:block; color:#5f5240; letter-spacing:0.12em; margin-top:0.25rem; font-size:0.62rem; }
+
+  #nav {
+    position: absolute; bottom: 1.6rem; left: 50%; transform: translateX(-50%);
+    display: flex; align-items: center; gap: 1.1rem; pointer-events: all;
+  }
+  #nav button {
+    background: rgba(20,16,11,0.8); border: 1px solid #4a3c28; color: #c8a878;
+    font-family: inherit; font-size: 1.1rem; line-height: 1; padding: 0.35rem 0.8rem;
+    cursor: pointer; transition: border-color .18s, color .18s;
+  }
+  #nav button:hover { border-color: #c8a040; color: #f5ecd8; }
+  #label-wrap { text-align: center; min-width: 280px; }
+  #label { font-size: 1.0rem; color: #ecdfc4; }
+  #count { font-size: 0.66rem; color: #6a5a40; letter-spacing: 0.1em; margin-top: 0.2rem; }
+
+  #hint {
+    position: absolute; bottom: 1.7rem; right: 1.6rem;
+    font-size: 0.66rem; color: #5f5240; letter-spacing: 0.08em;
+  }
+  #depth-row {
+    position: absolute; top: 1.4rem; right: 1.6rem; pointer-events: all;
+    display: flex; align-items: center; gap: 0.5rem; font-size: 0.64rem; color: #6a5a40; letter-spacing: 0.08em;
+  }
+  #depth-row input { accent-color: #b89a64; width: 110px; }
+
+  #loading {
+    position: fixed; inset: 0; z-index: 20; background: #171310;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem;
+  }
+  #loading h1 { font-size: 1.1rem; font-weight: normal; letter-spacing: 0.2em; color: #b89a64; }
+  #loading p  { font-size: 0.72rem; color: #5f5240; letter-spacing: 0.08em; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="ui">
+  <div id="title">Emblem Papercraft<small>Atalanta Fugiens · Michael Maier · 1617</small></div>
+
+  <div id="depth-row">
+    <span>pop&nbsp;depth</span>
+    <input id="depth" type="range" min="0" max="2" step="0.05" value="1"/>
+  </div>
+
+  <div id="nav">
+    <button id="prev" title="Previous (←)">&larr;</button>
+    <div id="label-wrap">
+      <div id="label">—</div>
+      <div id="count">— / —</div>
+    </div>
+    <button id="next" title="Next (→)">&rarr;</button>
+  </div>
+
+  <div id="hint">drag to orbit · scroll to zoom · &larr; &rarr; emblems</div>
+</div>
+
+<div id="loading"><h1>Emblem Papercraft</h1><p>cutting the paper…</p></div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="./js/papercraft.js?v=2"></script>
+</body>
+</html>
