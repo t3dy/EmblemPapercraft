@@ -5,6 +5,17 @@
   "source_h": 2136,
   "layers": [
    {
+    "file": "emblem-00/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-00/sti_mortar.png",
     "label": "sti mortar",
     "category": "equipment",
@@ -34,6 +45,17 @@
   "source_h": 1499,
   "layers": [
    {
+    "file": "emblem-01/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-01/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -51,6 +73,17 @@
   "source_w": 1600,
   "source_h": 1485,
   "layers": [
+   {
+    "file": "emblem-02/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-02/pestle_02.png",
     "label": "pestle",
@@ -125,6 +158,17 @@
   "source_h": 1415,
   "layers": [
    {
+    "file": "emblem-03/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-03/philosophical_egg.png",
     "label": "philosophical egg",
     "category": "equipment",
@@ -176,6 +220,17 @@
   "source_h": 1416,
   "layers": [
    {
+    "file": "emblem-04/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-04/stillation_mortar.png",
     "label": "stillation mortar",
     "category": "equipment",
@@ -204,6 +259,17 @@
   "source_w": 1600,
   "source_h": 1401,
   "layers": [
+   {
+    "file": "emblem-05/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-05/castle_02.png",
     "label": "castle",
@@ -322,6 +388,17 @@
   "source_h": 1383,
   "layers": [
    {
+    "file": "emblem-06/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-06/cauldron.png",
     "label": "cauldron",
     "category": "equipment",
@@ -340,6 +417,17 @@
   "source_h": 1400,
   "layers": [
    {
+    "file": "emblem-07/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-07/philosophical_egg.png",
     "label": "philosophical egg",
     "category": "equipment",
@@ -357,6 +445,17 @@
   "source_w": 1600,
   "source_h": 1373,
   "layers": [
+   {
+    "file": "emblem-08/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-08/pestle.png",
     "label": "pestle",
@@ -409,6 +508,17 @@
   "source_h": 1510,
   "layers": [
    {
+    "file": "emblem-09/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-09/furnace_mortar.png",
     "label": "furnace mortar",
     "category": "equipment",
@@ -426,6 +536,17 @@
   "source_w": 1600,
   "source_h": 1400,
   "layers": [
+   {
+    "file": "emblem-10/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-10/philosophical_egg_02.png",
     "label": "philosophical egg",
@@ -478,6 +599,17 @@
   "source_h": 1511,
   "layers": [
    {
+    "file": "emblem-11/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-11/cauldron.png",
     "label": "cauldron",
     "category": "equipment",
@@ -506,6 +638,17 @@
   "source_w": 1600,
   "source_h": 1501,
   "layers": [
+   {
+    "file": "emblem-12/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-12/pestle.png",
     "label": "pestle",
@@ -547,6 +690,17 @@
   "source_h": 1418,
   "layers": [
    {
+    "file": "emblem-13/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-13/philosophical_egg.png",
     "label": "philosophical egg",
     "category": "equipment",
@@ -564,6 +718,17 @@
   "source_w": 1600,
   "source_h": 1392,
   "layers": [
+   {
+    "file": "emblem-14/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-14/mortar.png",
     "label": "mortar",
@@ -593,6 +758,17 @@
   "source_w": 1600,
   "source_h": 1442,
   "layers": [
+   {
+    "file": "emblem-15/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-15/furnace.png",
     "label": "furnace",
@@ -667,6 +843,17 @@
   "source_h": 1499,
   "layers": [
    {
+    "file": "emblem-16/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-16/pestle.png",
     "label": "pestle",
     "category": "equipment",
@@ -695,6 +882,17 @@
   "source_w": 1600,
   "source_h": 1511,
   "layers": [
+   {
+    "file": "emblem-17/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-17/philosophical_egg_ca_02.png",
     "label": "philosophical egg cauldron",
@@ -769,6 +967,17 @@
   "source_h": 1414,
   "layers": [
    {
+    "file": "emblem-18/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-18/philosophical_egg.png",
     "label": "philosophical egg",
     "category": "equipment",
@@ -831,6 +1040,17 @@
   "source_h": 1396,
   "layers": [
    {
+    "file": "emblem-19/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-19/pestle.png",
     "label": "pestle",
     "category": "equipment",
@@ -859,6 +1079,17 @@
   "source_w": 1600,
   "source_h": 1429,
   "layers": [
+   {
+    "file": "emblem-20/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-20/distillation_vessel.png",
     "label": "distillation vessel pestle",
@@ -889,6 +1120,17 @@
   "source_h": 1496,
   "layers": [
    {
+    "file": "emblem-21/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-21/cauldron.png",
     "label": "cauldron",
     "category": "equipment",
@@ -906,6 +1148,17 @@
   "source_w": 1600,
   "source_h": 1395,
   "layers": [
+   {
+    "file": "emblem-22/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-22/furnace.png",
     "label": "furnace",
@@ -969,6 +1222,17 @@
   "source_h": 1392,
   "layers": [
    {
+    "file": "emblem-23/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-23/dillation_pestle.png",
     "label": "dillation pestle",
     "category": "equipment",
@@ -986,6 +1250,17 @@
   "source_w": 1600,
   "source_h": 1408,
   "layers": [
+   {
+    "file": "emblem-24/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-24/distillation_vessel_02.png",
     "label": "distillation vessel",
@@ -1027,6 +1302,17 @@
   "source_h": 1378,
   "layers": [
    {
+    "file": "emblem-25/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-25/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -1067,6 +1353,17 @@
   "source_h": 1512,
   "layers": [
    {
+    "file": "emblem-26/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-26/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -1084,6 +1381,17 @@
   "source_w": 1600,
   "source_h": 1494,
   "layers": [
+   {
+    "file": "emblem-27/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-27/distillation_vessel.png",
     "label": "distillation vessel",
@@ -1114,6 +1422,17 @@
   "source_h": 1495,
   "layers": [
    {
+    "file": "emblem-28/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-28/philosophical_egg.png",
     "label": "philosophical egg",
     "category": "equipment",
@@ -1143,6 +1462,17 @@
   "source_h": 1504,
   "layers": [
    {
+    "file": "emblem-29/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-29/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -1160,6 +1490,17 @@
   "source_w": 1600,
   "source_h": 1474,
   "layers": [
+   {
+    "file": "emblem-30/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-30/furnace.png",
     "label": "furnace",
@@ -1223,6 +1564,17 @@
   "source_h": 1425,
   "layers": [
    {
+    "file": "emblem-31/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-31/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -1251,6 +1603,17 @@
   "source_w": 1600,
   "source_h": 1493,
   "layers": [
+   {
+    "file": "emblem-32/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-32/castle.png",
     "label": "castle",
@@ -1369,6 +1732,17 @@
   "source_h": 1501,
   "layers": [
    {
+    "file": "emblem-33/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-33/moon.png",
     "label": "moon",
     "category": "landscape",
@@ -1419,6 +1793,17 @@
   "source_w": 1600,
   "source_h": 1508,
   "layers": [
+   {
+    "file": "emblem-34/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-34/cauldron.png",
     "label": "cauldron",
@@ -1471,6 +1856,17 @@
   "source_h": 1425,
   "layers": [
    {
+    "file": "emblem-35/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-35/cauldron_02.png",
     "label": "cauldron",
     "category": "equipment",
@@ -1499,6 +1895,17 @@
   "source_w": 1600,
   "source_h": 1519,
   "layers": [
+   {
+    "file": "emblem-36/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-36/distillation_vessel.png",
     "label": "distillation vessel",
@@ -1529,6 +1936,17 @@
   "source_h": 1545,
   "layers": [
    {
+    "file": "emblem-37/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-37/philosophical_egg.png",
     "label": "philosophical egg",
     "category": "equipment",
@@ -1546,6 +1964,17 @@
   "source_w": 1600,
   "source_h": 1507,
   "layers": [
+   {
+    "file": "emblem-38/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-38/athanor.png",
     "label": "athanor",
@@ -1576,6 +2005,17 @@
   "source_h": 1513,
   "layers": [
    {
+    "file": "emblem-39/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-39/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -1605,6 +2045,17 @@
   "source_h": 1501,
   "layers": [
    {
+    "file": "emblem-40/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-40/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -1633,6 +2084,17 @@
   "source_w": 1600,
   "source_h": 1520,
   "layers": [
+   {
+    "file": "emblem-41/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-41/distillation_vessel.png",
     "label": "distillation vessel",
@@ -1674,6 +2136,17 @@
   "source_h": 1513,
   "layers": [
    {
+    "file": "emblem-42/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-42/mortar.png",
     "label": "mortar",
     "category": "equipment",
@@ -1702,6 +2175,17 @@
   "source_w": 1600,
   "source_h": 1526,
   "layers": [
+   {
+    "file": "emblem-43/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-43/philosophical_egg_02.png",
     "label": "philosophical egg",
@@ -1732,6 +2216,17 @@
   "source_h": 1505,
   "layers": [
    {
+    "file": "emblem-44/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-44/philosophical_egg.png",
     "label": "philosophical egg",
     "category": "equipment",
@@ -1749,6 +2244,17 @@
   "source_w": 1600,
   "source_h": 1534,
   "layers": [
+   {
+    "file": "emblem-45/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-45/philosophical_egg_02.png",
     "label": "philosophical egg",
@@ -1801,6 +2307,17 @@
   "source_h": 1506,
   "layers": [
    {
+    "file": "emblem-46/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-46/distillation_vessel_02.png",
     "label": "distillation vessel philosophical",
     "category": "equipment",
@@ -1829,6 +2346,17 @@
   "source_w": 1600,
   "source_h": 1541,
   "layers": [
+   {
+    "file": "emblem-47/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-47/pestle.png",
     "label": "pestle",
@@ -1870,6 +2398,17 @@
   "source_h": 1500,
   "layers": [
    {
+    "file": "emblem-48/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-48/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -1888,6 +2427,17 @@
   "source_h": 1552,
   "layers": [
    {
+    "file": "emblem-49/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
+   {
     "file": "emblem-49/cauldron.png",
     "label": "cauldron",
     "category": "equipment",
@@ -1905,6 +2455,17 @@
   "source_w": 1600,
   "source_h": 1507,
   "layers": [
+   {
+    "file": "emblem-50/_backdrop.png",
+    "role": "backdrop",
+    "label": "backdrop",
+    "category": "landscape",
+    "cx": 0.5,
+    "cy": 0.5,
+    "nw": 1.0,
+    "nh": 1.0,
+    "depth": 0.0
+   },
    {
     "file": "emblem-50/pestle.png",
     "label": "pestle",

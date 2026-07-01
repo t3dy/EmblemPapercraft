@@ -1,0 +1,4802 @@
+[
+ {
+  "number": 0,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9612,
+  "figure_coverage": 0.0827,
+  "ink_frac": 0.4127,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.499
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-00/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.7092,
+    "on_ink": 0.511,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-00/sti_mortar.png",
+    "role": null,
+    "depth": 0.7866,
+    "area_frac": 0.0511,
+    "on_ink": 0.523,
+    "bbox": [
+     0.741,
+     0.653,
+     0.988,
+     0.941
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-00/distillation_vessel.png",
+    "role": null,
+    "depth": 0.8201,
+    "area_frac": 0.0164,
+    "on_ink": 0.453,
+    "bbox": [
+     0.517,
+     0.771,
+     0.748,
+     0.876
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 1,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9351,
+  "figure_coverage": 0.0,
+  "ink_frac": 0.364,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.499
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-01/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.4396,
+    "on_ink": 0.774,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-01/distillation_vessel.png",
+    "role": null,
+    "depth": 0.7939,
+    "area_frac": 0.0196,
+    "on_ink": 0.0,
+    "bbox": [
+     0.018,
+     0.655,
+     0.155,
+     0.945
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 1,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 2,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 7,
+  "n_figures": 6,
+  "has_backdrop": true,
+  "coverage": 0.9296,
+  "figure_coverage": 0.2586,
+  "ink_frac": 0.3443,
+  "overlap_frac": 0.2486,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.499
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-02/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.2928,
+    "on_ink": 0.789,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-02/pestle_02.png",
+    "role": null,
+    "depth": 0.3598,
+    "area_frac": 0.014,
+    "on_ink": 0.076,
+    "bbox": [
+     0.08,
+     0.249,
+     0.191,
+     0.478
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-02/egg_cauldron.png",
+    "role": null,
+    "depth": 0.4032,
+    "area_frac": 0.0836,
+    "on_ink": 0.639,
+    "bbox": [
+     0.357,
+     0.257,
+     0.71,
+     0.584
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-02/philosophical_egg.png",
+    "role": null,
+    "depth": 0.4191,
+    "area_frac": 0.1199,
+    "on_ink": 0.527,
+    "bbox": [
+     0.275,
+     0.136,
+     0.784,
+     0.804
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-02/pestle.png",
+    "role": null,
+    "depth": 0.619,
+    "area_frac": 0.0169,
+    "on_ink": 0.268,
+    "bbox": [
+     0.237,
+     0.539,
+     0.44,
+     0.71
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-02/distillation_vessel.png",
+    "role": null,
+    "depth": 0.6999,
+    "area_frac": 0.0713,
+    "on_ink": 0.122,
+    "bbox": [
+     0.082,
+     0.514,
+     0.415,
+     0.927
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-02/retort_distillation.png",
+    "role": null,
+    "depth": 0.7425,
+    "area_frac": 0.0679,
+    "on_ink": 0.064,
+    "bbox": [
+     0.578,
+     0.609,
+     0.963,
+     0.911
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 4,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 3,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 5,
+  "n_figures": 4,
+  "has_backdrop": true,
+  "coverage": 0.921,
+  "figure_coverage": 0.2848,
+  "ink_frac": 0.3585,
+  "overlap_frac": 0.0145,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.499
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-03/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.2995,
+    "on_ink": 0.762,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-03/philosophical_egg.png",
+    "role": null,
+    "depth": 0.2152,
+    "area_frac": 0.129,
+    "on_ink": 0.298,
+    "bbox": [
+     0.557,
+     0.022,
+     0.978,
+     0.464
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-03/pestle.png",
+    "role": null,
+    "depth": 0.3509,
+    "area_frac": 0.0161,
+    "on_ink": 0.868,
+    "bbox": [
+     0.531,
+     0.235,
+     0.694,
+     0.479
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-03/cauldron_mortar.png",
+    "role": null,
+    "depth": 0.6135,
+    "area_frac": 0.165,
+    "on_ink": 0.293,
+    "bbox": [
+     0.495,
+     0.408,
+     0.979,
+     0.889
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-03/distillation_vessel.png",
+    "role": null,
+    "depth": 0.8084,
+    "area_frac": 0.0338,
+    "on_ink": 0.095,
+    "bbox": [
+     0.495,
+     0.678,
+     0.67,
+     0.952
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 3,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 4,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9211,
+  "figure_coverage": 0.0139,
+  "ink_frac": 0.3465,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.499
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-04/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.4187,
+    "on_ink": 0.751,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-04/stillation_mortar.png",
+    "role": null,
+    "depth": 0.3015,
+    "area_frac": 0.0079,
+    "on_ink": 0.38,
+    "bbox": [
+     0.541,
+     0.235,
+     0.629,
+     0.371
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-04/cauldron.png",
+    "role": null,
+    "depth": 0.7245,
+    "area_frac": 0.039,
+    "on_ink": 0.046,
+    "bbox": [
+     0.018,
+     0.628,
+     0.31,
+     0.84
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 1,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 5,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 11,
+  "n_figures": 10,
+  "has_backdrop": true,
+  "coverage": 0.9428,
+  "figure_coverage": 0.6572,
+  "ink_frac": 0.359,
+  "overlap_frac": 0.5156,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.499
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-05/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.1367,
+    "on_ink": 0.75,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-05/castle_02.png",
+    "role": null,
+    "depth": 0.0042,
+    "area_frac": 0.3741,
+    "on_ink": 0.393,
+    "bbox": [
+     0.015,
+     0.023,
+     0.983,
+     0.647
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-05/castle_temple.png",
+    "role": null,
+    "depth": 0.0245,
+    "area_frac": 0.0112,
+    "on_ink": 0.248,
+    "bbox": [
+     0.318,
+     0.197,
+     0.45,
+     0.337
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-05/tower.png",
+    "role": null,
+    "depth": 0.0253,
+    "area_frac": 0.0064,
+    "on_ink": 0.266,
+    "bbox": [
+     0.345,
+     0.197,
+     0.41,
+     0.335
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-05/building_house_02.png",
+    "role": null,
+    "depth": 0.0582,
+    "area_frac": 0.1787,
+    "on_ink": 0.401,
+    "bbox": [
+     0.555,
+     0.024,
+     0.982,
+     0.652
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-05/castle.png",
+    "role": null,
+    "depth": 0.1011,
+    "area_frac": 0.107,
+    "on_ink": 0.38,
+    "bbox": [
+     0.015,
+     0.106,
+     0.448,
+     0.646
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-05/window.png",
+    "role": null,
+    "depth": 0.149,
+    "area_frac": 0.004,
+    "on_ink": 0.881,
+    "bbox": [
+     0.91,
+     0.338,
+     0.957,
+     0.442
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-05/building_house.png",
+    "role": null,
+    "depth": 0.1762,
+    "area_frac": 0.0213,
+    "on_ink": 0.649,
+    "bbox": [
+     0.254,
+     0.329,
+     0.418,
+     0.512
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-05/hearth.png",
+    "role": null,
+    "depth": 0.5016,
+    "area_frac": 0.1484,
+    "on_ink": 0.128,
+    "bbox": [
+     0.015,
+     0.608,
+     0.983,
+     0.984
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-05/man_old_man.png",
+    "role": null,
+    "depth": 0.6229,
+    "area_frac": 0.2648,
+    "on_ink": 0.308,
+    "bbox": [
+     0.553,
+     0.025,
+     0.98,
+     0.938
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-05/woman.png",
+    "role": null,
+    "depth": 0.7146,
+    "area_frac": 0.233,
+    "on_ink": 0.4,
+    "bbox": [
+     0.345,
+     0.194,
+     0.822,
+     0.943
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 4,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 6,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9274,
+  "figure_coverage": 0.0094,
+  "ink_frac": 0.3655,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.497
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-06/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.4371,
+    "on_ink": 0.768,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-06/cauldron.png",
+    "role": null,
+    "depth": 0.579,
+    "area_frac": 0.0095,
+    "on_ink": 0.363,
+    "bbox": [
+     0.669,
+     0.525,
+     0.789,
+     0.637
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 7,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9145,
+  "figure_coverage": 0.1023,
+  "ink_frac": 0.3393,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.498
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-07/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.3942,
+    "on_ink": 0.699,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-07/philosophical_egg.png",
+    "role": null,
+    "depth": 0.6039,
+    "area_frac": 0.0659,
+    "on_ink": 0.527,
+    "bbox": [
+     0.337,
+     0.327,
+     0.628,
+     0.934
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 8,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 5,
+  "n_figures": 4,
+  "has_backdrop": true,
+  "coverage": 0.9207,
+  "figure_coverage": 0.3229,
+  "ink_frac": 0.3561,
+  "overlap_frac": 0.0007,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.498
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-08/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.2892,
+    "on_ink": 0.736,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-08/pestle.png",
+    "role": null,
+    "depth": 0.2304,
+    "area_frac": 0.0083,
+    "on_ink": 0.389,
+    "bbox": [
+     0.328,
+     0.073,
+     0.469,
+     0.402
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-08/furnace.png",
+    "role": null,
+    "depth": 0.4206,
+    "area_frac": 0.0478,
+    "on_ink": 0.783,
+    "bbox": [
+     0.217,
+     0.28,
+     0.42,
+     0.579
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-08/athanor_retort.png",
+    "role": null,
+    "depth": 0.4234,
+    "area_frac": 0.1983,
+    "on_ink": 0.368,
+    "bbox": [
+     0.471,
+     0.021,
+     0.99,
+     0.975
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-08/philosophical_egg_ca.png",
+    "role": null,
+    "depth": 0.7232,
+    "area_frac": 0.0097,
+    "on_ink": 0.144,
+    "bbox": [
+     0.329,
+     0.652,
+     0.415,
+     0.798
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 1,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 9,
+  "plate_px": [
+   1200,
+   1434
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9345,
+  "figure_coverage": 0.7363,
+  "ink_frac": 0.3379,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0137,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0137,
+    "bbox": [
+     0.0,
+     0.0,
+     0.999,
+     0.999
+    ],
+    "centroid": [
+     0.664,
+     0.499
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-09/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.0692,
+    "on_ink": 0.967,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-09/furnace_mortar.png",
+    "role": null,
+    "depth": 0.3541,
+    "area_frac": 0.843,
+    "on_ink": 0.295,
+    "bbox": [
+     0.016,
+     0.008,
+     0.983,
+     0.983
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 1,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 10,
+  "plate_px": [
+   636,
+   543
+  ],
+  "n_cards": 5,
+  "n_figures": 4,
+  "has_backdrop": true,
+  "coverage": 0.9495,
+  "figure_coverage": 0.3252,
+  "ink_frac": 0.5652,
+  "overlap_frac": 0.2044,
+  "largest_gap": 0.007,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.007,
+    "bbox": [
+     0.049,
+     0.0,
+     0.929,
+     0.011
+    ],
+    "centroid": [
+     0.568,
+     0.006
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-10/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.6186,
+    "on_ink": 0.57,
+    "bbox": [
+     0.0,
+     0.001,
+     1.0,
+     1.001
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-10/philosophical_egg_02.png",
+    "role": null,
+    "depth": 0.3326,
+    "area_frac": 0.0721,
+    "on_ink": 0.562,
+    "bbox": [
+     0.572,
+     0.115,
+     0.818,
+     0.585
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-10/philosophical_egg.png",
+    "role": null,
+    "depth": 0.4698,
+    "area_frac": 0.1203,
+    "on_ink": 0.622,
+    "bbox": [
+     0.019,
+     0.075,
+     0.425,
+     0.975
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-10/distillation_vessel.png",
+    "role": null,
+    "depth": 0.4992,
+    "area_frac": 0.1741,
+    "on_ink": 0.559,
+    "bbox": [
+     0.608,
+     0.146,
+     0.98,
+     0.94
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-10/pestle.png",
+    "role": null,
+    "depth": 0.6059,
+    "area_frac": 0.01,
+    "on_ink": 0.702,
+    "bbox": [
+     0.101,
+     0.536,
+     0.329,
+     0.687
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 11,
+  "plate_px": [
+   705,
+   949
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9861,
+  "figure_coverage": 0.0309,
+  "ink_frac": 0.1779,
+  "overlap_frac": 0.4846,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-11/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.362,
+    "on_ink": 0.47,
+    "bbox": [
+     -0.001,
+     -0.001,
+     0.999,
+     0.999
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-11/cauldron.png",
+    "role": null,
+    "depth": 0.4318,
+    "area_frac": 0.0058,
+    "on_ink": 0.501,
+    "bbox": [
+     0.315,
+     0.394,
+     0.426,
+     0.473
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-11/distillation_vessel.png",
+    "role": null,
+    "depth": 0.4752,
+    "area_frac": 0.0118,
+    "on_ink": 0.465,
+    "bbox": [
+     0.315,
+     0.394,
+     0.445,
+     0.563
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 12,
+  "plate_px": [
+   705,
+   949
+  ],
+  "n_cards": 4,
+  "n_figures": 3,
+  "has_backdrop": true,
+  "coverage": 0.9893,
+  "figure_coverage": 0.0618,
+  "ink_frac": 0.1951,
+  "overlap_frac": 0.1108,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-12/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.4434,
+    "on_ink": 0.408,
+    "bbox": [
+     -0.001,
+     -0.001,
+     0.999,
+     0.999
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-12/pestle.png",
+    "role": null,
+    "depth": 0.056,
+    "area_frac": 0.0156,
+    "on_ink": 0.155,
+    "bbox": [
+     0.363,
+     0.016,
+     0.635,
+     0.104
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-12/philosophical_egg.png",
+    "role": null,
+    "depth": 0.1226,
+    "area_frac": 0.0925,
+    "on_ink": 0.126,
+    "bbox": [
+     0.365,
+     0.015,
+     0.982,
+     0.278
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-12/distillation_vessel.png",
+    "role": null,
+    "depth": 0.5191,
+    "area_frac": 0.0021,
+    "on_ink": 0.023,
+    "bbox": [
+     0.773,
+     0.491,
+     0.841,
+     0.548
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 3,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 13,
+  "plate_px": [
+   594,
+   546
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9678,
+  "figure_coverage": 0.174,
+  "ink_frac": 0.5358,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-13/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.7925,
+    "on_ink": 0.537,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-13/philosophical_egg.png",
+    "role": null,
+    "depth": 0.6289,
+    "area_frac": 0.1428,
+    "on_ink": 0.653,
+    "bbox": [
+     0.22,
+     0.374,
+     0.73,
+     0.974
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 14,
+  "plate_px": [
+   705,
+   983
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9804,
+  "figure_coverage": 0.5504,
+  "ink_frac": 0.2032,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-14/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.209,
+    "on_ink": 0.418,
+    "bbox": [
+     -0.001,
+     0.001,
+     0.999,
+     1.001
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-14/mortar.png",
+    "role": null,
+    "depth": 0.2572,
+    "area_frac": 0.0237,
+    "on_ink": 0.376,
+    "bbox": [
+     0.441,
+     0.149,
+     0.58,
+     0.374
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-14/distillation_vessel.png",
+    "role": null,
+    "depth": 0.6113,
+    "area_frac": 0.5029,
+    "on_ink": 0.205,
+    "bbox": [
+     0.019,
+     0.409,
+     0.979,
+     0.976
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 1,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 15,
+  "plate_px": [
+   596,
+   530
+  ],
+  "n_cards": 7,
+  "n_figures": 6,
+  "has_backdrop": true,
+  "coverage": 0.95,
+  "figure_coverage": 0.2385,
+  "ink_frac": 0.5131,
+  "overlap_frac": 0.0409,
+  "largest_gap": 0.0074,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0074,
+    "bbox": [
+     0.023,
+     0.434,
+     0.997,
+     0.998
+    ],
+    "centroid": [
+     0.689,
+     0.909
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-15/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.6549,
+    "on_ink": 0.557,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-15/furnace.png",
+    "role": null,
+    "depth": 0.3284,
+    "area_frac": 0.0443,
+    "on_ink": 0.629,
+    "bbox": [
+     0.096,
+     0.103,
+     0.276,
+     0.58
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-15/cauldron_02.png",
+    "role": null,
+    "depth": 0.5529,
+    "area_frac": 0.017,
+    "on_ink": 0.554,
+    "bbox": [
+     0.551,
+     0.461,
+     0.667,
+     0.652
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-15/athanor.png",
+    "role": null,
+    "depth": 0.5568,
+    "area_frac": 0.1361,
+    "on_ink": 0.459,
+    "bbox": [
+     0.171,
+     0.261,
+     0.705,
+     0.965
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-15/bellows.png",
+    "role": null,
+    "depth": 0.7127,
+    "area_frac": 0.0241,
+    "on_ink": 0.559,
+    "bbox": [
+     0.841,
+     0.591,
+     0.981,
+     0.847
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-15/cauldron.png",
+    "role": null,
+    "depth": 0.8868,
+    "area_frac": 0.0218,
+    "on_ink": 0.424,
+    "bbox": [
+     0.165,
+     0.816,
+     0.341,
+     0.965
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-15/cauldron_03.png",
+    "role": null,
+    "depth": 0.8889,
+    "area_frac": 0.0079,
+    "on_ink": 0.597,
+    "bbox": [
+     0.846,
+     0.85,
+     0.969,
+     0.931
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 16,
+  "plate_px": [
+   606,
+   580
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9604,
+  "figure_coverage": 0.4186,
+  "ink_frac": 0.5415,
+  "overlap_frac": 0.097,
+  "largest_gap": 0.0043,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0043,
+    "bbox": [
+     0.003,
+     0.002,
+     0.48,
+     0.655
+    ],
+    "centroid": [
+     0.104,
+     0.158
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-16/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.5782,
+    "on_ink": 0.507,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-16/pestle.png",
+    "role": null,
+    "depth": 0.2811,
+    "area_frac": 0.1225,
+    "on_ink": 0.542,
+    "bbox": [
+     0.668,
+     0.02,
+     0.982,
+     0.597
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-16/distillation_vessel.png",
+    "role": null,
+    "depth": 0.3617,
+    "area_frac": 0.2561,
+    "on_ink": 0.719,
+    "bbox": [
+     0.28,
+     0.02,
+     0.981,
+     0.887
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 17,
+  "plate_px": [
+   594,
+   570
+  ],
+  "n_cards": 7,
+  "n_figures": 6,
+  "has_backdrop": true,
+  "coverage": 0.9755,
+  "figure_coverage": 0.2188,
+  "ink_frac": 0.4431,
+  "overlap_frac": 0.7582,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-17/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.7557,
+    "on_ink": 0.444,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-17/philosophical_egg_ca_02.png",
+    "role": null,
+    "depth": 0.1504,
+    "area_frac": 0.0335,
+    "on_ink": 0.524,
+    "bbox": [
+     0.402,
+     0.055,
+     0.615,
+     0.257
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-17/philosophical_egg_ca_03.png",
+    "role": null,
+    "depth": 0.3479,
+    "area_frac": 0.0336,
+    "on_ink": 0.571,
+    "bbox": [
+     0.407,
+     0.252,
+     0.617,
+     0.457
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-17/philosophical_egg.png",
+    "role": null,
+    "depth": 0.4132,
+    "area_frac": 0.1399,
+    "on_ink": 0.541,
+    "bbox": [
+     0.398,
+     0.056,
+     0.619,
+     0.821
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-17/cauldron.png",
+    "role": null,
+    "depth": 0.5257,
+    "area_frac": 0.0349,
+    "on_ink": 0.548,
+    "bbox": [
+     0.4,
+     0.429,
+     0.617,
+     0.634
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-17/philosophical_egg_ca.png",
+    "role": null,
+    "depth": 0.7104,
+    "area_frac": 0.0351,
+    "on_ink": 0.523,
+    "bbox": [
+     0.398,
+     0.614,
+     0.612,
+     0.821
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-17/distillation_vessel.png",
+    "role": null,
+    "depth": 0.7737,
+    "area_frac": 0.0377,
+    "on_ink": 0.557,
+    "bbox": [
+     0.742,
+     0.611,
+     0.986,
+     0.961
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 18,
+  "plate_px": [
+   596,
+   520
+  ],
+  "n_cards": 6,
+  "n_figures": 5,
+  "has_backdrop": true,
+  "coverage": 0.9439,
+  "figure_coverage": 0.3702,
+  "ink_frac": 0.54,
+  "overlap_frac": 0.0667,
+  "largest_gap": 0.0098,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0098,
+    "bbox": [
+     0.119,
+     0.0,
+     0.998,
+     0.99
+    ],
+    "centroid": [
+     0.743,
+     0.221
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-18/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.5383,
+    "on_ink": 0.576,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-18/philosophical_egg.png",
+    "role": null,
+    "depth": 0.292,
+    "area_frac": 0.1461,
+    "on_ink": 0.492,
+    "bbox": [
+     0.028,
+     0.017,
+     0.409,
+     0.637
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-18/athanor.png",
+    "role": null,
+    "depth": 0.4345,
+    "area_frac": 0.1497,
+    "on_ink": 0.583,
+    "bbox": [
+     0.304,
+     0.042,
+     0.659,
+     0.919
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-18/pestle.png",
+    "role": null,
+    "depth": 0.4638,
+    "area_frac": 0.0061,
+    "on_ink": 0.466,
+    "bbox": [
+     0.238,
+     0.442,
+     0.46,
+     0.488
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-18/cauldron.png",
+    "role": null,
+    "depth": 0.6807,
+    "area_frac": 0.0218,
+    "on_ink": 0.605,
+    "bbox": [
+     0.204,
+     0.627,
+     0.447,
+     0.742
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-18/distillation_vessel.png",
+    "role": null,
+    "depth": 0.7755,
+    "area_frac": 0.0698,
+    "on_ink": 0.563,
+    "bbox": [
+     0.206,
+     0.626,
+     0.448,
+     0.947
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 19,
+  "plate_px": [
+   604,
+   530
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.963,
+  "figure_coverage": 0.0308,
+  "ink_frac": 0.4766,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0055,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0055,
+    "bbox": [
+     0.0,
+     0.004,
+     0.988,
+     0.34
+    ],
+    "centroid": [
+     0.328,
+     0.049
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-19/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.894,
+    "on_ink": 0.497,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-19/pestle.png",
+    "role": null,
+    "depth": 0.1885,
+    "area_frac": 0.0092,
+    "on_ink": 0.555,
+    "bbox": [
+     0.572,
+     0.114,
+     0.776,
+     0.275
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-19/cauldron.png",
+    "role": null,
+    "depth": 0.5864,
+    "area_frac": 0.0147,
+    "on_ink": 0.651,
+    "bbox": [
+     0.323,
+     0.522,
+     0.478,
+     0.656
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 20,
+  "plate_px": [
+   705,
+   949
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9883,
+  "figure_coverage": 0.0381,
+  "ink_frac": 0.1837,
+  "overlap_frac": 0.1409,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-20/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.395,
+    "on_ink": 0.442,
+    "bbox": [
+     -0.001,
+     -0.001,
+     0.999,
+     0.999
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-20/distillation_vessel.png",
+    "role": null,
+    "depth": 0.5869,
+    "area_frac": 0.0067,
+    "on_ink": 0.319,
+    "bbox": [
+     0.531,
+     0.533,
+     0.751,
+     0.647
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-20/distillation_vessel_02.png",
+    "role": null,
+    "depth": 0.7104,
+    "area_frac": 0.0449,
+    "on_ink": 0.154,
+    "bbox": [
+     0.249,
+     0.534,
+     0.761,
+     0.952
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 2,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 21,
+  "plate_px": [
+   594,
+   568
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9771,
+  "figure_coverage": 0.0066,
+  "ink_frac": 0.4572,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0041,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0041,
+    "bbox": [
+     0.0,
+     0.387,
+     0.008,
+     0.988
+    ],
+    "centroid": [
+     0.004,
+     0.677
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-21/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.9438,
+    "on_ink": 0.47,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-21/cauldron.png",
+    "role": null,
+    "depth": 0.8795,
+    "area_frac": 0.0069,
+    "on_ink": 0.438,
+    "bbox": [
+     0.427,
+     0.839,
+     0.55,
+     0.922
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 22,
+  "plate_px": [
+   612,
+   532
+  ],
+  "n_cards": 6,
+  "n_figures": 5,
+  "has_backdrop": true,
+  "coverage": 0.9283,
+  "figure_coverage": 0.5161,
+  "ink_frac": 0.5264,
+  "overlap_frac": 0.0013,
+  "largest_gap": 0.0163,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0163,
+    "bbox": [
+     0.005,
+     0.0,
+     0.998,
+     0.998
+    ],
+    "centroid": [
+     0.642,
+     0.402
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-22/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.4378,
+    "on_ink": 0.496,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-22/furnace.png",
+    "role": null,
+    "depth": 0.3538,
+    "area_frac": 0.3458,
+    "on_ink": 0.601,
+    "bbox": [
+     0.01,
+     0.008,
+     0.99,
+     0.989
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-22/cauldron.png",
+    "role": null,
+    "depth": 0.4832,
+    "area_frac": 0.009,
+    "on_ink": 0.718,
+    "bbox": [
+     0.167,
+     0.435,
+     0.283,
+     0.535
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-22/philosophical_egg.png",
+    "role": null,
+    "depth": 0.5559,
+    "area_frac": 0.0831,
+    "on_ink": 0.45,
+    "bbox": [
+     0.567,
+     0.248,
+     0.747,
+     0.898
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-22/cauldron_mortar.png",
+    "role": null,
+    "depth": 0.5986,
+    "area_frac": 0.0103,
+    "on_ink": 0.59,
+    "bbox": [
+     0.109,
+     0.532,
+     0.211,
+     0.671
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-22/distillation_vessel.png",
+    "role": null,
+    "depth": 0.8588,
+    "area_frac": 0.0313,
+    "on_ink": 0.455,
+    "bbox": [
+     0.756,
+     0.78,
+     0.967,
+     0.949
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 23,
+  "plate_px": [
+   618,
+   529
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9433,
+  "figure_coverage": 0.0343,
+  "ink_frac": 0.4517,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0055,
+  "n_gaps": 2,
+  "gaps": [
+   {
+    "area_frac": 0.0055,
+    "bbox": [
+     0.832,
+     0.0,
+     0.998,
+     0.677
+    ],
+    "centroid": [
+     0.978,
+     0.271
+    ]
+   },
+   {
+    "area_frac": 0.0053,
+    "bbox": [
+     0.095,
+     0.96,
+     0.998,
+     0.998
+    ],
+    "centroid": [
+     0.555,
+     0.993
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-23/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.875,
+    "on_ink": 0.469,
+    "bbox": [
+     0.0,
+     -0.001,
+     1.0,
+     0.999
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-23/dillation_pestle.png",
+    "role": null,
+    "depth": 0.4903,
+    "area_frac": 0.0304,
+    "on_ink": 0.51,
+    "bbox": [
+     0.25,
+     0.394,
+     0.511,
+     0.604
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 24,
+  "plate_px": [
+   612,
+   538
+  ],
+  "n_cards": 4,
+  "n_figures": 3,
+  "has_backdrop": true,
+  "coverage": 0.949,
+  "figure_coverage": 0.1381,
+  "ink_frac": 0.5454,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0079,
+  "n_gaps": 2,
+  "gaps": [
+   {
+    "area_frac": 0.0079,
+    "bbox": [
+     0.0,
+     0.989,
+     0.977,
+     0.998
+    ],
+    "centroid": [
+     0.499,
+     0.994
+    ]
+   },
+   {
+    "area_frac": 0.0049,
+    "bbox": [
+     0.448,
+     0.006,
+     0.998,
+     0.634
+    ],
+    "centroid": [
+     0.929,
+     0.262
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-24/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.8357,
+    "on_ink": 0.529,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-24/distillation_vessel_02.png",
+    "role": null,
+    "depth": 0.3678,
+    "area_frac": 0.0133,
+    "on_ink": 0.623,
+    "bbox": [
+     0.624,
+     0.26,
+     0.745,
+     0.483
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-24/distillation_vessel.png",
+    "role": null,
+    "depth": 0.3845,
+    "area_frac": 0.007,
+    "on_ink": 0.707,
+    "bbox": [
+     0.328,
+     0.317,
+     0.434,
+     0.456
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-24/philosophical_egg.png",
+    "role": null,
+    "depth": 0.5817,
+    "area_frac": 0.0917,
+    "on_ink": 0.677,
+    "bbox": [
+     0.054,
+     0.441,
+     0.6,
+     0.779
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 25,
+  "plate_px": [
+   705,
+   949
+  ],
+  "n_cards": 4,
+  "n_figures": 3,
+  "has_backdrop": true,
+  "coverage": 0.972,
+  "figure_coverage": 0.0261,
+  "ink_frac": 0.1921,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-25/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.4182,
+    "on_ink": 0.434,
+    "bbox": [
+     -0.001,
+     -0.001,
+     0.999,
+     0.999
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-25/distillation_vessel.png",
+    "role": null,
+    "depth": 0.2783,
+    "area_frac": 0.0138,
+    "on_ink": 0.241,
+    "bbox": [
+     0.388,
+     0.176,
+     0.523,
+     0.389
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-25/pestle.png",
+    "role": null,
+    "depth": 0.2837,
+    "area_frac": 0.0083,
+    "on_ink": 0.205,
+    "bbox": [
+     0.55,
+     0.12,
+     0.658,
+     0.457
+    ],
+    "stranded": true
+   },
+   {
+    "file": "emblem-25/distillation_vessel_02.png",
+    "role": null,
+    "depth": 0.3661,
+    "area_frac": 0.0139,
+    "on_ink": 0.0,
+    "bbox": [
+     0.83,
+     0.252,
+     0.982,
+     0.492
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 3,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 26,
+  "plate_px": [
+   586,
+   550
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9588,
+  "figure_coverage": 0.0625,
+  "ink_frac": 0.4864,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0086,
+  "n_gaps": 2,
+  "gaps": [
+   {
+    "area_frac": 0.0086,
+    "bbox": [
+     0.0,
+     0.002,
+     0.696,
+     0.989
+    ],
+    "centroid": [
+     0.09,
+     0.312
+    ]
+   },
+   {
+    "area_frac": 0.0051,
+    "bbox": [
+     0.283,
+     0.582,
+     0.998,
+     0.998
+    ],
+    "centroid": [
+     0.796,
+     0.909
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-26/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.879,
+    "on_ink": 0.496,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-26/distillation_vessel.png",
+    "role": null,
+    "depth": 0.5313,
+    "area_frac": 0.074,
+    "on_ink": 0.411,
+    "bbox": [
+     0.108,
+     0.321,
+     0.398,
+     0.781
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 27,
+  "plate_px": [
+   586,
+   556
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9606,
+  "figure_coverage": 0.3006,
+  "ink_frac": 0.5447,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0047,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0047,
+    "bbox": [
+     0.99,
+     0.133,
+     0.998,
+     0.998
+    ],
+    "centroid": [
+     0.994,
+     0.58
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-27/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.6981,
+    "on_ink": 0.515,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-27/distillation_vessel.png",
+    "role": null,
+    "depth": 0.4039,
+    "area_frac": 0.1568,
+    "on_ink": 0.751,
+    "bbox": [
+     0.276,
+     0.041,
+     0.581,
+     0.84
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-27/philosophical_egg.png",
+    "role": null,
+    "depth": 0.7028,
+    "area_frac": 0.0859,
+    "on_ink": 0.535,
+    "bbox": [
+     0.683,
+     0.472,
+     0.979,
+     0.978
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 28,
+  "plate_px": [
+   596,
+   550
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9565,
+  "figure_coverage": 0.4583,
+  "ink_frac": 0.6847,
+  "overlap_frac": 0.1283,
+  "largest_gap": 0.0058,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0058,
+    "bbox": [
+     0.007,
+     0.82,
+     0.983,
+     0.998
+    ],
+    "centroid": [
+     0.391,
+     0.986
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-28/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.4824,
+    "on_ink": 0.707,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-28/philosophical_egg.png",
+    "role": null,
+    "depth": 0.4858,
+    "area_frac": 0.058,
+    "on_ink": 0.548,
+    "bbox": [
+     0.392,
+     0.342,
+     0.729,
+     0.662
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-28/mortar.png",
+    "role": null,
+    "depth": 0.5211,
+    "area_frac": 0.4371,
+    "on_ink": 0.715,
+    "bbox": [
+     0.024,
+     0.266,
+     0.979,
+     0.981
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 29,
+  "plate_px": [
+   590,
+   548
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9499,
+  "figure_coverage": 0.1578,
+  "ink_frac": 0.4434,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0051,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0051,
+    "bbox": [
+     0.0,
+     0.0,
+     0.983,
+     0.221
+    ],
+    "centroid": [
+     0.404,
+     0.031
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-29/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.7877,
+    "on_ink": 0.446,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-29/distillation_vessel.png",
+    "role": null,
+    "depth": 0.584,
+    "area_frac": 0.1379,
+    "on_ink": 0.507,
+    "bbox": [
+     0.086,
+     0.351,
+     0.813,
+     0.944
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 30,
+  "plate_px": [
+   580,
+   532
+  ],
+  "n_cards": 6,
+  "n_figures": 5,
+  "has_backdrop": true,
+  "coverage": 0.9092,
+  "figure_coverage": 0.4612,
+  "ink_frac": 0.46,
+  "overlap_frac": 0.0343,
+  "largest_gap": 0.0089,
+  "n_gaps": 2,
+  "gaps": [
+   {
+    "area_frac": 0.0089,
+    "bbox": [
+     0.0,
+     0.0,
+     0.467,
+     0.981
+    ],
+    "centroid": [
+     0.087,
+     0.362
+    ]
+   },
+   {
+    "area_frac": 0.0041,
+    "bbox": [
+     0.447,
+     0.75,
+     0.998,
+     0.998
+    ],
+    "centroid": [
+     0.858,
+     0.94
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-30/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.3958,
+    "on_ink": 0.521,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-30/furnace.png",
+    "role": null,
+    "depth": 0.3576,
+    "area_frac": 0.3041,
+    "on_ink": 0.412,
+    "bbox": [
+     0.008,
+     0.012,
+     0.985,
+     0.992
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-30/philosophical_egg.png",
+    "role": null,
+    "depth": 0.4659,
+    "area_frac": 0.131,
+    "on_ink": 0.465,
+    "bbox": [
+     0.514,
+     0.068,
+     0.834,
+     0.947
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-30/distillation_vessel.png",
+    "role": null,
+    "depth": 0.5848,
+    "area_frac": 0.0114,
+    "on_ink": 0.52,
+    "bbox": [
+     0.322,
+     0.51,
+     0.454,
+     0.666
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-30/cauldron_02.png",
+    "role": null,
+    "depth": 0.7913,
+    "area_frac": 0.0364,
+    "on_ink": 0.688,
+    "bbox": [
+     0.495,
+     0.67,
+     0.76,
+     0.935
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-30/cauldron.png",
+    "role": null,
+    "depth": 0.8642,
+    "area_frac": 0.0142,
+    "on_ink": 0.644,
+    "bbox": [
+     0.572,
+     0.799,
+     0.756,
+     0.938
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 31,
+  "plate_px": [
+   616,
+   540
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9535,
+  "figure_coverage": 0.0922,
+  "ink_frac": 0.4109,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-31/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.8814,
+    "on_ink": 0.401,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-31/distillation_vessel.png",
+    "role": null,
+    "depth": 0.3242,
+    "area_frac": 0.0068,
+    "on_ink": 0.609,
+    "bbox": [
+     0.32,
+     0.247,
+     0.381,
+     0.405
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-31/philosophical_egg.png",
+    "role": null,
+    "depth": 0.6499,
+    "area_frac": 0.0627,
+    "on_ink": 0.539,
+    "bbox": [
+     0.17,
+     0.531,
+     0.782,
+     0.82
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 32,
+  "plate_px": [
+   602,
+   546
+  ],
+  "n_cards": 11,
+  "n_figures": 10,
+  "has_backdrop": true,
+  "coverage": 0.9355,
+  "figure_coverage": 0.4574,
+  "ink_frac": 0.5121,
+  "overlap_frac": 0.0806,
+  "largest_gap": 0.0059,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0059,
+    "bbox": [
+     0.051,
+     0.0,
+     0.972,
+     0.009
+    ],
+    "centroid": [
+     0.556,
+     0.005
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-32/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.4966,
+    "on_ink": 0.493,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/castle.png",
+    "role": null,
+    "depth": 0.0,
+    "area_frac": 0.0733,
+    "on_ink": 0.406,
+    "bbox": [
+     0.249,
+     0.084,
+     0.777,
+     0.304
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/tower_chimney.png",
+    "role": null,
+    "depth": 0.0436,
+    "area_frac": 0.002,
+    "on_ink": 0.482,
+    "bbox": [
+     0.427,
+     0.248,
+     0.463,
+     0.32
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/building_house.png",
+    "role": null,
+    "depth": 0.3284,
+    "area_frac": 0.0307,
+    "on_ink": 0.725,
+    "bbox": [
+     0.023,
+     0.427,
+     0.179,
+     0.723
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/gate.png",
+    "role": null,
+    "depth": 0.3781,
+    "area_frac": 0.0127,
+    "on_ink": 0.656,
+    "bbox": [
+     0.366,
+     0.582,
+     0.61,
+     0.659
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/crown.png",
+    "role": null,
+    "depth": 0.4528,
+    "area_frac": 0.0063,
+    "on_ink": 0.616,
+    "bbox": [
+     0.727,
+     0.315,
+     0.858,
+     0.392
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/hearth.png",
+    "role": null,
+    "depth": 0.5175,
+    "area_frac": 0.1729,
+    "on_ink": 0.627,
+    "bbox": [
+     0.024,
+     0.624,
+     0.856,
+     0.981
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/palm.png",
+    "role": null,
+    "depth": 0.5196,
+    "area_frac": 0.0016,
+    "on_ink": 0.517,
+    "bbox": [
+     0.704,
+     0.543,
+     0.754,
+     0.596
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/sword_spear_axe.png",
+    "role": null,
+    "depth": 0.6695,
+    "area_frac": 0.0148,
+    "on_ink": 0.532,
+    "bbox": [
+     0.569,
+     0.32,
+     0.846,
+     0.864
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/person.png",
+    "role": null,
+    "depth": 0.7238,
+    "area_frac": 0.1282,
+    "on_ink": 0.482,
+    "bbox": [
+     0.577,
+     0.227,
+     0.978,
+     0.901
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-32/hermaphrodite.png",
+    "role": null,
+    "depth": 1.0,
+    "area_frac": 0.0215,
+    "on_ink": 0.63,
+    "bbox": [
+     0.476,
+     0.791,
+     0.69,
+     0.978
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 33,
+  "plate_px": [
+   590,
+   558
+  ],
+  "n_cards": 5,
+  "n_figures": 4,
+  "has_backdrop": true,
+  "coverage": 0.9481,
+  "figure_coverage": 0.8824,
+  "ink_frac": 0.4822,
+  "overlap_frac": 0.1706,
+  "largest_gap": 0.0089,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0089,
+    "bbox": [
+     0.012,
+     0.385,
+     0.998,
+     0.998
+    ],
+    "centroid": [
+     0.769,
+     0.838
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-33/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.0539,
+    "on_ink": 0.588,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-33/moon.png",
+    "role": null,
+    "depth": 0.0,
+    "area_frac": 0.0043,
+    "on_ink": 0.48,
+    "bbox": [
+     0.858,
+     0.043,
+     0.931,
+     0.118
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-33/cave.png",
+    "role": null,
+    "depth": 0.0219,
+    "area_frac": 0.8882,
+    "on_ink": 0.479,
+    "bbox": [
+     0.021,
+     0.021,
+     0.979,
+     0.976
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-33/palm.png",
+    "role": null,
+    "depth": 0.6387,
+    "area_frac": 0.0022,
+    "on_ink": 0.525,
+    "bbox": [
+     0.493,
+     0.661,
+     0.547,
+     0.719
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-33/man_old_man.png",
+    "role": null,
+    "depth": 0.6959,
+    "area_frac": 0.1451,
+    "on_ink": 0.406,
+    "bbox": [
+     0.036,
+     0.303,
+     0.734,
+     0.79
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 34,
+  "plate_px": [
+   594,
+   558
+  ],
+  "n_cards": 5,
+  "n_figures": 4,
+  "has_backdrop": true,
+  "coverage": 0.9573,
+  "figure_coverage": 0.2459,
+  "ink_frac": 0.5288,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0059,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0059,
+    "bbox": [
+     0.007,
+     0.002,
+     0.988,
+     0.047
+    ],
+    "centroid": [
+     0.511,
+     0.007
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-34/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.7226,
+    "on_ink": 0.521,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-34/cauldron.png",
+    "role": null,
+    "depth": 0.114,
+    "area_frac": 0.04,
+    "on_ink": 0.589,
+    "bbox": [
+     0.094,
+     0.022,
+     0.401,
+     0.226
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-34/bellows.png",
+    "role": null,
+    "depth": 0.3829,
+    "area_frac": 0.0103,
+    "on_ink": 0.507,
+    "bbox": [
+     0.019,
+     0.329,
+     0.177,
+     0.442
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-34/philosophical_egg.png",
+    "role": null,
+    "depth": 0.5543,
+    "area_frac": 0.1303,
+    "on_ink": 0.573,
+    "bbox": [
+     0.62,
+     0.31,
+     0.973,
+     0.855
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-34/distillation_vessel.png",
+    "role": null,
+    "depth": 0.867,
+    "area_frac": 0.0356,
+    "on_ink": 0.746,
+    "bbox": [
+     0.023,
+     0.769,
+     0.253,
+     0.98
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 35,
+  "plate_px": [
+   610,
+   544
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9819,
+  "figure_coverage": 0.0269,
+  "ink_frac": 0.4789,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0043,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0043,
+    "bbox": [
+     0.0,
+     0.088,
+     0.021,
+     0.991
+    ],
+    "centroid": [
+     0.006,
+     0.615
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-35/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.9297,
+    "on_ink": 0.492,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-35/cauldron_02.png",
+    "role": null,
+    "depth": 0.354,
+    "area_frac": 0.0053,
+    "on_ink": 0.61,
+    "bbox": [
+     0.29,
+     0.318,
+     0.389,
+     0.392
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-35/cauldron.png",
+    "role": null,
+    "depth": 0.7243,
+    "area_frac": 0.0195,
+    "on_ink": 0.495,
+    "bbox": [
+     0.82,
+     0.649,
+     0.98,
+     0.807
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 36,
+  "plate_px": [
+   604,
+   570
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9933,
+  "figure_coverage": 0.0039,
+  "ink_frac": 0.4519,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-36/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.9378,
+    "on_ink": 0.477,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-36/distillation_vessel.png",
+    "role": null,
+    "depth": 0.4289,
+    "area_frac": 0.0029,
+    "on_ink": 0.439,
+    "bbox": [
+     0.749,
+     0.4,
+     0.82,
+     0.46
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-36/distillation_vessel_02.png",
+    "role": null,
+    "depth": 0.5806,
+    "area_frac": 0.0017,
+    "on_ink": 0.277,
+    "bbox": [
+     0.883,
+     0.56,
+     0.938,
+     0.602
+    ],
+    "stranded": true
+   }
+  ],
+  "n_stranded": 1,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 37,
+  "plate_px": [
+   598,
+   574
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9716,
+  "figure_coverage": 0.3235,
+  "ink_frac": 0.4311,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-37/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.6729,
+    "on_ink": 0.415,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-37/philosophical_egg.png",
+    "role": null,
+    "depth": 0.4709,
+    "area_frac": 0.2561,
+    "on_ink": 0.545,
+    "bbox": [
+     0.03,
+     0.196,
+     0.883,
+     0.933
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 38,
+  "plate_px": [
+   602,
+   560
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9773,
+  "figure_coverage": 0.0641,
+  "ink_frac": 0.472,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.004,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.004,
+    "bbox": [
+     0.01,
+     0.002,
+     0.997,
+     0.111
+    ],
+    "centroid": [
+     0.528,
+     0.013
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-38/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.8376,
+    "on_ink": 0.515,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-38/athanor.png",
+    "role": null,
+    "depth": 0.195,
+    "area_frac": 0.0378,
+    "on_ink": 0.421,
+    "bbox": [
+     0.386,
+     0.021,
+     0.65,
+     0.401
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-38/distillation_vessel.png",
+    "role": null,
+    "depth": 0.6953,
+    "area_frac": 0.0235,
+    "on_ink": 0.608,
+    "bbox": [
+     0.022,
+     0.61,
+     0.223,
+     0.79
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 39,
+  "plate_px": [
+   604,
+   564
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9754,
+  "figure_coverage": 0.0921,
+  "ink_frac": 0.4518,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-39/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.8723,
+    "on_ink": 0.458,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-39/distillation_vessel.png",
+    "role": null,
+    "depth": 0.2438,
+    "area_frac": 0.0212,
+    "on_ink": 0.573,
+    "bbox": [
+     0.334,
+     0.164,
+     0.557,
+     0.336
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-39/philosophical_egg.png",
+    "role": null,
+    "depth": 0.799,
+    "area_frac": 0.0567,
+    "on_ink": 0.519,
+    "bbox": [
+     0.02,
+     0.718,
+     0.407,
+     0.902
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 40,
+  "plate_px": [
+   598,
+   560
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9677,
+  "figure_coverage": 0.1559,
+  "ink_frac": 0.5209,
+  "overlap_frac": 0.2065,
+  "largest_gap": 0.0066,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0066,
+    "bbox": [
+     0.609,
+     0.045,
+     0.998,
+     0.998
+    ],
+    "centroid": [
+     0.957,
+     0.578
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-40/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.7931,
+    "on_ink": 0.533,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-40/distillation_vessel.png",
+    "role": null,
+    "depth": 0.5494,
+    "area_frac": 0.0394,
+    "on_ink": 0.726,
+    "bbox": [
+     0.132,
+     0.354,
+     0.329,
+     0.767
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-40/distillation_vessel_02.png",
+    "role": null,
+    "depth": 0.5886,
+    "area_frac": 0.1344,
+    "on_ink": 0.551,
+    "bbox": [
+     0.021,
+     0.275,
+     0.37,
+     0.975
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 41,
+  "plate_px": [
+   588,
+   562
+  ],
+  "n_cards": 4,
+  "n_figures": 3,
+  "has_backdrop": true,
+  "coverage": 0.9504,
+  "figure_coverage": 0.334,
+  "ink_frac": 0.4748,
+  "overlap_frac": 0.1085,
+  "largest_gap": 0.008,
+  "n_gaps": 2,
+  "gaps": [
+   {
+    "area_frac": 0.008,
+    "bbox": [
+     0.354,
+     0.012,
+     0.998,
+     0.998
+    ],
+    "centroid": [
+     0.91,
+     0.625
+    ]
+   },
+   {
+    "area_frac": 0.0069,
+    "bbox": [
+     0.0,
+     0.004,
+     0.412,
+     0.988
+    ],
+    "centroid": [
+     0.034,
+     0.449
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-41/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.6184,
+    "on_ink": 0.473,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-41/distillation_vessel.png",
+    "role": null,
+    "depth": 0.4176,
+    "area_frac": 0.0179,
+    "on_ink": 0.574,
+    "bbox": [
+     0.681,
+     0.338,
+     0.907,
+     0.509
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-41/philosophical_egg.png",
+    "role": null,
+    "depth": 0.6052,
+    "area_frac": 0.2913,
+    "on_ink": 0.509,
+    "bbox": [
+     0.02,
+     0.396,
+     0.98,
+     0.981
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-41/cauldron.png",
+    "role": null,
+    "depth": 0.6954,
+    "area_frac": 0.0336,
+    "on_ink": 0.534,
+    "bbox": [
+     0.387,
+     0.594,
+     0.616,
+     0.811
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 42,
+  "plate_px": [
+   960,
+   895
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9642,
+  "figure_coverage": 0.2616,
+  "ink_frac": 0.5035,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-42/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.7479,
+    "on_ink": 0.473,
+    "bbox": [
+     0.0,
+     0.001,
+     1.0,
+     1.001
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-42/mortar.png",
+    "role": null,
+    "depth": 0.453,
+    "area_frac": 0.0097,
+    "on_ink": 0.365,
+    "bbox": [
+     0.874,
+     0.38,
+     0.978,
+     0.531
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-42/distillation_vessel.png",
+    "role": null,
+    "depth": 0.4895,
+    "area_frac": 0.2007,
+    "on_ink": 0.639,
+    "bbox": [
+     0.019,
+     0.129,
+     0.495,
+     0.97
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 43,
+  "plate_px": [
+   596,
+   566
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9711,
+  "figure_coverage": 0.1938,
+  "ink_frac": 0.4525,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0063,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0063,
+    "bbox": [
+     0.007,
+     0.451,
+     0.998,
+     0.996
+    ],
+    "centroid": [
+     0.696,
+     0.893
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-43/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.7919,
+    "on_ink": 0.444,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-43/philosophical_egg_02.png",
+    "role": null,
+    "depth": 0.1551,
+    "area_frac": 0.049,
+    "on_ink": 0.625,
+    "bbox": [
+     0.388,
+     0.05,
+     0.796,
+     0.289
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-43/philosophical_egg.png",
+    "role": null,
+    "depth": 0.7527,
+    "area_frac": 0.0953,
+    "on_ink": 0.599,
+    "bbox": [
+     0.128,
+     0.595,
+     0.698,
+     0.973
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 44,
+  "plate_px": [
+   602,
+   566
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9761,
+  "figure_coverage": 0.0933,
+  "ink_frac": 0.5084,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-44/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.8597,
+    "on_ink": 0.522,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-44/philosophical_egg.png",
+    "role": null,
+    "depth": 0.7116,
+    "area_frac": 0.0849,
+    "on_ink": 0.558,
+    "bbox": [
+     0.354,
+     0.531,
+     0.892,
+     0.96
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 45,
+  "plate_px": [
+   584,
+   552
+  ],
+  "n_cards": 5,
+  "n_figures": 4,
+  "has_backdrop": true,
+  "coverage": 0.9196,
+  "figure_coverage": 0.3928,
+  "ink_frac": 0.3378,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0084,
+  "n_gaps": 2,
+  "gaps": [
+   {
+    "area_frac": 0.0084,
+    "bbox": [
+     0.498,
+     0.091,
+     0.998,
+     0.995
+    ],
+    "centroid": [
+     0.937,
+     0.686
+    ]
+   },
+   {
+    "area_frac": 0.0049,
+    "bbox": [
+     0.0,
+     0.0,
+     0.214,
+     0.33
+    ],
+    "centroid": [
+     0.047,
+     0.1
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-45/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.6786,
+    "on_ink": 0.262,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-45/philosophical_egg_02.png",
+    "role": null,
+    "depth": 0.128,
+    "area_frac": 0.0389,
+    "on_ink": 0.801,
+    "bbox": [
+     0.021,
+     0.017,
+     0.277,
+     0.258
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-45/philosophical_egg.png",
+    "role": null,
+    "depth": 0.4705,
+    "area_frac": 0.1284,
+    "on_ink": 0.498,
+    "bbox": [
+     0.317,
+     0.286,
+     0.711,
+     0.703
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-45/cauldron.png",
+    "role": null,
+    "depth": 0.7963,
+    "area_frac": 0.0788,
+    "on_ink": 0.442,
+    "bbox": [
+     0.699,
+     0.645,
+     0.983,
+     0.975
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-45/philosophical_egg_ca.png",
+    "role": null,
+    "depth": 0.8494,
+    "area_frac": 0.0068,
+    "on_ink": 0.402,
+    "bbox": [
+     0.574,
+     0.803,
+     0.665,
+     0.899
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 46,
+  "plate_px": [
+   604,
+   566
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9712,
+  "figure_coverage": 0.1093,
+  "ink_frac": 0.4659,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-46/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.8512,
+    "on_ink": 0.472,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-46/distillation_vessel_02.png",
+    "role": null,
+    "depth": 0.1506,
+    "area_frac": 0.0423,
+    "on_ink": 0.525,
+    "bbox": [
+     0.516,
+     0.038,
+     0.954,
+     0.298
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-46/distillation_vessel.png",
+    "role": null,
+    "depth": 0.1573,
+    "area_frac": 0.0497,
+    "on_ink": 0.579,
+    "bbox": [
+     0.021,
+     0.045,
+     0.413,
+     0.301
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 47,
+  "plate_px": [
+   602,
+   572
+  ],
+  "n_cards": 4,
+  "n_figures": 3,
+  "has_backdrop": true,
+  "coverage": 0.9716,
+  "figure_coverage": 0.4028,
+  "ink_frac": 0.4499,
+  "overlap_frac": 0.1875,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-47/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.6113,
+    "on_ink": 0.419,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-47/pestle.png",
+    "role": null,
+    "depth": 0.2754,
+    "area_frac": 0.0169,
+    "on_ink": 0.551,
+    "bbox": [
+     0.306,
+     0.17,
+     0.428,
+     0.389
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-47/retort_distillation.png",
+    "role": null,
+    "depth": 0.541,
+    "area_frac": 0.1757,
+    "on_ink": 0.604,
+    "bbox": [
+     0.395,
+     0.258,
+     0.973,
+     0.941
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-47/philosophical_egg.png",
+    "role": null,
+    "depth": 0.5602,
+    "area_frac": 0.1858,
+    "on_ink": 0.551,
+    "bbox": [
+     0.02,
+     0.315,
+     0.724,
+     0.937
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 48,
+  "plate_px": [
+   612,
+   574
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.994,
+  "figure_coverage": 0.0274,
+  "ink_frac": 0.5356,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-48/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.9235,
+    "on_ink": 0.561,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-48/distillation_vessel.png",
+    "role": null,
+    "depth": 0.8165,
+    "area_frac": 0.0217,
+    "on_ink": 0.677,
+    "bbox": [
+     0.041,
+     0.685,
+     0.165,
+     0.96
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 49,
+  "plate_px": [
+   604,
+   574
+  ],
+  "n_cards": 2,
+  "n_figures": 1,
+  "has_backdrop": true,
+  "coverage": 0.9671,
+  "figure_coverage": 0.0749,
+  "ink_frac": 0.4266,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0044,
+  "n_gaps": 1,
+  "gaps": [
+   {
+    "area_frac": 0.0044,
+    "bbox": [
+     0.265,
+     0.483,
+     0.995,
+     0.998
+    ],
+    "centroid": [
+     0.711,
+     0.903
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "file": "emblem-49/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.882,
+    "on_ink": 0.432,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-49/cauldron.png",
+    "role": null,
+    "depth": 0.6783,
+    "area_frac": 0.0596,
+    "on_ink": 0.536,
+    "bbox": [
+     0.329,
+     0.537,
+     0.618,
+     0.846
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ },
+ {
+  "number": 50,
+  "plate_px": [
+   618,
+   582
+  ],
+  "n_cards": 3,
+  "n_figures": 2,
+  "has_backdrop": true,
+  "coverage": 0.9594,
+  "figure_coverage": 0.2913,
+  "ink_frac": 0.4624,
+  "overlap_frac": 0.0,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
+  "cards": [
+   {
+    "file": "emblem-50/_backdrop.png",
+    "role": "backdrop",
+    "depth": 0.0,
+    "area_frac": 0.6907,
+    "on_ink": 0.447,
+    "bbox": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-50/pestle.png",
+    "role": null,
+    "depth": 0.2105,
+    "area_frac": 0.0215,
+    "on_ink": 0.495,
+    "bbox": [
+     0.24,
+     0.086,
+     0.388,
+     0.347
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-50/philosophical_egg.png",
+    "role": null,
+    "depth": 0.6166,
+    "area_frac": 0.2268,
+    "on_ink": 0.547,
+    "bbox": [
+     0.063,
+     0.407,
+     0.95,
+     0.978
+    ],
+    "stranded": false
+   }
+  ],
+  "n_stranded": 0,
+  "n_flat": 0,
+  "budget": {
+   "ink_threshold": 0.55,
+   "min_coverage": 0.55,
+   "min_figure_coverage": 0.0,
+   "max_gap_frac": 0.045,
+   "min_on_ink": 0.35,
+   "gap_min_frac": 0.004,
+   "min_card_frac": 0.0
+  }
+ }
+]
