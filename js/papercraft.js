@@ -89,6 +89,7 @@ function disposeObj(o) {
     if (n.geometry) n.geometry.dispose();
     if (n.material) {
       if (n.material.map) n.material.map.dispose();
+      if (n.material.alphaMap) n.material.alphaMap.dispose();
       n.material.dispose();
     }
     if (n.customDepthMaterial) n.customDepthMaterial.dispose();
@@ -103,31 +104,41 @@ function clearGroup() {
   currentCards = [];
 }
 
-// A single paper cutout: flat card, matte paper material, alpha-tested so it
-// keeps its irregular cut shape — and casts that shape as a shadow.
+// A paper cutout, built as two coplanar layers so it looks like a real cut piece:
+//  · a cream "paper" backing, slightly larger, alpha-tested to the cut shape —
+//    it shows a thin margin around the figure and is what casts the shadow;
+//  · the engraving itself on top.
+// Both alpha-tested so the silhouette (not a rectangle) is what pops and shadows.
 function paperCard(tex, w, h) {
   tex.colorSpace = THREE.SRGBColorSpace;
   tex.anisotropy = maxAniso;
-  const geo = new THREE.PlaneGeometry(w, h);
-  const mat = new THREE.MeshStandardMaterial({
+  const g = new THREE.Group();
+
+  const paperMat = new THREE.MeshStandardMaterial({
+    color: 0xefe6cf, alphaMap: tex, alphaTest: 0.5, side: THREE.DoubleSide,
+    roughness: 0.97, metalness: 0.0,
+  });
+  const paper = new THREE.Mesh(new THREE.PlaneGeometry(w * 1.035, h * 1.035), paperMat);
+  paper.position.z = -0.012;
+  paper.castShadow = true;
+  paper.receiveShadow = true;
+  paper.customDepthMaterial = new THREE.MeshDepthMaterial({
+    depthPacking: THREE.RGBADepthPacking, alphaMap: tex, alphaTest: 0.5,
+  });
+  g.add(paper);
+
+  const inkMat = new THREE.MeshStandardMaterial({
     map: tex, color: PAPER, alphaTest: 0.5, side: THREE.DoubleSide,
     roughness: 0.96, metalness: 0.0,
   });
-  const mesh = new THREE.Mesh(geo, mat);
-  mesh.castShadow = true;
-  mesh.receiveShadow = true;
-  // Cast the cut SHAPE (not the bounding rectangle) — the papercraft essential.
-  mesh.customDepthMaterial = new THREE.MeshDepthMaterial({
-    depthPacking: THREE.RGBADepthPacking, map: tex, alphaTest: 0.5,
-  });
-  return mesh;
+  const ink = new THREE.Mesh(new THREE.PlaneGeometry(w, h), inkMat);
+  ink.receiveShadow = true;
+  g.add(ink);
+
+  return g;
 }
 
-function applyDepth() {
-  for (const c of currentCards) {
-    c.mesh.position.z = 0.08 + c.depth * 0.7 * depthMult;
-  }
-}
+function cardTargetZ(depth) { return 0.08 + depth * 0.7 * depthMult; }
 
 function buildEmblem(emb) {
   clearGroup();
@@ -173,10 +184,11 @@ function buildEmblem(emb) {
     loader.load(`images/cutouts/${L.file}`, (tex) => {
       const w = Math.max(0.05, L.nw * W);
       const h = Math.max(0.05, L.nh * H);
-      const mesh = paperCard(tex, w, h);
-      mesh.position.set((L.cx - 0.5) * W, (0.5 - L.cy) * H, 0.08 + L.depth * 0.7 * depthMult);
-      group.add(mesh);
-      currentCards.push({ mesh, depth: L.depth });
+      const card = paperCard(tex, w, h);
+      // Start flat against the page; animate() eases it up to its depth (pop-up).
+      card.position.set((L.cx - 0.5) * W, (0.5 - L.cy) * H, 0.02);
+      group.add(card);
+      currentCards.push({ card, depth: L.depth });
     });
   });
 }
@@ -196,8 +208,7 @@ function show(i) {
 document.getElementById('prev').addEventListener('click', () => show(idx - 1));
 document.getElementById('next').addEventListener('click', () => show(idx + 1));
 document.getElementById('depth').addEventListener('input', (e) => {
-  depthMult = parseFloat(e.target.value);
-  applyDepth();
+  depthMult = parseFloat(e.target.value);  // animate() eases the cards to the new depth
 });
 const backingBtn = document.getElementById('backing');
 function updateBackingLabel() { if (backingBtn) backingBtn.textContent = 'backing: ' + backingMode; }
@@ -229,11 +240,18 @@ function resize() {
 }
 window.addEventListener('resize', resize);
 
+const clock = new THREE.Clock();
 let _lastW = 0;
 function animate() {
   requestAnimationFrame(animate);
   const { w } = getViewport();
   if (w !== _lastW) { _lastW = w; resize(); }  // self-correct once the viewport has size
+  const dt = Math.min(clock.getDelta(), 0.05);
+  const k = 1 - Math.pow(0.0028, dt);           // frame-rate-independent ease
+  for (const c of currentCards) {
+    const target = cardTargetZ(c.depth);
+    c.card.position.z += (target - c.card.position.z) * k;
+  }
   controls.update();
   renderer.render(scene, camera);
 }
