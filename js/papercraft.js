@@ -104,41 +104,85 @@ function clearGroup() {
   currentCards = [];
 }
 
+// A gently-curled plane. Real paper is never dead flat; subdividing the quad and
+// bowing it along Z (a soft cylindrical bend across the width, tapering top/bottom,
+// plus a faint corner twist) gives each card a rippling highlight and a slightly
+// curved cut-edge shadow — the physicality flat quads can't fake. `spec` carries a
+// per-card amplitude/sign so no two cards curl alike.
+function curledPlane(w, h, spec) {
+  const g = new THREE.PlaneGeometry(w, h, 16, 20);
+  const pos = g.attributes.position;
+  for (let i = 0; i < pos.count; i++) {
+    const u = pos.getX(i) / w;          // ~[-0.5, 0.5]
+    const v = pos.getY(i) / h;
+    const bow = spec.amp * Math.cos(u * Math.PI) * (0.6 + 0.4 * Math.cos(v * Math.PI));
+    const twist = spec.twist * (u * 2) * (v * 2);
+    pos.setZ(i, spec.sign * bow + twist);
+  }
+  pos.needsUpdate = true;
+  g.computeVertexNormals();
+  return g;
+}
+
 // A paper cutout, built as two coplanar layers so it looks like a real cut piece:
 //  · a cream "paper" backing, slightly larger, alpha-tested to the cut shape —
 //    it shows a thin margin around the figure and is what casts the shadow;
 //  · the engraving itself on top.
 // Both alpha-tested so the silhouette (not a rectangle) is what pops and shadows.
+// The card is wrapped in a bottom-edge HINGE group: the leaf is lifted +h/2 so the
+// group's pivot sits at the card's bottom edge, letting animate() swing it up from
+// folded-flat to erect like a pop-up book page (see the open sequence in animate).
 function paperCard(tex, w, h) {
   tex.colorSpace = THREE.SRGBColorSpace;
   tex.anisotropy = maxAniso;
-  const g = new THREE.Group();
+
+  // Per-card curl: amplitude scales with card size but is clamped so small cutouts
+  // don't over-bend; random sign/phase keeps the stack from looking machined.
+  const spec = {
+    amp: Math.min(0.07, Math.max(0.012, 0.03 * h)) * (0.7 + Math.random() * 0.5),
+    sign: Math.random() < 0.5 ? -1 : 1,
+    twist: (Math.random() - 0.5) * 0.04,
+  };
+
+  const leaf = new THREE.Group();
 
   const paperMat = new THREE.MeshStandardMaterial({
     color: 0xefe6cf, alphaMap: tex, alphaTest: 0.5, side: THREE.DoubleSide,
     roughness: 0.97, metalness: 0.0,
   });
-  const paper = new THREE.Mesh(new THREE.PlaneGeometry(w * 1.035, h * 1.035), paperMat);
+  const paper = new THREE.Mesh(curledPlane(w * 1.035, h * 1.035, spec), paperMat);
   paper.position.z = -0.012;
   paper.castShadow = true;
   paper.receiveShadow = true;
   paper.customDepthMaterial = new THREE.MeshDepthMaterial({
     depthPacking: THREE.RGBADepthPacking, alphaMap: tex, alphaTest: 0.5,
   });
-  g.add(paper);
+  leaf.add(paper);
 
   const inkMat = new THREE.MeshStandardMaterial({
     map: tex, color: PAPER, alphaTest: 0.5, side: THREE.DoubleSide,
     roughness: 0.96, metalness: 0.0,
   });
-  const ink = new THREE.Mesh(new THREE.PlaneGeometry(w, h), inkMat);
+  const ink = new THREE.Mesh(curledPlane(w, h, spec), inkMat);
   ink.receiveShadow = true;
-  g.add(ink);
+  leaf.add(ink);
 
-  return g;
+  leaf.position.y = h / 2;              // lift so the hinge pivots at the bottom edge
+  const hinge = new THREE.Group();
+  hinge.add(leaf);
+  return hinge;
 }
 
 function cardTargetZ(depth) { return 0.08 + depth * 0.7 * depthMult; }
+
+// Pop-up erection easing: a gentle back-overshoot so cards spring up and settle,
+// like sprung paper. c1 tuned low to keep the past-vertical overshoot small.
+function easeOutBack(x) {
+  const c1 = 1.2, c3 = c1 + 1;
+  return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2);
+}
+const FOLD = Math.PI * 0.5 * 0.9;      // folded-flat start angle (~81°, tipped forward)
+const OPEN_DUR = 0.8;                  // seconds for one card to erect
 
 function buildEmblem(emb) {
   clearGroup();
@@ -185,10 +229,13 @@ function buildEmblem(emb) {
       const w = Math.max(0.05, L.nw * W);
       const h = Math.max(0.05, L.nh * H);
       const card = paperCard(tex, w, h);
-      // Start flat against the page; animate() eases it up to its depth (pop-up).
-      card.position.set((L.cx - 0.5) * W, (0.5 - L.cy) * H, 0.02);
+      // Hinge pivots at the card's bottom edge; centre still lands at (cx, cy).
+      card.position.set((L.cx - 0.5) * W, (0.5 - L.cy) * H - h / 2, 0.02);
+      card.rotation.x = FOLD;                 // start folded flat; animate() erects it
       group.add(card);
-      currentCards.push({ card, depth: L.depth });
+      // Stagger erection back-to-front: near-page cards spring first, foreground
+      // figures last, so the whole model opens as a cascade rather than in unison.
+      currentCards.push({ card, depth: L.depth, delay: L.depth * 0.45, bornAt: clock.getElapsedTime() });
     });
   });
 }
@@ -247,10 +294,15 @@ function animate() {
   const { w } = getViewport();
   if (w !== _lastW) { _lastW = w; resize(); }  // self-correct once the viewport has size
   const dt = Math.min(clock.getDelta(), 0.05);
+  const now = clock.getElapsedTime();
   const k = 1 - Math.pow(0.0028, dt);           // frame-rate-independent ease
   for (const c of currentCards) {
     const target = cardTargetZ(c.depth);
     c.card.position.z += (target - c.card.position.z) * k;
+    // Erect the hinge from folded-flat (FOLD) to upright (0) over OPEN_DUR, after
+    // the per-card stagger delay; easeOutBack gives a small sprung overshoot.
+    const p = Math.min(1, Math.max(0, (now - c.bornAt - c.delay) / OPEN_DUR));
+    c.card.rotation.x = FOLD * (1 - easeOutBack(p));
   }
   controls.update();
   renderer.render(scene, camera);
