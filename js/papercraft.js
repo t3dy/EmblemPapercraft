@@ -38,10 +38,10 @@ controls.target.set(0, 0.15, 0.25);
 
 // ── Lighting — a warm raking key throws the paper shadows; soft fill keeps the
 //    engraving readable in shadow (paper shadows are light, not black).
-scene.add(new THREE.HemisphereLight(0xfff2e0, 0x2a2018, 0.5));
-scene.add(new THREE.AmbientLight(0xffffff, 0.32));
+scene.add(new THREE.HemisphereLight(0xfff2e0, 0x2a2018, 0.42));
+scene.add(new THREE.AmbientLight(0xffffff, 0.24));
 
-const key = new THREE.DirectionalLight(0xfff0d8, 2.4);
+const key = new THREE.DirectionalLight(0xfff0d8, 2.7);
 key.position.set(-4.5, 6.5, 5.5);
 key.castShadow = true;
 key.shadow.mapSize.set(2048, 2048);
@@ -80,6 +80,7 @@ let idx = 0;
 let group = null;                    // current emblem's Object3D group
 let currentCards = [];               // { mesh, depth } for the pop-depth slider
 let depthMult = 1;
+let backingMode = 'dim';             // 'plate' | 'dim' | 'blank'
 
 function plateURL(n) { return `images/emblems/emblem-${String(n).padStart(2, '0')}.jpg`; }
 
@@ -142,19 +143,29 @@ function buildEmblem(emb) {
   board.receiveShadow = true;
   group.add(board);
 
-  // The page — the full plate, receiving the cutouts' shadows
-  loader.load(plateURL(emb.number), (tex) => {
-    tex.colorSpace = THREE.SRGBColorSpace;
-    tex.anisotropy = maxAniso;
+  // The page — receives the cutouts' shadows. 'plate' shows the full engraving,
+  // 'dim' darkens it so the popped cutouts stand out, 'blank' is plain paper.
+  if (backingMode === 'blank') {
     const geo = new THREE.PlaneGeometry(W, H);
-    const mat = new THREE.MeshStandardMaterial({
-      map: tex, color: 0xe6ddc8, roughness: 0.97, metalness: 0.0,
-    });
+    const mat = new THREE.MeshStandardMaterial({ color: 0xd9d0b9, roughness: 0.97, metalness: 0.0 });
     const page = new THREE.Mesh(geo, mat);
-    page.position.set(0, 0, 0);
     page.receiveShadow = true;
     group.add(page);
-  });
+  } else {
+    loader.load(plateURL(emb.number), (tex) => {
+      tex.colorSpace = THREE.SRGBColorSpace;
+      tex.anisotropy = maxAniso;
+      const geo = new THREE.PlaneGeometry(W, H);
+      const mat = new THREE.MeshStandardMaterial({
+        map: tex, color: backingMode === 'dim' ? 0x5f5849 : 0xe6ddc8,
+        roughness: 0.97, metalness: 0.0,
+      });
+      const page = new THREE.Mesh(geo, mat);
+      page.position.set(0, 0, 0);
+      page.receiveShadow = true;
+      group.add(page);
+    });
+  }
 
   // Cutout paper layers, back-to-front
   const layers = layersByNum[emb.number] || [];
@@ -188,6 +199,14 @@ document.getElementById('depth').addEventListener('input', (e) => {
   depthMult = parseFloat(e.target.value);
   applyDepth();
 });
+const backingBtn = document.getElementById('backing');
+function updateBackingLabel() { if (backingBtn) backingBtn.textContent = 'backing: ' + backingMode; }
+backingBtn?.addEventListener('click', () => {
+  backingMode = backingMode === 'plate' ? 'dim' : backingMode === 'dim' ? 'blank' : 'plate';
+  updateBackingLabel();
+  show(idx);
+});
+updateBackingLabel();
 window.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight') show(idx + 1);
   else if (e.key === 'ArrowLeft') show(idx - 1);
@@ -218,6 +237,9 @@ function animate() {
   controls.update();
   renderer.render(scene, camera);
 }
+
+// Debug handle so the view can be driven from the console during development
+window._pc = { scene, camera, controls, renderer, key, show: (n) => show(emblems.findIndex(x => x.number === n)) };
 
 Promise.all([
   fetch('data/emblems.json').then(r => r.json()),

@@ -39,9 +39,15 @@
   }
   #depth-row {
     position: absolute; top: 1.4rem; right: 1.6rem; pointer-events: all;
-    display: flex; align-items: center; gap: 0.5rem; font-size: 0.64rem; color: #6a5a40; letter-spacing: 0.08em;
+    display: flex; align-items: center; gap: 0.7rem; font-size: 0.64rem; color: #6a5a40; letter-spacing: 0.08em;
   }
   #depth-row input { accent-color: #b89a64; width: 110px; }
+  #backing {
+    background: rgba(20,16,11,0.8); border: 1px solid #4a3c28; color: #c8a878;
+    font-family: inherit; font-size: 0.62rem; letter-spacing: 0.06em; padding: 0.28rem 0.6rem;
+    cursor: pointer; transition: border-color .18s, color .18s;
+  }
+  #backing:hover { border-color: #c8a040; color: #f5ecd8; }
 
   #loading {
     position: fixed; inset: 0; z-index: 20; background: #171310;
@@ -58,6 +64,7 @@
   <div id="title">Emblem Papercraft<small>Atalanta Fugiens · Michael Maier · 1617</small></div>
 
   <div id="depth-row">
+    <button id="backing" title="Backing page style">backing: dim</button>
     <span>pop&nbsp;depth</span>
     <input id="depth" type="range" min="0" max="2" step="0.05" value="1"/>
   </div>
@@ -84,6 +91,6 @@
   }
 }
 </script>
-<script type="module" src="./js/papercraft.js?v=2"></script>
+<script type="module" src="./js/papercraft.js?v=4"></script>
 </body>
 </html>
