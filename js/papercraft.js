@@ -247,8 +247,10 @@ Promise.all([
 ]).then(([e, l]) => {
   emblems = e;
   l.forEach(x => { layersByNum[x.number] = x.layers; });
-  // Open on a richly-layered plate so the pop-up reads immediately
-  const start = emblems.findIndex(x => x.number === 32);
+  // Deep-link ?emblem=N (from the gallery); else a richly-layered default
+  const urlN = new URLSearchParams(location.search).get('emblem');
+  let start = urlN !== null ? emblems.findIndex(x => x.number === parseInt(urlN, 10)) : -1;
+  if (start < 0) start = emblems.findIndex(x => x.number === 32);
   resize();
   show(start >= 0 ? start : 0);
   const ld = document.getElementById('loading');
