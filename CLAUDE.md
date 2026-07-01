@@ -17,6 +17,10 @@ full plate, lit so each card casts its cut shape as a shadow. Sibling to
 - `images/cutouts/emblem-NN/` — 143 transparent-PNG figure cutouts.
 - `scripts/build_layers.py` — regenerates cutouts + `layers.json` from the
   sibling `EmblemPrintShop` extraction.
+- `scripts/coverage_lib.py` + `audit_coverage.py` + `test_coverage.py` — the
+  coverage measurement/enforcement system (see below).
+- `data/coverage_regions.json` — budget + declared-flat-region ledger.
+- `docs/PAPERCRAFT_EXTRACTION_STYLEGUIDE.md` — how to cut a plate judiciously.
 
 ## The core technique
 
@@ -32,6 +36,23 @@ must stay enabled (PCFSoft). If shadows look like rectangles, the
   `js/papercraft.js` in `index.html` when you change the module (cache-bust).
 - Preview server: `python -m http.server 3458` (see `.claude/launch.json`).
 - Assets are relative paths (`images/…`, `data/…`) so it works on any static host.
+
+## Coverage / extraction quality
+
+The papercraft should realize the **whole pictorial scene**, not a few big blobs.
+`build_layers.py` currently keeps only the 10 largest parts, so most engraving is
+left flat — baseline **mean coverage 22.8%**. Enforce better cuts with the coverage
+system (all in normalized `[0,1]²` space matching the renderer):
+
+- `python scripts/audit_coverage.py` → `reports/coverage.{json,md}` + per-emblem
+  overlays (`reports/coverage/emblem-NN.png`: green=covered ink, **red=stranded ink
+  = extraction debt**, blue=overlap).
+- `python scripts/test_coverage.py` → gate (nonzero exit) on coverage / gap / stranded
+  budgets. Run after any re-extraction.
+- Declare text/border as backing in `data/coverage_regions.json` (`flat` rects); it's
+  the audit trail of "this is backing, not a missing cutout."
+
+Full rules in `docs/PAPERCRAFT_EXTRACTION_STYLEGUIDE.md`.
 
 ## Verify
 

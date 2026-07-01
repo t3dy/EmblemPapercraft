@@ -1,0 +1,23 @@
+{
+ "_readme": [
+  "Ledger of judicious-cutting decisions + budget overrides for the coverage audit.",
+  "Consumed by scripts/coverage_lib.py (audit_coverage.py, test_coverage.py).",
+  "",
+  "defaults: budget applied to every emblem (see coverage_lib.DEFAULTS for meanings).",
+  "emblems: per-emblem overrides keyed by emblem number as a string.",
+  "  flat: [[x0,y0,x1,y1], ...] normalised rectangles of engraving that is INTENTIONALLY",
+  "        left flat on the backing (motto banner, epigram text, plate border). Excluded",
+  "        from both the coverage denominator and the gap search — declaring a region flat",
+  "        is you certifying 'this is backing, not a missing cutout'.",
+  "  any DEFAULTS key (min_coverage, max_gap_frac, ...) overrides the budget for that emblem.",
+  "",
+  "Full-page plates (emblems 00-09, 1200x1434) carry motto + epigram text: add flat bands",
+  "for them here. Square picture-crops (10+) are all-picture, so whole-plate coverage applies."
+ ],
+ "defaults": {
+  "min_coverage": 0.55,
+  "max_gap_frac": 0.045,
+  "min_on_ink": 0.35
+ },
+ "emblems": {}
+}
