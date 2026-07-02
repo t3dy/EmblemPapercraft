@@ -54,17 +54,6 @@
     "nw": 1.0,
     "nh": 1.0,
     "depth": 0.0
-   },
-   {
-    "file": "emblem-01/distillation_vessel.png",
-    "label": "distillation vessel",
-    "category": "equipment",
-    "cx": 0.0869,
-    "cy": 0.7999,
-    "nw": 0.1363,
-    "nh": 0.2895,
-    "score": 0.266,
-    "depth": 0.7939
    }
   ]
  },
@@ -83,17 +72,6 @@
     "nw": 1.0,
     "nh": 1.0,
     "depth": 0.0
-   },
-   {
-    "file": "emblem-02/pestle_02.png",
-    "label": "pestle",
-    "category": "equipment",
-    "cx": 0.1359,
-    "cy": 0.3636,
-    "nw": 0.1106,
-    "nh": 0.229,
-    "score": 0.257,
-    "depth": 0.3598
    },
    {
     "file": "emblem-02/egg_cauldron.png",
@@ -138,17 +116,6 @@
     "nh": 0.4135,
     "score": 0.297,
     "depth": 0.6999
-   },
-   {
-    "file": "emblem-02/retort_distillation.png",
-    "label": "retort distillation vessel",
-    "category": "equipment",
-    "cx": 0.77,
-    "cy": 0.7599,
-    "nw": 0.385,
-    "nh": 0.3024,
-    "score": 0.301,
-    "depth": 0.7425
    }
   ]
  },
@@ -240,17 +207,6 @@
     "nh": 0.1363,
     "score": 0.43,
     "depth": 0.3015
-   },
-   {
-    "file": "emblem-04/cauldron.png",
-    "label": "cauldron",
-    "category": "equipment",
-    "cx": 0.1641,
-    "cy": 0.7338,
-    "nw": 0.2919,
-    "nh": 0.2119,
-    "score": 0.362,
-    "depth": 0.7245
    }
   ]
  },
@@ -346,17 +302,6 @@
     "nh": 0.1834,
     "score": 0.327,
     "depth": 0.1762
-   },
-   {
-    "file": "emblem-05/hearth.png",
-    "label": "hearth",
-    "category": "architecture",
-    "cx": 0.4988,
-    "cy": 0.7962,
-    "nw": 0.9675,
-    "nh": 0.3762,
-    "score": 0.344,
-    "depth": 0.5016
    },
    {
     "file": "emblem-05/man_old_man.png",
@@ -670,17 +615,6 @@
     "nh": 0.2632,
     "score": 0.261,
     "depth": 0.1226
-   },
-   {
-    "file": "emblem-12/distillation_vessel.png",
-    "label": "distillation vessel",
-    "category": "equipment",
-    "cx": 0.8078,
-    "cy": 0.5197,
-    "nw": 0.0681,
-    "nh": 0.0573,
-    "score": 0.369,
-    "depth": 0.5191
    }
   ]
  },
@@ -1333,17 +1267,6 @@
     "nh": 0.3374,
     "score": 0.393,
     "depth": 0.2837
-   },
-   {
-    "file": "emblem-25/distillation_vessel_02.png",
-    "label": "distillation vessel",
-    "category": "equipment",
-    "cx": 0.9059,
-    "cy": 0.3716,
-    "nw": 0.152,
-    "nh": 0.2395,
-    "score": 0.308,
-    "depth": 0.3661
    }
   ]
  },

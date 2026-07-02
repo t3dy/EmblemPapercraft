@@ -209,18 +209,19 @@ So completeness is done; the open work is *decomposition*. The target is to rais
 own depth-sorted cards — starting with the 20 backdrop-only plates. Best-decomposed
 today: 33 (88%), 09 (74%), 05 (66%).
 
-**Gate status:** 45/51 pass. The 6 failures are genuinely mis-placed cutouts
-(`registration <20%`): the source figure coordinates don't match these locally-cropped
-plates, so the cutout lands off the engraving (e.g. emblem-01's serpent floats on the
-page margin). These are real registration debt, not metric noise — fix by re-deriving
-the cutout's `cx,cy,nw,nh` against the local plate, or drop the junk cutout. The gate
-stays red until they're resolved (that's the system working, not a false alarm):
-01, 02, 04, 05, 12, 25.
+**Gate status: 51/51 pass.** The 6 flagged plates (01, 02, 04, 05, 12, 25) held 7
+mis-placed cutouts — a faulty extraction batch: alchemical labels (`distillation_vessel`,
+`retort`, `cauldron`, `hearth`) on the *mythological* early emblems, rendering as a
+serpent, hatching fragments, and a bow-drawing Diana that don't belong to their assigned
+plates. Each was inspected by eye against its plate and **removed** (files deleted,
+manifest entries dropped); the backdrop still carries every one of those marks flat, so
+nothing left the scene — only the broken *pop* did. Their emblems are now backdrop-only,
+which the `figure_coverage` metric reports honestly.
 
-**Fix these by hand, not by auto-correlation.** Cross-correlating a cutout's ink over
-the plate to recover `cx,cy` was tried and rejected: on the full-page plates (00–09) the
-dark scanned *page border* falls under the ink threshold, so a cutout can score a false
-~100% match by parking on the margin (emblem-01's serpent did exactly this). Masking the
-border out over-corrects the other way — on the dense square crops it deletes real dark
-engraving (it stripped 34% of emblem-32's genuine ink). So auto-placement can't be
-trusted here; re-place or remove each of the six by eye, verifying in the viewer.
+**Auto-placement was tried and rejected.** Cross-correlating a cutout's ink over the
+plate to recover `cx,cy` false-matches: on full-page plates the dark scanned *page
+border* reads as ink, so a cutout scores ~100% by parking on the margin; on dense square
+crops, masking the border out deletes real engraving (it stripped 34% of emblem-32's
+ink); and a genuinely-ambiguous figure (emblem-25's archer) matched three different
+figures equally. So mis-placed cutouts are resolved by eye — re-place if the true
+location is unmistakable, otherwise remove — never by blind correlation.

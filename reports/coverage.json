@@ -94,8 +94,8 @@
    1200,
    1434
   ],
-  "n_cards": 2,
-  "n_figures": 1,
+  "n_cards": 1,
+  "n_figures": 0,
   "has_backdrop": true,
   "coverage": 0.9351,
   "figure_coverage": 0.0,
@@ -133,24 +133,9 @@
      1.0
     ],
     "stranded": false
-   },
-   {
-    "file": "emblem-01/distillation_vessel.png",
-    "role": null,
-    "depth": 0.7939,
-    "area_frac": 0.0196,
-    "registration": 0.001,
-    "ink_px": 26217,
-    "bbox": [
-     0.018,
-     0.655,
-     0.155,
-     0.945
-    ],
-    "stranded": true
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
@@ -168,13 +153,13 @@
    1200,
    1434
   ],
-  "n_cards": 7,
-  "n_figures": 6,
+  "n_cards": 5,
+  "n_figures": 4,
   "has_backdrop": true,
-  "coverage": 0.9296,
-  "figure_coverage": 0.2586,
+  "coverage": 0.9307,
+  "figure_coverage": 0.2429,
   "ink_frac": 0.3443,
-  "overlap_frac": 0.2486,
+  "overlap_frac": 0.3423,
   "largest_gap": 0.0137,
   "n_gaps": 1,
   "gaps": [
@@ -197,9 +182,9 @@
     "file": "emblem-02/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.2928,
+    "area_frac": 0.302,
     "registration": 1.0,
-    "ink_px": 399133,
+    "ink_px": 409402,
     "bbox": [
      0.0,
      0.0,
@@ -207,21 +192,6 @@
      1.0
     ],
     "stranded": false
-   },
-   {
-    "file": "emblem-02/pestle_02.png",
-    "role": null,
-    "depth": 0.3598,
-    "area_frac": 0.014,
-    "registration": 0.08,
-    "ink_px": 16395,
-    "bbox": [
-     0.08,
-     0.249,
-     0.191,
-     0.478
-    ],
-    "stranded": true
    },
    {
     "file": "emblem-02/egg_cauldron.png",
@@ -282,24 +252,9 @@
      0.927
     ],
     "stranded": false
-   },
-   {
-    "file": "emblem-02/retort_distillation.png",
-    "role": null,
-    "depth": 0.7425,
-    "area_frac": 0.0679,
-    "registration": 0.102,
-    "ink_px": 73579,
-    "bbox": [
-     0.578,
-     0.609,
-     0.963,
-     0.911
-    ],
-    "stranded": true
    }
   ],
-  "n_stranded": 2,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
@@ -436,11 +391,11 @@
    1200,
    1434
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 2,
+  "n_figures": 1,
   "has_backdrop": true,
-  "coverage": 0.9211,
-  "figure_coverage": 0.0139,
+  "coverage": 0.9193,
+  "figure_coverage": 0.0087,
   "ink_frac": 0.3465,
   "overlap_frac": 0.0,
   "largest_gap": 0.0137,
@@ -465,9 +420,9 @@
     "file": "emblem-04/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.4187,
+    "area_frac": 0.4216,
     "registration": 1.0,
-    "ink_px": 545338,
+    "ink_px": 547417,
     "bbox": [
      0.0,
      0.0,
@@ -490,24 +445,9 @@
      0.371
     ],
     "stranded": false
-   },
-   {
-    "file": "emblem-04/cauldron.png",
-    "role": null,
-    "depth": 0.7245,
-    "area_frac": 0.039,
-    "registration": 0.09,
-    "ink_px": 53813,
-    "bbox": [
-     0.018,
-     0.628,
-     0.31,
-     0.84
-    ],
-    "stranded": true
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
@@ -525,13 +465,13 @@
    1200,
    1434
   ],
-  "n_cards": 11,
-  "n_figures": 10,
+  "n_cards": 10,
+  "n_figures": 9,
   "has_backdrop": true,
-  "coverage": 0.9428,
-  "figure_coverage": 0.6572,
+  "coverage": 0.9407,
+  "figure_coverage": 0.6161,
   "ink_frac": 0.359,
-  "overlap_frac": 0.5156,
+  "overlap_frac": 0.6164,
   "largest_gap": 0.0137,
   "n_gaps": 1,
   "gaps": [
@@ -554,9 +494,9 @@
     "file": "emblem-05/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.1367,
+    "area_frac": 0.165,
     "registration": 1.0,
-    "ink_px": 176699,
+    "ink_px": 201302,
     "bbox": [
      0.0,
      0.0,
@@ -671,21 +611,6 @@
     "stranded": false
    },
    {
-    "file": "emblem-05/hearth.png",
-    "role": null,
-    "depth": 0.5016,
-    "area_frac": 0.1484,
-    "registration": 0.176,
-    "ink_px": 176698,
-    "bbox": [
-     0.015,
-     0.608,
-     0.983,
-     0.984
-    ],
-    "stranded": true
-   },
-   {
     "file": "emblem-05/man_old_man.png",
     "role": null,
     "depth": 0.6229,
@@ -716,7 +641,7 @@
     "stranded": false
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
@@ -1269,13 +1194,13 @@
    705,
    949
   ],
-  "n_cards": 4,
-  "n_figures": 3,
+  "n_cards": 3,
+  "n_figures": 2,
   "has_backdrop": true,
-  "coverage": 0.9893,
-  "figure_coverage": 0.0618,
+  "coverage": 0.9895,
+  "figure_coverage": 0.0616,
   "ink_frac": 0.1951,
-  "overlap_frac": 0.1108,
+  "overlap_frac": 0.1132,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -1284,9 +1209,9 @@
     "file": "emblem-12/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.4434,
+    "area_frac": 0.4435,
     "registration": 1.0,
-    "ink_px": 121867,
+    "ink_px": 121924,
     "bbox": [
      -0.001,
      -0.001,
@@ -1324,24 +1249,9 @@
      0.278
     ],
     "stranded": false
-   },
-   {
-    "file": "emblem-12/distillation_vessel.png",
-    "role": null,
-    "depth": 0.5191,
-    "area_frac": 0.0021,
-    "registration": 0.054,
-    "ink_px": 442,
-    "bbox": [
-     0.773,
-     0.491,
-     0.841,
-     0.548
-    ],
-    "stranded": true
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
@@ -2577,8 +2487,8 @@
    705,
    949
   ],
-  "n_cards": 4,
-  "n_figures": 3,
+  "n_cards": 3,
+  "n_figures": 2,
   "has_backdrop": true,
   "coverage": 0.972,
   "figure_coverage": 0.0261,
@@ -2632,24 +2542,9 @@
      0.457
     ],
     "stranded": false
-   },
-   {
-    "file": "emblem-25/distillation_vessel_02.png",
-    "role": null,
-    "depth": 0.3661,
-    "area_frac": 0.0139,
-    "registration": 0.0,
-    "ink_px": 3984,
-    "bbox": [
-     0.83,
-     0.252,
-     0.982,
-     0.492
-    ],
-    "stranded": true
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
