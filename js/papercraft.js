@@ -191,8 +191,11 @@ function easeOutBack(x) {
 const FOLD = Math.PI * 0.5 * 0.9;      // folded-flat start angle (~81°, tipped forward)
 const OPEN_DUR = 0.8;                  // seconds for one card to erect
 
+let buildId = 0;                       // guards async texture loads against fast nav
+
 function buildEmblem(emb) {
   clearGroup();
+  const myId = ++buildId;              // any load resolving after a newer build is stale
   group = new THREE.Group();
   scene.add(group);
 
@@ -218,6 +221,7 @@ function buildEmblem(emb) {
     group.add(page);
   } else if (!hasBackdrop) {
     loader.load(plateURL(emb.number), (tex) => {
+      if (myId !== buildId) { tex.dispose(); return; }   // superseded by a newer build
       tex.colorSpace = THREE.SRGBColorSpace;
       tex.anisotropy = maxAniso;
       const page = new THREE.Mesh(new THREE.PlaneGeometry(W, H),
@@ -234,6 +238,7 @@ function buildEmblem(emb) {
     const isBackdrop = L.role === 'backdrop';
     if (isBackdrop && backingMode === 'blank') return;  // plain page instead
     loader.load(`images/cutouts/${L.file}`, (tex) => {
+      if (myId !== buildId) { tex.dispose(); return; }   // superseded by a newer build
       const w = Math.max(0.05, L.nw * W);
       const h = Math.max(0.05, L.nh * H);
       if (isBackdrop) {
