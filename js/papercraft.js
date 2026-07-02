@@ -132,25 +132,32 @@ function curledPlane(w, h, spec) {
 // The card is wrapped in a bottom-edge HINGE group: the leaf is lifted +h/2 so the
 // group's pivot sits at the card's bottom edge, letting animate() swing it up from
 // folded-flat to erect like a pop-up book page (see the open sequence in animate).
-function paperCard(tex, w, h) {
+function paperCard(tex, w, h, opts = {}) {
   tex.colorSpace = THREE.SRGBColorSpace;
   tex.anisotropy = maxAniso;
+  const flat = !!opts.flat;
+  const inkColor = opts.inkColor ?? PAPER;       // tint of the engraving layer
+  const paperColor = opts.paperColor ?? 0xefe6cf;  // tint of the cut-edge margin
 
   // Per-card curl: amplitude scales with card size but is clamped so small cutouts
-  // don't over-bend; random sign/phase keeps the stack from looking machined.
-  const spec = {
-    amp: Math.min(0.07, Math.max(0.012, 0.03 * h)) * (0.7 + Math.random() * 0.5),
-    sign: Math.random() < 0.5 ? -1 : 1,
-    twist: (Math.random() - 0.5) * 0.04,
-  };
+  // don't over-bend; random sign/phase keeps the stack from looking machined. The
+  // full-frame backdrop stays flat (a curling whole-scene sheet reads as warping).
+  const spec = flat
+    ? { amp: 0, sign: 1, twist: 0 }
+    : { amp: Math.min(0.07, Math.max(0.012, 0.03 * h)) * (0.7 + Math.random() * 0.5),
+        sign: Math.random() < 0.5 ? -1 : 1,
+        twist: (Math.random() - 0.5) * 0.04 };
+  const plane = flat
+    ? (w2, h2) => new THREE.PlaneGeometry(w2, h2)
+    : (w2, h2) => curledPlane(w2, h2, spec);
 
   const leaf = new THREE.Group();
 
   const paperMat = new THREE.MeshStandardMaterial({
-    color: 0xefe6cf, alphaMap: tex, alphaTest: 0.5, side: THREE.DoubleSide,
+    color: paperColor, alphaMap: tex, alphaTest: 0.5, side: THREE.DoubleSide,
     roughness: 0.97, metalness: 0.0,
   });
-  const paper = new THREE.Mesh(curledPlane(w * 1.035, h * 1.035, spec), paperMat);
+  const paper = new THREE.Mesh(plane(w * 1.035, h * 1.035), paperMat);
   paper.position.z = -0.012;
   paper.castShadow = true;
   paper.receiveShadow = true;
@@ -160,10 +167,10 @@ function paperCard(tex, w, h) {
   leaf.add(paper);
 
   const inkMat = new THREE.MeshStandardMaterial({
-    map: tex, color: PAPER, alphaTest: 0.5, side: THREE.DoubleSide,
+    map: tex, color: inkColor, alphaTest: 0.5, side: THREE.DoubleSide,
     roughness: 0.96, metalness: 0.0,
   });
-  const ink = new THREE.Mesh(curledPlane(w, h, spec), inkMat);
+  const ink = new THREE.Mesh(plane(w, h), inkMat);
   ink.receiveShadow = true;
   leaf.add(ink);
 
@@ -198,36 +205,47 @@ function buildEmblem(emb) {
   board.receiveShadow = true;
   group.add(board);
 
-  // The page — receives the cutouts' shadows. 'plate' shows the full engraving,
-  // 'dim' darkens it so the popped cutouts stand out, 'blank' is plain paper.
+  // The page. In 'blank' mode it's plain paper (so the cutouts stand out) and the
+  // residual backdrop is suppressed. In 'plate'/'dim' the generated backdrop card IS
+  // the engraving sheet (lifted, with figure-shaped holes), so no flat page is drawn —
+  // unless an emblem somehow lacks a backdrop, in which case fall back to the plate.
+  const layers = layersByNum[emb.number] || [];
+  const hasBackdrop = layers.some((L) => L.role === 'backdrop');
   if (backingMode === 'blank') {
-    const geo = new THREE.PlaneGeometry(W, H);
-    const mat = new THREE.MeshStandardMaterial({ color: 0xd9d0b9, roughness: 0.97, metalness: 0.0 });
-    const page = new THREE.Mesh(geo, mat);
+    const page = new THREE.Mesh(new THREE.PlaneGeometry(W, H),
+      new THREE.MeshStandardMaterial({ color: 0xd9d0b9, roughness: 0.97, metalness: 0.0 }));
     page.receiveShadow = true;
     group.add(page);
-  } else {
+  } else if (!hasBackdrop) {
     loader.load(plateURL(emb.number), (tex) => {
       tex.colorSpace = THREE.SRGBColorSpace;
       tex.anisotropy = maxAniso;
-      const geo = new THREE.PlaneGeometry(W, H);
-      const mat = new THREE.MeshStandardMaterial({
-        map: tex, color: backingMode === 'dim' ? 0x5f5849 : 0xe6ddc8,
-        roughness: 0.97, metalness: 0.0,
-      });
-      const page = new THREE.Mesh(geo, mat);
-      page.position.set(0, 0, 0);
+      const page = new THREE.Mesh(new THREE.PlaneGeometry(W, H),
+        new THREE.MeshStandardMaterial({
+          map: tex, color: backingMode === 'dim' ? 0x5f5849 : 0xe6ddc8,
+          roughness: 0.97, metalness: 0.0 }));
       page.receiveShadow = true;
       group.add(page);
     });
   }
 
-  // Cutout paper layers, back-to-front
-  const layers = layersByNum[emb.number] || [];
+  // Cutout paper layers, back-to-front.
   layers.forEach((L) => {
+    const isBackdrop = L.role === 'backdrop';
+    if (isBackdrop && backingMode === 'blank') return;  // plain page instead
     loader.load(`images/cutouts/${L.file}`, (tex) => {
       const w = Math.max(0.05, L.nw * W);
       const h = Math.max(0.05, L.nh * H);
+      if (isBackdrop) {
+        // Flat engraving sheet just off the board; tinted like the old page so 'dim'
+        // still reads as dim. It doesn't hinge — only the figures pop out of it.
+        const card = paperCard(tex, w, h, {
+          flat: true, inkColor: backingMode === 'dim' ? 0x5f5849 : 0xe6ddc8,
+        });
+        card.position.set(0, -h / 2, 0.03);
+        group.add(card);
+        return;
+      }
       const card = paperCard(tex, w, h);
       // Hinge pivots at the card's bottom edge; centre still lands at (cx, cy).
       card.position.set((L.cx - 0.5) * W, (0.5 - L.cy) * H - h / 2, 0.02);
