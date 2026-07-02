@@ -132,7 +132,8 @@ python scripts/test_coverage.py -v          # show passes too
 Per emblem it asserts, against the budget:
 - `coverage ≥ min_coverage` — enough ink realized as paper.
 - `largest_gap ≤ max_gap_frac` — no single pictorial region left flat.
-- every card's `on_ink ≥ min_on_ink` — no card stranded on blank paper / mis-placed.
+- every figure card's `registration ≥ min_registration` — its own engraved lines land
+  on the plate's ink, so it isn't mis-placed (robust to line-art cutouts).
 
 Run it after every re-extraction; wire it into CI so coverage can't silently regress.
 
@@ -140,7 +141,7 @@ Run it after every re-extraction; wire it into CI so coverage can't silently reg
 `data/coverage_regions.json` holds the budget defaults and per-emblem overrides:
 ```jsonc
 {
-  "defaults": { "min_coverage": 0.55, "max_gap_frac": 0.045, "min_on_ink": 0.35 },
+  "defaults": { "min_coverage": 0.85, "max_gap_frac": 0.045, "min_registration": 0.20 },
   "emblems": {
     "0": { "flat": [[0.30, 0.10, 0.70, 0.72]], "min_coverage": 0.5 }
   }
@@ -160,8 +161,8 @@ scene). The file is the audit trail of every "this is backing, not a gap" call.
 | `largest_gap` | biggest single uncovered-ink blob, as a fraction of the plate |
 | `gaps[]` | ranked uncovered-ink regions, each with `area_frac`, `bbox`, `centroid` |
 | `overlap_frac` | overlapping / figure-covered — redundancy among figure cards, backdrop excluded (§4) |
-| `on_ink` (per card) | fraction of a card's alpha landing on ink; low = mis-placed or junk |
-| `n_stranded` | figure cards below `min_on_ink` (backdrops are exempt) |
+| `registration` (per card) | fraction of the card's *own* engraved lines landing on plate ink; low = mis-placed or junk. Robust to line-art cutouts (unlike raw alpha-on-ink) |
+| `n_stranded` | figure cards below `min_registration` (backdrops are exempt) |
 | `has_backdrop` / `n_figures` | whether a residual back-sheet exists, and how many real cards sit in front |
 
 Budget keys `min_coverage` (completeness floor) and `min_figure_coverage` (decomposition
@@ -207,3 +208,11 @@ So completeness is done; the open work is *decomposition*. The target is to rais
 `figure_coverage` — lift real figures/objects/structures out of the backdrop into their
 own depth-sorted cards — starting with the 20 backdrop-only plates. Best-decomposed
 today: 33 (88%), 09 (74%), 05 (66%).
+
+**Gate status:** 45/51 pass. The 6 failures are genuinely mis-placed cutouts
+(`registration <20%`): the source figure coordinates don't match these locally-cropped
+plates, so the cutout lands off the engraving (e.g. emblem-01's serpent floats on the
+page margin). These are real registration debt, not metric noise — fix by re-deriving
+the cutout's `cx,cy,nw,nh` against the local plate, or drop the junk cutout. The gate
+stays red until they're resolved (that's the system working, not a false alarm):
+01, 02, 04, 05, 12, 25.

@@ -35,7 +35,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.7092,
-    "on_ink": 0.511,
+    "registration": 1.0,
+    "ink_px": 641010,
     "bbox": [
      0.0,
      0.0,
@@ -49,7 +50,8 @@
     "role": null,
     "depth": 0.7866,
     "area_frac": 0.0511,
-    "on_ink": 0.523,
+    "registration": 0.663,
+    "ink_px": 42296,
     "bbox": [
      0.741,
      0.653,
@@ -63,7 +65,8 @@
     "role": null,
     "depth": 0.8201,
     "area_frac": 0.0164,
-    "on_ink": 0.453,
+    "registration": 0.832,
+    "ink_px": 13761,
     "bbox": [
      0.517,
      0.771,
@@ -77,10 +80,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -121,7 +124,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.4396,
-    "on_ink": 0.774,
+    "registration": 1.0,
+    "ink_px": 603367,
     "bbox": [
      0.0,
      0.0,
@@ -135,7 +139,8 @@
     "role": null,
     "depth": 0.7939,
     "area_frac": 0.0196,
-    "on_ink": 0.0,
+    "registration": 0.001,
+    "ink_px": 26217,
     "bbox": [
      0.018,
      0.655,
@@ -149,10 +154,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -193,7 +198,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.2928,
-    "on_ink": 0.789,
+    "registration": 1.0,
+    "ink_px": 399133,
     "bbox": [
      0.0,
      0.0,
@@ -207,7 +213,8 @@
     "role": null,
     "depth": 0.3598,
     "area_frac": 0.014,
-    "on_ink": 0.076,
+    "registration": 0.08,
+    "ink_px": 16395,
     "bbox": [
      0.08,
      0.249,
@@ -221,7 +228,8 @@
     "role": null,
     "depth": 0.4032,
     "area_frac": 0.0836,
-    "on_ink": 0.639,
+    "registration": 0.91,
+    "ink_px": 67630,
     "bbox": [
      0.357,
      0.257,
@@ -235,7 +243,8 @@
     "role": null,
     "depth": 0.4191,
     "area_frac": 0.1199,
-    "on_ink": 0.527,
+    "registration": 0.794,
+    "ink_px": 102287,
     "bbox": [
      0.275,
      0.136,
@@ -249,35 +258,38 @@
     "role": null,
     "depth": 0.619,
     "area_frac": 0.0169,
-    "on_ink": 0.268,
+    "registration": 0.41,
+    "ink_px": 24433,
     "bbox": [
      0.237,
      0.539,
      0.44,
      0.71
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-02/distillation_vessel.png",
     "role": null,
     "depth": 0.6999,
     "area_frac": 0.0713,
-    "on_ink": 0.122,
+    "registration": 0.224,
+    "ink_px": 80521,
     "bbox": [
      0.082,
      0.514,
      0.415,
      0.927
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-02/retort_distillation.png",
     "role": null,
     "depth": 0.7425,
     "area_frac": 0.0679,
-    "on_ink": 0.064,
+    "registration": 0.102,
+    "ink_px": 73579,
     "bbox": [
      0.578,
      0.609,
@@ -287,14 +299,14 @@
     "stranded": true
    }
   ],
-  "n_stranded": 4,
+  "n_stranded": 2,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -335,7 +347,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.2995,
-    "on_ink": 0.762,
+    "registration": 1.0,
+    "ink_px": 398012,
     "bbox": [
      0.0,
      0.0,
@@ -349,21 +362,23 @@
     "role": null,
     "depth": 0.2152,
     "area_frac": 0.129,
-    "on_ink": 0.298,
+    "registration": 0.352,
+    "ink_px": 116490,
     "bbox": [
      0.557,
      0.022,
      0.978,
      0.464
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-03/pestle.png",
     "role": null,
     "depth": 0.3509,
     "area_frac": 0.0161,
-    "on_ink": 0.868,
+    "registration": 0.988,
+    "ink_px": 15563,
     "bbox": [
      0.531,
      0.235,
@@ -377,38 +392,40 @@
     "role": null,
     "depth": 0.6135,
     "area_frac": 0.165,
-    "on_ink": 0.293,
+    "registration": 0.352,
+    "ink_px": 159912,
     "bbox": [
      0.495,
      0.408,
      0.979,
      0.889
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-03/distillation_vessel.png",
     "role": null,
     "depth": 0.8084,
     "area_frac": 0.0338,
-    "on_ink": 0.095,
+    "registration": 0.232,
+    "ink_px": 37425,
     "bbox": [
      0.495,
      0.678,
      0.67,
      0.952
     ],
-    "stranded": true
+    "stranded": false
    }
   ],
-  "n_stranded": 3,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -449,7 +466,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.4187,
-    "on_ink": 0.751,
+    "registration": 1.0,
+    "ink_px": 545338,
     "bbox": [
      0.0,
      0.0,
@@ -463,7 +481,8 @@
     "role": null,
     "depth": 0.3015,
     "area_frac": 0.0079,
-    "on_ink": 0.38,
+    "registration": 0.898,
+    "ink_px": 8187,
     "bbox": [
      0.541,
      0.235,
@@ -477,7 +496,8 @@
     "role": null,
     "depth": 0.7245,
     "area_frac": 0.039,
-    "on_ink": 0.046,
+    "registration": 0.09,
+    "ink_px": 53813,
     "bbox": [
      0.018,
      0.628,
@@ -491,10 +511,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -535,7 +555,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.1367,
-    "on_ink": 0.75,
+    "registration": 1.0,
+    "ink_px": 176699,
     "bbox": [
      0.0,
      0.0,
@@ -549,7 +570,8 @@
     "role": null,
     "depth": 0.0042,
     "area_frac": 0.3741,
-    "on_ink": 0.393,
+    "registration": 0.51,
+    "ink_px": 304977,
     "bbox": [
      0.015,
      0.023,
@@ -563,35 +585,38 @@
     "role": null,
     "depth": 0.0245,
     "area_frac": 0.0112,
-    "on_ink": 0.248,
+    "registration": 0.479,
+    "ink_px": 6555,
     "bbox": [
      0.318,
      0.197,
      0.45,
      0.337
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-05/tower.png",
     "role": null,
     "depth": 0.0253,
     "area_frac": 0.0064,
-    "on_ink": 0.266,
+    "registration": 0.54,
+    "ink_px": 3774,
     "bbox": [
      0.345,
      0.197,
      0.41,
      0.335
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-05/building_house_02.png",
     "role": null,
     "depth": 0.0582,
     "area_frac": 0.1787,
-    "on_ink": 0.401,
+    "registration": 0.413,
+    "ink_px": 151968,
     "bbox": [
      0.555,
      0.024,
@@ -605,7 +630,8 @@
     "role": null,
     "depth": 0.1011,
     "area_frac": 0.107,
-    "on_ink": 0.38,
+    "registration": 0.501,
+    "ink_px": 115162,
     "bbox": [
      0.015,
      0.106,
@@ -619,7 +645,8 @@
     "role": null,
     "depth": 0.149,
     "area_frac": 0.004,
-    "on_ink": 0.881,
+    "registration": 1.0,
+    "ink_px": 2875,
     "bbox": [
      0.91,
      0.338,
@@ -633,7 +660,8 @@
     "role": null,
     "depth": 0.1762,
     "area_frac": 0.0213,
-    "on_ink": 0.649,
+    "registration": 0.823,
+    "ink_px": 21660,
     "bbox": [
      0.254,
      0.329,
@@ -647,7 +675,8 @@
     "role": null,
     "depth": 0.5016,
     "area_frac": 0.1484,
-    "on_ink": 0.128,
+    "registration": 0.176,
+    "ink_px": 176698,
     "bbox": [
      0.015,
      0.608,
@@ -661,21 +690,23 @@
     "role": null,
     "depth": 0.6229,
     "area_frac": 0.2648,
-    "on_ink": 0.308,
+    "registration": 0.328,
+    "ink_px": 251374,
     "bbox": [
      0.553,
      0.025,
      0.98,
      0.938
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-05/woman.png",
     "role": null,
     "depth": 0.7146,
     "area_frac": 0.233,
-    "on_ink": 0.4,
+    "registration": 0.519,
+    "ink_px": 235481,
     "bbox": [
      0.345,
      0.194,
@@ -685,14 +716,14 @@
     "stranded": false
    }
   ],
-  "n_stranded": 4,
+  "n_stranded": 1,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -733,7 +764,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.4371,
-    "on_ink": 0.768,
+    "registration": 1.0,
+    "ink_px": 579599,
     "bbox": [
      0.0,
      0.0,
@@ -747,7 +779,8 @@
     "role": null,
     "depth": 0.579,
     "area_frac": 0.0095,
-    "on_ink": 0.363,
+    "registration": 0.395,
+    "ink_px": 11194,
     "bbox": [
      0.669,
      0.525,
@@ -761,10 +794,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -805,7 +838,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.3942,
-    "on_ink": 0.699,
+    "registration": 1.0,
+    "ink_px": 477818,
     "bbox": [
      0.0,
      0.0,
@@ -819,7 +853,8 @@
     "role": null,
     "depth": 0.6039,
     "area_frac": 0.0659,
-    "on_ink": 0.527,
+    "registration": 0.754,
+    "ink_px": 26721,
     "bbox": [
      0.337,
      0.327,
@@ -833,10 +868,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -877,7 +912,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.2892,
-    "on_ink": 0.736,
+    "registration": 1.0,
+    "ink_px": 373052,
     "bbox": [
      0.0,
      0.0,
@@ -891,7 +927,8 @@
     "role": null,
     "depth": 0.2304,
     "area_frac": 0.0083,
-    "on_ink": 0.389,
+    "registration": 0.603,
+    "ink_px": 6013,
     "bbox": [
      0.328,
      0.073,
@@ -905,7 +942,8 @@
     "role": null,
     "depth": 0.4206,
     "area_frac": 0.0478,
-    "on_ink": 0.783,
+    "registration": 0.918,
+    "ink_px": 50005,
     "bbox": [
      0.217,
      0.28,
@@ -919,7 +957,8 @@
     "role": null,
     "depth": 0.4234,
     "area_frac": 0.1983,
-    "on_ink": 0.368,
+    "registration": 0.374,
+    "ink_px": 180477,
     "bbox": [
      0.471,
      0.021,
@@ -933,24 +972,25 @@
     "role": null,
     "depth": 0.7232,
     "area_frac": 0.0097,
-    "on_ink": 0.144,
+    "registration": 0.386,
+    "ink_px": 7323,
     "bbox": [
      0.329,
      0.652,
      0.415,
      0.798
     ],
-    "stranded": true
+    "stranded": false
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -991,7 +1031,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.0692,
-    "on_ink": 0.967,
+    "registration": 1.0,
+    "ink_px": 115283,
     "bbox": [
      0.0,
      0.0,
@@ -1005,24 +1046,25 @@
     "role": null,
     "depth": 0.3541,
     "area_frac": 0.843,
-    "on_ink": 0.295,
+    "registration": 0.394,
+    "ink_px": 763967,
     "bbox": [
      0.016,
      0.008,
      0.983,
      0.983
     ],
-    "stranded": true
+    "stranded": false
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1063,7 +1105,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.6186,
-    "on_ink": 0.57,
+    "registration": 1.0,
+    "ink_px": 121201,
     "bbox": [
      0.0,
      0.001,
@@ -1077,7 +1120,8 @@
     "role": null,
     "depth": 0.3326,
     "area_frac": 0.0721,
-    "on_ink": 0.562,
+    "registration": 0.996,
+    "ink_px": 12354,
     "bbox": [
      0.572,
      0.115,
@@ -1091,7 +1135,8 @@
     "role": null,
     "depth": 0.4698,
     "area_frac": 0.1203,
-    "on_ink": 0.622,
+    "registration": 0.991,
+    "ink_px": 22408,
     "bbox": [
      0.019,
      0.075,
@@ -1105,7 +1150,8 @@
     "role": null,
     "depth": 0.4992,
     "area_frac": 0.1741,
-    "on_ink": 0.559,
+    "registration": 0.987,
+    "ink_px": 30736,
     "bbox": [
      0.608,
      0.146,
@@ -1119,7 +1165,8 @@
     "role": null,
     "depth": 0.6059,
     "area_frac": 0.01,
-    "on_ink": 0.702,
+    "registration": 0.981,
+    "ink_px": 2216,
     "bbox": [
      0.101,
      0.536,
@@ -1133,10 +1180,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1163,7 +1210,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.362,
-    "on_ink": 0.47,
+    "registration": 1.0,
+    "ink_px": 114710,
     "bbox": [
      -0.001,
      -0.001,
@@ -1177,7 +1225,8 @@
     "role": null,
     "depth": 0.4318,
     "area_frac": 0.0058,
-    "on_ink": 0.501,
+    "registration": 0.909,
+    "ink_px": 2249,
     "bbox": [
      0.315,
      0.394,
@@ -1191,7 +1240,8 @@
     "role": null,
     "depth": 0.4752,
     "area_frac": 0.0118,
-    "on_ink": 0.465,
+    "registration": 0.821,
+    "ink_px": 4482,
     "bbox": [
      0.315,
      0.394,
@@ -1205,10 +1255,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1235,7 +1285,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.4434,
-    "on_ink": 0.408,
+    "registration": 1.0,
+    "ink_px": 121867,
     "bbox": [
      -0.001,
      -0.001,
@@ -1249,35 +1300,38 @@
     "role": null,
     "depth": 0.056,
     "area_frac": 0.0156,
-    "on_ink": 0.155,
+    "registration": 0.425,
+    "ink_px": 4767,
     "bbox": [
      0.363,
      0.016,
      0.635,
      0.104
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-12/philosophical_egg.png",
     "role": null,
     "depth": 0.1226,
     "area_frac": 0.0925,
-    "on_ink": 0.126,
+    "registration": 0.261,
+    "ink_px": 27962,
     "bbox": [
      0.365,
      0.015,
      0.982,
      0.278
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-12/distillation_vessel.png",
     "role": null,
     "depth": 0.5191,
     "area_frac": 0.0021,
-    "on_ink": 0.023,
+    "registration": 0.054,
+    "ink_px": 442,
     "bbox": [
      0.773,
      0.491,
@@ -1287,14 +1341,14 @@
     "stranded": true
    }
   ],
-  "n_stranded": 3,
+  "n_stranded": 1,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1321,7 +1375,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.7925,
-    "on_ink": 0.537,
+    "registration": 1.0,
+    "ink_px": 137632,
     "bbox": [
      0.0,
      0.0,
@@ -1335,7 +1390,8 @@
     "role": null,
     "depth": 0.6289,
     "area_frac": 0.1428,
-    "on_ink": 0.653,
+    "registration": 0.994,
+    "ink_px": 26672,
     "bbox": [
      0.22,
      0.374,
@@ -1349,10 +1405,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1379,7 +1435,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.209,
-    "on_ink": 0.418,
+    "registration": 1.0,
+    "ink_px": 61220,
     "bbox": [
      -0.001,
      0.001,
@@ -1393,7 +1450,8 @@
     "role": null,
     "depth": 0.2572,
     "area_frac": 0.0237,
-    "on_ink": 0.376,
+    "registration": 0.725,
+    "ink_px": 4608,
     "bbox": [
      0.441,
      0.149,
@@ -1407,24 +1465,25 @@
     "role": null,
     "depth": 0.6113,
     "area_frac": 0.5029,
-    "on_ink": 0.205,
+    "registration": 0.371,
+    "ink_px": 212430,
     "bbox": [
      0.019,
      0.409,
      0.979,
      0.976
     ],
-    "stranded": true
+    "stranded": false
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1465,7 +1524,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.6549,
-    "on_ink": 0.557,
+    "registration": 1.0,
+    "ink_px": 114904,
     "bbox": [
      0.0,
      0.0,
@@ -1479,7 +1539,8 @@
     "role": null,
     "depth": 0.3284,
     "area_frac": 0.0443,
-    "on_ink": 0.629,
+    "registration": 1.0,
+    "ink_px": 10123,
     "bbox": [
      0.096,
      0.103,
@@ -1493,7 +1554,8 @@
     "role": null,
     "depth": 0.5529,
     "area_frac": 0.017,
-    "on_ink": 0.554,
+    "registration": 0.987,
+    "ink_px": 3262,
     "bbox": [
      0.551,
      0.461,
@@ -1507,7 +1569,8 @@
     "role": null,
     "depth": 0.5568,
     "area_frac": 0.1361,
-    "on_ink": 0.459,
+    "registration": 0.964,
+    "ink_px": 20767,
     "bbox": [
      0.171,
      0.261,
@@ -1521,7 +1584,8 @@
     "role": null,
     "depth": 0.7127,
     "area_frac": 0.0241,
-    "on_ink": 0.559,
+    "registration": 0.95,
+    "ink_px": 3195,
     "bbox": [
      0.841,
      0.591,
@@ -1535,7 +1599,8 @@
     "role": null,
     "depth": 0.8868,
     "area_frac": 0.0218,
-    "on_ink": 0.424,
+    "registration": 0.958,
+    "ink_px": 2806,
     "bbox": [
      0.165,
      0.816,
@@ -1549,7 +1614,8 @@
     "role": null,
     "depth": 0.8889,
     "area_frac": 0.0079,
-    "on_ink": 0.597,
+    "registration": 0.988,
+    "ink_px": 1322,
     "bbox": [
      0.846,
      0.85,
@@ -1563,10 +1629,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1607,7 +1673,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.5782,
-    "on_ink": 0.507,
+    "registration": 1.0,
+    "ink_px": 102708,
     "bbox": [
      0.0,
      0.0,
@@ -1621,7 +1688,8 @@
     "role": null,
     "depth": 0.2811,
     "area_frac": 0.1225,
-    "on_ink": 0.542,
+    "registration": 0.961,
+    "ink_px": 13498,
     "bbox": [
      0.668,
      0.02,
@@ -1635,7 +1703,8 @@
     "role": null,
     "depth": 0.3617,
     "area_frac": 0.2561,
-    "on_ink": 0.719,
+    "registration": 0.993,
+    "ink_px": 57858,
     "bbox": [
      0.28,
      0.02,
@@ -1649,10 +1718,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1679,7 +1748,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.7557,
-    "on_ink": 0.444,
+    "registration": 1.0,
+    "ink_px": 113188,
     "bbox": [
      0.0,
      0.0,
@@ -1693,7 +1763,8 @@
     "role": null,
     "depth": 0.1504,
     "area_frac": 0.0335,
-    "on_ink": 0.524,
+    "registration": 0.982,
+    "ink_px": 4476,
     "bbox": [
      0.402,
      0.055,
@@ -1707,7 +1778,8 @@
     "role": null,
     "depth": 0.3479,
     "area_frac": 0.0336,
-    "on_ink": 0.571,
+    "registration": 0.991,
+    "ink_px": 5169,
     "bbox": [
      0.407,
      0.252,
@@ -1721,7 +1793,8 @@
     "role": null,
     "depth": 0.4132,
     "area_frac": 0.1399,
-    "on_ink": 0.541,
+    "registration": 0.991,
+    "ink_px": 21637,
     "bbox": [
      0.398,
      0.056,
@@ -1735,7 +1808,8 @@
     "role": null,
     "depth": 0.5257,
     "area_frac": 0.0349,
-    "on_ink": 0.548,
+    "registration": 0.995,
+    "ink_px": 5007,
     "bbox": [
      0.4,
      0.429,
@@ -1749,7 +1823,8 @@
     "role": null,
     "depth": 0.7104,
     "area_frac": 0.0351,
-    "on_ink": 0.523,
+    "registration": 0.98,
+    "ink_px": 4569,
     "bbox": [
      0.398,
      0.614,
@@ -1763,7 +1838,8 @@
     "role": null,
     "depth": 0.7737,
     "area_frac": 0.0377,
-    "on_ink": 0.557,
+    "registration": 0.947,
+    "ink_px": 5593,
     "bbox": [
      0.742,
      0.611,
@@ -1777,10 +1853,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1821,7 +1897,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.5383,
-    "on_ink": 0.576,
+    "registration": 1.0,
+    "ink_px": 95683,
     "bbox": [
      0.0,
      0.0,
@@ -1835,7 +1912,8 @@
     "role": null,
     "depth": 0.292,
     "area_frac": 0.1461,
-    "on_ink": 0.492,
+    "registration": 0.992,
+    "ink_px": 20323,
     "bbox": [
      0.028,
      0.017,
@@ -1849,7 +1927,8 @@
     "role": null,
     "depth": 0.4345,
     "area_frac": 0.1497,
-    "on_ink": 0.583,
+    "registration": 0.977,
+    "ink_px": 31194,
     "bbox": [
      0.304,
      0.042,
@@ -1863,7 +1942,8 @@
     "role": null,
     "depth": 0.4638,
     "area_frac": 0.0061,
-    "on_ink": 0.466,
+    "registration": 0.999,
+    "ink_px": 855,
     "bbox": [
      0.238,
      0.442,
@@ -1877,7 +1957,8 @@
     "role": null,
     "depth": 0.6807,
     "area_frac": 0.0218,
-    "on_ink": 0.605,
+    "registration": 0.993,
+    "ink_px": 4073,
     "bbox": [
      0.204,
      0.627,
@@ -1891,7 +1972,8 @@
     "role": null,
     "depth": 0.7755,
     "area_frac": 0.0698,
-    "on_ink": 0.563,
+    "registration": 0.977,
+    "ink_px": 11409,
     "bbox": [
      0.206,
      0.626,
@@ -1905,10 +1987,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -1949,7 +2031,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.894,
-    "on_ink": 0.497,
+    "registration": 1.0,
+    "ink_px": 141508,
     "bbox": [
      0.0,
      0.0,
@@ -1963,7 +2046,8 @@
     "role": null,
     "depth": 0.1885,
     "area_frac": 0.0092,
-    "on_ink": 0.555,
+    "registration": 0.795,
+    "ink_px": 1684,
     "bbox": [
      0.572,
      0.114,
@@ -1977,7 +2061,8 @@
     "role": null,
     "depth": 0.5864,
     "area_frac": 0.0147,
-    "on_ink": 0.651,
+    "registration": 1.0,
+    "ink_px": 2388,
     "bbox": [
      0.323,
      0.522,
@@ -1991,10 +2076,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2021,7 +2106,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.395,
-    "on_ink": 0.442,
+    "registration": 1.0,
+    "ink_px": 119219,
     "bbox": [
      -0.001,
      -0.001,
@@ -2035,38 +2121,40 @@
     "role": null,
     "depth": 0.5869,
     "area_frac": 0.0067,
-    "on_ink": 0.319,
+    "registration": 0.7,
+    "ink_px": 3436,
     "bbox": [
      0.531,
      0.533,
      0.751,
      0.647
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-20/distillation_vessel_02.png",
     "role": null,
     "depth": 0.7104,
     "area_frac": 0.0449,
-    "on_ink": 0.154,
+    "registration": 0.393,
+    "ink_px": 23014,
     "bbox": [
      0.249,
      0.534,
      0.761,
      0.952
     ],
-    "stranded": true
+    "stranded": false
    }
   ],
-  "n_stranded": 2,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2107,7 +2195,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.9438,
-    "on_ink": 0.47,
+    "registration": 1.0,
+    "ink_px": 149270,
     "bbox": [
      0.0,
      0.0,
@@ -2121,7 +2210,8 @@
     "role": null,
     "depth": 0.8795,
     "area_frac": 0.0069,
-    "on_ink": 0.438,
+    "registration": 0.95,
+    "ink_px": 793,
     "bbox": [
      0.427,
      0.839,
@@ -2135,10 +2225,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2179,7 +2269,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.4378,
-    "on_ink": 0.496,
+    "registration": 1.0,
+    "ink_px": 70148,
     "bbox": [
      0.0,
      0.0,
@@ -2193,7 +2284,8 @@
     "role": null,
     "depth": 0.3538,
     "area_frac": 0.3458,
-    "on_ink": 0.601,
+    "registration": 0.989,
+    "ink_px": 74099,
     "bbox": [
      0.01,
      0.008,
@@ -2207,7 +2299,8 @@
     "role": null,
     "depth": 0.4832,
     "area_frac": 0.009,
-    "on_ink": 0.718,
+    "registration": 1.0,
+    "ink_px": 2126,
     "bbox": [
      0.167,
      0.435,
@@ -2221,7 +2314,8 @@
     "role": null,
     "depth": 0.5559,
     "area_frac": 0.0831,
-    "on_ink": 0.45,
+    "registration": 0.924,
+    "ink_px": 13708,
     "bbox": [
      0.567,
      0.248,
@@ -2235,7 +2329,8 @@
     "role": null,
     "depth": 0.5986,
     "area_frac": 0.0103,
-    "on_ink": 0.59,
+    "registration": 0.985,
+    "ink_px": 2046,
     "bbox": [
      0.109,
      0.532,
@@ -2249,7 +2344,8 @@
     "role": null,
     "depth": 0.8588,
     "area_frac": 0.0313,
-    "on_ink": 0.455,
+    "registration": 0.986,
+    "ink_px": 5452,
     "bbox": [
      0.756,
      0.78,
@@ -2263,10 +2359,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2320,7 +2416,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.875,
-    "on_ink": 0.469,
+    "registration": 1.0,
+    "ink_px": 133713,
     "bbox": [
      0.0,
      -0.001,
@@ -2334,7 +2431,8 @@
     "role": null,
     "depth": 0.4903,
     "area_frac": 0.0304,
-    "on_ink": 0.51,
+    "registration": 0.987,
+    "ink_px": 4626,
     "bbox": [
      0.25,
      0.394,
@@ -2348,10 +2446,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2405,7 +2503,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.8357,
-    "on_ink": 0.529,
+    "registration": 1.0,
+    "ink_px": 144924,
     "bbox": [
      0.0,
      0.0,
@@ -2419,7 +2518,8 @@
     "role": null,
     "depth": 0.3678,
     "area_frac": 0.0133,
-    "on_ink": 0.623,
+    "registration": 0.97,
+    "ink_px": 2854,
     "bbox": [
      0.624,
      0.26,
@@ -2433,7 +2533,8 @@
     "role": null,
     "depth": 0.3845,
     "area_frac": 0.007,
-    "on_ink": 0.707,
+    "registration": 0.999,
+    "ink_px": 984,
     "bbox": [
      0.328,
      0.317,
@@ -2447,7 +2548,8 @@
     "role": null,
     "depth": 0.5817,
     "area_frac": 0.0917,
-    "on_ink": 0.677,
+    "registration": 0.995,
+    "ink_px": 21288,
     "bbox": [
      0.054,
      0.441,
@@ -2461,10 +2563,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2491,7 +2593,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.4182,
-    "on_ink": 0.434,
+    "registration": 1.0,
+    "ink_px": 122661,
     "bbox": [
      -0.001,
      -0.001,
@@ -2505,35 +2608,38 @@
     "role": null,
     "depth": 0.2783,
     "area_frac": 0.0138,
-    "on_ink": 0.241,
+    "registration": 0.504,
+    "ink_px": 4569,
     "bbox": [
      0.388,
      0.176,
      0.523,
      0.389
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-25/pestle.png",
     "role": null,
     "depth": 0.2837,
     "area_frac": 0.0083,
-    "on_ink": 0.205,
+    "registration": 0.515,
+    "ink_px": 2929,
     "bbox": [
      0.55,
      0.12,
      0.658,
      0.457
     ],
-    "stranded": true
+    "stranded": false
    },
    {
     "file": "emblem-25/distillation_vessel_02.png",
     "role": null,
     "depth": 0.3661,
     "area_frac": 0.0139,
-    "on_ink": 0.0,
+    "registration": 0.0,
+    "ink_px": 3984,
     "bbox": [
      0.83,
      0.252,
@@ -2543,14 +2649,14 @@
     "stranded": true
    }
   ],
-  "n_stranded": 3,
+  "n_stranded": 1,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2604,7 +2710,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.879,
-    "on_ink": 0.496,
+    "registration": 1.0,
+    "ink_px": 140115,
     "bbox": [
      0.0,
      0.0,
@@ -2618,7 +2725,8 @@
     "role": null,
     "depth": 0.5313,
     "area_frac": 0.074,
-    "on_ink": 0.411,
+    "registration": 0.973,
+    "ink_px": 9366,
     "bbox": [
      0.108,
      0.321,
@@ -2632,10 +2740,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2676,7 +2784,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.6981,
-    "on_ink": 0.515,
+    "registration": 1.0,
+    "ink_px": 116604,
     "bbox": [
      0.0,
      0.0,
@@ -2690,7 +2799,8 @@
     "role": null,
     "depth": 0.4039,
     "area_frac": 0.1568,
-    "on_ink": 0.751,
+    "registration": 0.999,
+    "ink_px": 43033,
     "bbox": [
      0.276,
      0.041,
@@ -2704,7 +2814,8 @@
     "role": null,
     "depth": 0.7028,
     "area_frac": 0.0859,
-    "on_ink": 0.535,
+    "registration": 0.962,
+    "ink_px": 14690,
     "bbox": [
      0.683,
      0.472,
@@ -2718,10 +2829,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2762,7 +2873,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.4824,
-    "on_ink": 0.707,
+    "registration": 1.0,
+    "ink_px": 111156,
     "bbox": [
      0.0,
      0.0,
@@ -2776,7 +2888,8 @@
     "role": null,
     "depth": 0.4858,
     "area_frac": 0.058,
-    "on_ink": 0.548,
+    "registration": 0.999,
+    "ink_px": 8253,
     "bbox": [
      0.392,
      0.342,
@@ -2790,7 +2903,8 @@
     "role": null,
     "depth": 0.5211,
     "area_frac": 0.4371,
-    "on_ink": 0.715,
+    "registration": 0.993,
+    "ink_px": 97185,
     "bbox": [
      0.024,
      0.266,
@@ -2804,10 +2918,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2848,7 +2962,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.7877,
-    "on_ink": 0.446,
+    "registration": 1.0,
+    "ink_px": 113238,
     "bbox": [
      0.0,
      0.0,
@@ -2862,7 +2977,8 @@
     "role": null,
     "depth": 0.584,
     "area_frac": 0.1379,
-    "on_ink": 0.507,
+    "registration": 0.989,
+    "ink_px": 25086,
     "bbox": [
      0.086,
      0.351,
@@ -2876,10 +2992,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -2933,7 +3049,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.3958,
-    "on_ink": 0.521,
+    "registration": 1.0,
+    "ink_px": 63442,
     "bbox": [
      0.0,
      0.0,
@@ -2947,7 +3064,8 @@
     "role": null,
     "depth": 0.3576,
     "area_frac": 0.3041,
-    "on_ink": 0.412,
+    "registration": 0.863,
+    "ink_px": 22765,
     "bbox": [
      0.008,
      0.012,
@@ -2961,7 +3079,8 @@
     "role": null,
     "depth": 0.4659,
     "area_frac": 0.131,
-    "on_ink": 0.465,
+    "registration": 0.972,
+    "ink_px": 22026,
     "bbox": [
      0.514,
      0.068,
@@ -2975,7 +3094,8 @@
     "role": null,
     "depth": 0.5848,
     "area_frac": 0.0114,
-    "on_ink": 0.52,
+    "registration": 0.997,
+    "ink_px": 1852,
     "bbox": [
      0.322,
      0.51,
@@ -2989,7 +3109,8 @@
     "role": null,
     "depth": 0.7913,
     "area_frac": 0.0364,
-    "on_ink": 0.688,
+    "registration": 0.998,
+    "ink_px": 8238,
     "bbox": [
      0.495,
      0.67,
@@ -3003,7 +3124,8 @@
     "role": null,
     "depth": 0.8642,
     "area_frac": 0.0142,
-    "on_ink": 0.644,
+    "registration": 0.995,
+    "ink_px": 3037,
     "bbox": [
      0.572,
      0.799,
@@ -3017,10 +3139,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3047,7 +3169,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.8814,
-    "on_ink": 0.401,
+    "registration": 1.0,
+    "ink_px": 117316,
     "bbox": [
      0.0,
      0.0,
@@ -3061,7 +3184,8 @@
     "role": null,
     "depth": 0.3242,
     "area_frac": 0.0068,
-    "on_ink": 0.609,
+    "registration": 0.985,
+    "ink_px": 1185,
     "bbox": [
      0.32,
      0.247,
@@ -3075,7 +3199,8 @@
     "role": null,
     "depth": 0.6499,
     "area_frac": 0.0627,
-    "on_ink": 0.539,
+    "registration": 0.989,
+    "ink_px": 12458,
     "bbox": [
      0.17,
      0.531,
@@ -3089,10 +3214,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3133,7 +3258,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.4966,
-    "on_ink": 0.493,
+    "registration": 1.0,
+    "ink_px": 80189,
     "bbox": [
      0.0,
      0.0,
@@ -3147,7 +3273,8 @@
     "role": null,
     "depth": 0.0,
     "area_frac": 0.0733,
-    "on_ink": 0.406,
+    "registration": 0.957,
+    "ink_px": 4658,
     "bbox": [
      0.249,
      0.084,
@@ -3161,7 +3288,8 @@
     "role": null,
     "depth": 0.0436,
     "area_frac": 0.002,
-    "on_ink": 0.482,
+    "registration": 1.0,
+    "ink_px": 247,
     "bbox": [
      0.427,
      0.248,
@@ -3175,7 +3303,8 @@
     "role": null,
     "depth": 0.3284,
     "area_frac": 0.0307,
-    "on_ink": 0.725,
+    "registration": 0.994,
+    "ink_px": 6996,
     "bbox": [
      0.023,
      0.427,
@@ -3189,7 +3318,8 @@
     "role": null,
     "depth": 0.3781,
     "area_frac": 0.0127,
-    "on_ink": 0.656,
+    "registration": 0.969,
+    "ink_px": 3095,
     "bbox": [
      0.366,
      0.582,
@@ -3203,7 +3333,8 @@
     "role": null,
     "depth": 0.4528,
     "area_frac": 0.0063,
-    "on_ink": 0.616,
+    "registration": 0.961,
+    "ink_px": 1261,
     "bbox": [
      0.727,
      0.315,
@@ -3217,7 +3348,8 @@
     "role": null,
     "depth": 0.5175,
     "area_frac": 0.1729,
-    "on_ink": 0.627,
+    "registration": 0.986,
+    "ink_px": 35311,
     "bbox": [
      0.024,
      0.624,
@@ -3231,7 +3363,8 @@
     "role": null,
     "depth": 0.5196,
     "area_frac": 0.0016,
-    "on_ink": 0.517,
+    "registration": 0.956,
+    "ink_px": 294,
     "bbox": [
      0.704,
      0.543,
@@ -3245,7 +3378,8 @@
     "role": null,
     "depth": 0.6695,
     "area_frac": 0.0148,
-    "on_ink": 0.532,
+    "registration": 0.949,
+    "ink_px": 3038,
     "bbox": [
      0.569,
      0.32,
@@ -3259,7 +3393,8 @@
     "role": null,
     "depth": 0.7238,
     "area_frac": 0.1282,
-    "on_ink": 0.482,
+    "registration": 0.943,
+    "ink_px": 20251,
     "bbox": [
      0.577,
      0.227,
@@ -3273,7 +3408,8 @@
     "role": null,
     "depth": 1.0,
     "area_frac": 0.0215,
-    "on_ink": 0.63,
+    "registration": 0.992,
+    "ink_px": 4482,
     "bbox": [
      0.476,
      0.791,
@@ -3287,10 +3423,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3331,7 +3467,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.0539,
-    "on_ink": 0.588,
+    "registration": 1.0,
+    "ink_px": 10402,
     "bbox": [
      0.0,
      0.0,
@@ -3345,7 +3482,8 @@
     "role": null,
     "depth": 0.0,
     "area_frac": 0.0043,
-    "on_ink": 0.48,
+    "registration": 0.998,
+    "ink_px": 411,
     "bbox": [
      0.858,
      0.043,
@@ -3359,7 +3497,8 @@
     "role": null,
     "depth": 0.0219,
     "area_frac": 0.8882,
-    "on_ink": 0.479,
+    "registration": 0.98,
+    "ink_px": 117915,
     "bbox": [
      0.021,
      0.021,
@@ -3373,7 +3512,8 @@
     "role": null,
     "depth": 0.6387,
     "area_frac": 0.0022,
-    "on_ink": 0.525,
+    "registration": 0.966,
+    "ink_px": 413,
     "bbox": [
      0.493,
      0.661,
@@ -3387,7 +3527,8 @@
     "role": null,
     "depth": 0.6959,
     "area_frac": 0.1451,
-    "on_ink": 0.406,
+    "registration": 0.976,
+    "ink_px": 13219,
     "bbox": [
      0.036,
      0.303,
@@ -3401,10 +3542,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3445,7 +3586,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.7226,
-    "on_ink": 0.521,
+    "registration": 1.0,
+    "ink_px": 124358,
     "bbox": [
      0.0,
      0.0,
@@ -3459,7 +3601,8 @@
     "role": null,
     "depth": 0.114,
     "area_frac": 0.04,
-    "on_ink": 0.589,
+    "registration": 0.986,
+    "ink_px": 5805,
     "bbox": [
      0.094,
      0.022,
@@ -3473,7 +3616,8 @@
     "role": null,
     "depth": 0.3829,
     "area_frac": 0.0103,
-    "on_ink": 0.507,
+    "registration": 0.964,
+    "ink_px": 1120,
     "bbox": [
      0.019,
      0.329,
@@ -3487,7 +3631,8 @@
     "role": null,
     "depth": 0.5543,
     "area_frac": 0.1303,
-    "on_ink": 0.573,
+    "registration": 0.968,
+    "ink_px": 23612,
     "bbox": [
      0.62,
      0.31,
@@ -3501,7 +3646,8 @@
     "role": null,
     "depth": 0.867,
     "area_frac": 0.0356,
-    "on_ink": 0.746,
+    "registration": 0.997,
+    "ink_px": 8493,
     "bbox": [
      0.023,
      0.769,
@@ -3515,10 +3661,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3559,7 +3705,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.9297,
-    "on_ink": 0.492,
+    "registration": 1.0,
+    "ink_px": 151441,
     "bbox": [
      0.0,
      0.0,
@@ -3573,7 +3720,8 @@
     "role": null,
     "depth": 0.354,
     "area_frac": 0.0053,
-    "on_ink": 0.61,
+    "registration": 1.0,
+    "ink_px": 647,
     "bbox": [
      0.29,
      0.318,
@@ -3587,7 +3735,8 @@
     "role": null,
     "depth": 0.7243,
     "area_frac": 0.0195,
-    "on_ink": 0.495,
+    "registration": 0.945,
+    "ink_px": 3357,
     "bbox": [
      0.82,
      0.649,
@@ -3601,10 +3750,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3631,7 +3780,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.9378,
-    "on_ink": 0.477,
+    "registration": 1.0,
+    "ink_px": 153494,
     "bbox": [
      0.0,
      0.0,
@@ -3645,7 +3795,8 @@
     "role": null,
     "depth": 0.4289,
     "area_frac": 0.0029,
-    "on_ink": 0.439,
+    "registration": 0.938,
+    "ink_px": 512,
     "bbox": [
      0.749,
      0.4,
@@ -3659,24 +3810,25 @@
     "role": null,
     "depth": 0.5806,
     "area_frac": 0.0017,
-    "on_ink": 0.277,
+    "registration": 0.755,
+    "ink_px": 294,
     "bbox": [
      0.883,
      0.56,
      0.938,
      0.602
     ],
-    "stranded": true
+    "stranded": false
    }
   ],
-  "n_stranded": 1,
+  "n_stranded": 0,
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3703,7 +3855,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.6729,
-    "on_ink": 0.415,
+    "registration": 1.0,
+    "ink_px": 95608,
     "bbox": [
      0.0,
      0.0,
@@ -3717,7 +3870,8 @@
     "role": null,
     "depth": 0.4709,
     "area_frac": 0.2561,
-    "on_ink": 0.545,
+    "registration": 0.988,
+    "ink_px": 53624,
     "bbox": [
      0.03,
      0.196,
@@ -3731,10 +3885,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3775,7 +3929,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.8376,
-    "on_ink": 0.515,
+    "registration": 1.0,
+    "ink_px": 144973,
     "bbox": [
      0.0,
      0.0,
@@ -3789,7 +3944,8 @@
     "role": null,
     "depth": 0.195,
     "area_frac": 0.0378,
-    "on_ink": 0.421,
+    "registration": 0.927,
+    "ink_px": 4324,
     "bbox": [
      0.386,
      0.021,
@@ -3803,7 +3959,8 @@
     "role": null,
     "depth": 0.6953,
     "area_frac": 0.0235,
-    "on_ink": 0.608,
+    "registration": 0.996,
+    "ink_px": 3973,
     "bbox": [
      0.022,
      0.61,
@@ -3817,10 +3974,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3847,7 +4004,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.8723,
-    "on_ink": 0.458,
+    "registration": 1.0,
+    "ink_px": 135635,
     "bbox": [
      0.0,
      0.0,
@@ -3861,7 +4019,8 @@
     "role": null,
     "depth": 0.2438,
     "area_frac": 0.0212,
-    "on_ink": 0.573,
+    "registration": 0.992,
+    "ink_px": 4124,
     "bbox": [
      0.334,
      0.164,
@@ -3875,7 +4034,8 @@
     "role": null,
     "depth": 0.799,
     "area_frac": 0.0567,
-    "on_ink": 0.519,
+    "registration": 0.976,
+    "ink_px": 11782,
     "bbox": [
      0.02,
      0.718,
@@ -3889,10 +4049,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -3933,7 +4093,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.7931,
-    "on_ink": 0.533,
+    "registration": 1.0,
+    "ink_px": 141242,
     "bbox": [
      0.0,
      0.0,
@@ -3947,7 +4108,8 @@
     "role": null,
     "depth": 0.5494,
     "area_frac": 0.0394,
-    "on_ink": 0.726,
+    "registration": 1.0,
+    "ink_px": 10420,
     "bbox": [
      0.132,
      0.354,
@@ -3961,7 +4123,8 @@
     "role": null,
     "depth": 0.5886,
     "area_frac": 0.1344,
-    "on_ink": 0.551,
+    "registration": 0.987,
+    "ink_px": 24327,
     "bbox": [
      0.021,
      0.275,
@@ -3975,10 +4138,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4032,7 +4195,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.6184,
-    "on_ink": 0.473,
+    "registration": 1.0,
+    "ink_px": 96467,
     "bbox": [
      0.0,
      0.0,
@@ -4046,7 +4210,8 @@
     "role": null,
     "depth": 0.4176,
     "area_frac": 0.0179,
-    "on_ink": 0.574,
+    "registration": 0.984,
+    "ink_px": 3432,
     "bbox": [
      0.681,
      0.338,
@@ -4060,7 +4225,8 @@
     "role": null,
     "depth": 0.6052,
     "area_frac": 0.2913,
-    "on_ink": 0.509,
+    "registration": 0.963,
+    "ink_px": 50742,
     "bbox": [
      0.02,
      0.396,
@@ -4074,7 +4240,8 @@
     "role": null,
     "depth": 0.6954,
     "area_frac": 0.0336,
-    "on_ink": 0.534,
+    "registration": 0.985,
+    "ink_px": 6218,
     "bbox": [
      0.387,
      0.594,
@@ -4088,10 +4255,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4118,7 +4285,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.7479,
-    "on_ink": 0.473,
+    "registration": 1.0,
+    "ink_px": 311572,
     "bbox": [
      0.0,
      0.001,
@@ -4132,7 +4300,8 @@
     "role": null,
     "depth": 0.453,
     "area_frac": 0.0097,
-    "on_ink": 0.365,
+    "registration": 0.693,
+    "ink_px": 4785,
     "bbox": [
      0.874,
      0.38,
@@ -4146,7 +4315,8 @@
     "role": null,
     "depth": 0.4895,
     "area_frac": 0.2007,
-    "on_ink": 0.639,
+    "registration": 0.95,
+    "ink_px": 120948,
     "bbox": [
      0.019,
      0.129,
@@ -4160,10 +4330,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4204,7 +4374,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.7919,
-    "on_ink": 0.444,
+    "registration": 1.0,
+    "ink_px": 118338,
     "bbox": [
      0.0,
      0.0,
@@ -4218,7 +4389,8 @@
     "role": null,
     "depth": 0.1551,
     "area_frac": 0.049,
-    "on_ink": 0.625,
+    "registration": 0.98,
+    "ink_px": 10879,
     "bbox": [
      0.388,
      0.05,
@@ -4232,7 +4404,8 @@
     "role": null,
     "depth": 0.7527,
     "area_frac": 0.0953,
-    "on_ink": 0.599,
+    "registration": 0.988,
+    "ink_px": 22121,
     "bbox": [
      0.128,
      0.595,
@@ -4246,10 +4419,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4276,7 +4449,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.8597,
-    "on_ink": 0.522,
+    "registration": 1.0,
+    "ink_px": 152513,
     "bbox": [
      0.0,
      0.0,
@@ -4290,7 +4464,8 @@
     "role": null,
     "depth": 0.7116,
     "area_frac": 0.0849,
-    "on_ink": 0.558,
+    "registration": 0.993,
+    "ink_px": 19450,
     "bbox": [
      0.354,
      0.531,
@@ -4304,10 +4479,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4361,7 +4536,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.6786,
-    "on_ink": 0.262,
+    "registration": 1.0,
+    "ink_px": 57117,
     "bbox": [
      0.0,
      0.0,
@@ -4375,7 +4551,8 @@
     "role": null,
     "depth": 0.128,
     "area_frac": 0.0389,
-    "on_ink": 0.801,
+    "registration": 0.999,
+    "ink_px": 3150,
     "bbox": [
      0.021,
      0.017,
@@ -4389,7 +4566,8 @@
     "role": null,
     "depth": 0.4705,
     "area_frac": 0.1284,
-    "on_ink": 0.498,
+    "registration": 0.936,
+    "ink_px": 21314,
     "bbox": [
      0.317,
      0.286,
@@ -4403,7 +4581,8 @@
     "role": null,
     "depth": 0.7963,
     "area_frac": 0.0788,
-    "on_ink": 0.442,
+    "registration": 0.858,
+    "ink_px": 21552,
     "bbox": [
      0.699,
      0.645,
@@ -4417,7 +4596,8 @@
     "role": null,
     "depth": 0.8494,
     "area_frac": 0.0068,
-    "on_ink": 0.402,
+    "registration": 1.0,
+    "ink_px": 472,
     "bbox": [
      0.574,
      0.803,
@@ -4431,10 +4611,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4461,7 +4641,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.8512,
-    "on_ink": 0.472,
+    "registration": 1.0,
+    "ink_px": 136765,
     "bbox": [
      0.0,
      0.0,
@@ -4475,7 +4656,8 @@
     "role": null,
     "depth": 0.1506,
     "area_frac": 0.0423,
-    "on_ink": 0.525,
+    "registration": 0.989,
+    "ink_px": 8982,
     "bbox": [
      0.516,
      0.038,
@@ -4489,7 +4671,8 @@
     "role": null,
     "depth": 0.1573,
     "area_frac": 0.0497,
-    "on_ink": 0.579,
+    "registration": 0.987,
+    "ink_px": 10661,
     "bbox": [
      0.021,
      0.045,
@@ -4503,10 +4686,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4533,7 +4716,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.6113,
-    "on_ink": 0.419,
+    "registration": 1.0,
+    "ink_px": 87861,
     "bbox": [
      0.0,
      0.0,
@@ -4547,7 +4731,8 @@
     "role": null,
     "depth": 0.2754,
     "area_frac": 0.0169,
-    "on_ink": 0.551,
+    "registration": 0.961,
+    "ink_px": 3450,
     "bbox": [
      0.306,
      0.17,
@@ -4561,7 +4746,8 @@
     "role": null,
     "depth": 0.541,
     "area_frac": 0.1757,
-    "on_ink": 0.604,
+    "registration": 0.984,
+    "ink_px": 46263,
     "bbox": [
      0.395,
      0.258,
@@ -4575,7 +4761,8 @@
     "role": null,
     "depth": 0.5602,
     "area_frac": 0.1858,
-    "on_ink": 0.551,
+    "registration": 0.991,
+    "ink_px": 44051,
     "bbox": [
      0.02,
      0.315,
@@ -4589,10 +4776,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4619,7 +4806,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.9235,
-    "on_ink": 0.561,
+    "registration": 1.0,
+    "ink_px": 180715,
     "bbox": [
      0.0,
      0.0,
@@ -4633,7 +4821,8 @@
     "role": null,
     "depth": 0.8165,
     "area_frac": 0.0217,
-    "on_ink": 0.677,
+    "registration": 0.985,
+    "ink_px": 4396,
     "bbox": [
      0.041,
      0.685,
@@ -4647,10 +4836,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4691,7 +4880,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.882,
-    "on_ink": 0.432,
+    "registration": 1.0,
+    "ink_px": 131535,
     "bbox": [
      0.0,
      0.0,
@@ -4705,7 +4895,8 @@
     "role": null,
     "depth": 0.6783,
     "area_frac": 0.0596,
-    "on_ink": 0.536,
+    "registration": 0.998,
+    "ink_px": 12988,
     "bbox": [
      0.329,
      0.537,
@@ -4719,10 +4910,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }
@@ -4749,7 +4940,8 @@
     "role": "backdrop",
     "depth": 0.0,
     "area_frac": 0.6907,
-    "on_ink": 0.447,
+    "registration": 1.0,
+    "ink_px": 110821,
     "bbox": [
      0.0,
      0.0,
@@ -4763,7 +4955,8 @@
     "role": null,
     "depth": 0.2105,
     "area_frac": 0.0215,
-    "on_ink": 0.495,
+    "registration": 0.955,
+    "ink_px": 4155,
     "bbox": [
      0.24,
      0.086,
@@ -4777,7 +4970,8 @@
     "role": null,
     "depth": 0.6166,
     "area_frac": 0.2268,
-    "on_ink": 0.547,
+    "registration": 0.978,
+    "ink_px": 52754,
     "bbox": [
      0.063,
      0.407,
@@ -4791,10 +4985,10 @@
   "n_flat": 0,
   "budget": {
    "ink_threshold": 0.55,
-   "min_coverage": 0.55,
+   "min_coverage": 0.85,
    "min_figure_coverage": 0.0,
    "max_gap_frac": 0.045,
-   "min_on_ink": 0.35,
+   "min_registration": 0.2,
    "gap_min_frac": 0.004,
    "min_card_frac": 0.0
   }

@@ -33,10 +33,10 @@ REGIONS   = ROOT / "data" / "coverage_regions.json"
 # Budget defaults — overridable globally or per-emblem in coverage_regions.json.
 DEFAULTS = {
     "ink_threshold":       0.55,   # plate pixels darker than this (0..1) are "ink"
-    "min_coverage":        0.55,   # >= this fraction of (non-flat) ink must be under a card
+    "min_coverage":        0.85,   # completeness floor — achievable now backdrops exist
     "min_figure_coverage": 0.0,    # >= this fraction of ink under NON-backdrop cards (decomposition floor)
     "max_gap_frac":        0.045,  # no single uncovered-ink blob larger than this frac of plate
-    "min_on_ink":          0.35,   # each card's alpha must land at least this fraction on ink
+    "min_registration":    0.20,   # each card's OWN ink must land at least this fraction on plate ink
     "gap_min_frac":        0.004,  # ignore uncovered blobs smaller than this (specks, frame lines)
     "min_card_frac":       0.0,    # (reserved) flag cards smaller than this fraction of plate
 }
@@ -76,27 +76,40 @@ def _flat_mask(shape, flats):
 
 
 def place_layer(L, PW, PH):
-    """Stamp one manifest layer into a plate-sized boolean mask (renderer geometry).
+    """Stamp one manifest layer into plate-sized masks (renderer geometry).
 
-    Returns (placed_mask, meta) or (None, meta) if the cutout is missing/off-plate.
+    Returns (placed_alpha, meta) or (None, meta) if the cutout is missing/off-plate.
+    meta["ink"] is the placed mask of the cutout's OWN dark lines (for registration).
     """
     cp = CUTOUTS / L["file"]
     if not cp.exists():
         return None, {"missing": True}
-    alpha = np.asarray(Image.open(cp).convert("RGBA"))[:, :, 3] > 128
+    rgba = np.asarray(Image.open(cp).convert("RGBA"))
+    alpha = rgba[:, :, 3] > 128
+    cink = (rgba[:, :, :3].mean(axis=2) < 140) & alpha   # the cutout's engraved lines
     bw = max(1, round(L["nw"] * PW))
     bh = max(1, round(L["nh"] * PH))
-    am = np.asarray(Image.fromarray((alpha * 255).astype("uint8"))
-                    .resize((bw, bh), Image.NEAREST)) > 128
-    cx, cy = round(L["cx"] * PW), round(L["cy"] * PH)
-    x0, y0 = cx - bw // 2, cy - bh // 2
-    xs, ys = max(0, x0), max(0, y0)
-    xe, ye = min(PW, x0 + bw), min(PH, y0 + bh)
-    if xe <= xs or ye <= ys:
+
+    def stamp(mask):
+        m = np.asarray(Image.fromarray((mask * 255).astype("uint8"))
+                       .resize((bw, bh), Image.NEAREST)) > 128
+        cx, cy = round(L["cx"] * PW), round(L["cy"] * PH)
+        x0, y0 = cx - bw // 2, cy - bh // 2
+        xs, ys = max(0, x0), max(0, y0)
+        xe, ye = min(PW, x0 + bw), min(PH, y0 + bh)
+        if xe <= xs or ye <= ys:
+            return None, None
+        out = np.zeros((PH, PW), dtype=bool)
+        out[ys:ye, xs:xe] = m[ys - y0:ye - y0, xs - x0:xe - x0]
+        return out, (cx, cy)
+
+    placed, ctr = stamp(alpha)
+    if placed is None:
         return None, {"offplate": True}
-    placed = np.zeros((PH, PW), dtype=bool)
-    placed[ys:ye, xs:xe] = am[ys - y0:ye - y0, xs - x0:xe - x0]
-    return placed, {"bbox": [round((cx - bw / 2) / PW, 3), round((cy - bh / 2) / PH, 3),
+    placed_ink, _ = stamp(cink)
+    cx, cy = ctr
+    return placed, {"ink": placed_ink,
+                    "bbox": [round((cx - bw / 2) / PW, 3), round((cy - bh / 2) / PH, 3),
                              round((cx + bw / 2) / PW, 3), round((cy + bh / 2) / PH, 3)]}
 
 
@@ -115,6 +128,7 @@ def analyze(n, layers_by_num, regions):
     plate = np.asarray(im, dtype=np.float32) / 255.0
     PH, PW = plate.shape
     ink = plate < b["ink_threshold"]
+    ink_dil = ndimage.binary_dilation(ink, iterations=2)  # tolerance for registration
     flat = _flat_mask((PH, PW), flats)
     ink_scored = ink & ~flat            # ink we hold the extraction responsible for
 
@@ -135,13 +149,17 @@ def analyze(n, layers_by_num, regions):
             count[placed] += 1
             cover_fg |= placed
         area = int(placed.sum())
-        on_ink = float((placed & ink).sum()) / max(1, area)
+        pink = meta.get("ink")
+        ink_px = int(pink.sum()) if pink is not None else 0
+        # registration: fraction of the cutout's OWN engraved lines landing on plate ink
+        # (robust to line-art cutouts that enclose lots of white, unlike alpha-on-ink).
+        registration = float((pink & ink_dil).sum()) / ink_px if ink_px else 0.0
         cards.append({
             "file": L["file"], "role": L.get("role"), "depth": L.get("depth"),
             "area_frac": round(area / (PW * PH), 4),
-            "on_ink": round(on_ink, 3), "bbox": meta["bbox"],
+            "registration": round(registration, 3), "ink_px": ink_px, "bbox": meta["bbox"],
             # backdrops legitimately sit over paper (their own holes); don't strand-flag them
-            "stranded": (not is_bd) and on_ink < b["min_on_ink"],
+            "stranded": (not is_bd) and registration < b["min_registration"],
         })
 
     cover = cover_fg | cover_bd

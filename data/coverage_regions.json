@@ -15,9 +15,9 @@
   "for them here. Square picture-crops (10+) are all-picture, so whole-plate coverage applies."
  ],
  "defaults": {
-  "min_coverage": 0.55,
+  "min_coverage": 0.85,
   "max_gap_frac": 0.045,
-  "min_on_ink": 0.35
+  "min_registration": 0.20
  },
  "emblems": {}
 }

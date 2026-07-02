@@ -10,7 +10,7 @@ engraving stranded flat. Wire it into CI or run it after every re-extraction.
 Checks per emblem:
   · coverage      >= min_coverage      (enough of the ink is realised as paper)
   · largest_gap   <= max_gap_frac      (no big pictorial region left flat)
-  · every card's on_ink >= min_on_ink  (no cards stranded on blank paper / mis-placed)
+  · every card's registration >= min_registration  (its own ink lands on plate ink; not mis-placed)
 
 Run:
   python scripts/test_coverage.py            # gate every emblem
@@ -29,6 +29,9 @@ def check(res):
     if res["coverage"] < b["min_coverage"]:
         fails.append(f"coverage {res['coverage']:.1%} < {b['min_coverage']:.0%} "
                      f"({res['n_gaps']} gaps stranded flat)")
+    if res["figure_coverage"] < b["min_figure_coverage"]:
+        fails.append(f"figure_coverage {res['figure_coverage']:.1%} < "
+                     f"{b['min_figure_coverage']:.0%} (backdrop-only; needs real figures)")
     if res["largest_gap"] > b["max_gap_frac"]:
         g = res["gaps"][0]
         fails.append(f"largest gap {res['largest_gap']:.1%} > {b['max_gap_frac']:.1%} "
@@ -39,8 +42,9 @@ def check(res):
         elif c.get("offplate"):
             fails.append(f"cutout placed off-plate: {c['file']}")
         elif c.get("stranded"):
-            fails.append(f"card on blank paper: {c['file'].split('/')[-1]} "
-                         f"(on_ink {c['on_ink']:.0%} < {b['min_on_ink']:.0%})")
+            fails.append(f"mis-placed card: {c['file'].split('/')[-1]} "
+                         f"(registration {c['registration']:.0%} < {b['min_registration']:.0%}, "
+                         f"{c['ink_px']} ink px)")
     return (not fails), fails
 
 
