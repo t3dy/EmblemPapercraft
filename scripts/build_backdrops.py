@@ -37,9 +37,13 @@ MIN_COMP  = 0.01    # drop sheet components smaller than this fraction of the pl
 
 
 def residual_sheet(n, layers_by_num, thr):
-    """(plate_uint8, residual_mask) — the scene sheet minus the foreground figures."""
-    im = Image.open(cov.plate_path(n)).convert("L")
-    gray = np.asarray(im, dtype=np.uint8)
+    """(plate_rgb_uint8, residual_mask) — the scene sheet minus the foreground figures.
+
+    RGB is kept from the colour scan so the backdrop preserves the hand-tinting
+    (the figure cutouts are colour; a grey back-sheet would clash)."""
+    im = Image.open(cov.plate_path(n))
+    rgb = np.asarray(im.convert("RGB"), dtype=np.uint8)
+    gray = np.asarray(im.convert("L"), dtype=np.uint8)
     PH, PW = gray.shape
     ink = (gray.astype(np.float32) / 255.0) < thr
 
@@ -58,12 +62,11 @@ def residual_sheet(n, layers_by_num, thr):
         sizes = ndimage.sum(np.ones_like(lbl), lbl, range(1, nc + 1))
         sheet = np.isin(lbl, [1 + i for i, s in enumerate(sizes) if s > MIN_COMP * PW * PH])
     residual = sheet & ~ndimage.binary_dilation(fg, iterations=DILATE_IT)
-    return gray, residual
+    return rgb, residual
 
 
-def make_backdrop_png(gray, residual, out_path):
-    PH, PW = gray.shape
-    rgba = np.dstack([gray, gray, gray, (residual * 255).astype(np.uint8)])
+def make_backdrop_png(rgb, residual, out_path):
+    rgba = np.dstack([rgb, (residual * 255).astype(np.uint8)])
     img = Image.fromarray(rgba, "RGBA")
     scale = MAX_DIM / max(img.size)
     if scale < 1:
@@ -87,10 +90,10 @@ def main():
         if not cov.plate_path(n).exists():
             continue
         thr = cov.budget_for(regions, n)["ink_threshold"]
-        gray, residual = residual_sheet(n, by_num, thr)
+        rgb, residual = residual_sheet(n, by_num, thr)
         cov_frac = float((residual).mean())
         out = cov.CUTOUTS / f"emblem-{n:02d}" / BACKDROP_NAME
-        make_backdrop_png(gray, residual, out)
+        make_backdrop_png(rgb, residual, out)
 
         emb = by_num[n]
         # idempotent: drop any prior backdrop, then insert a fresh one at the back.

@@ -17,6 +17,14 @@ full plate, lit so each card casts its cut shape as a shadow. Sibling to
 - `images/cutouts/emblem-NN/` — 143 transparent-PNG figure cutouts.
 - `scripts/build_layers.py` — regenerates cutouts + `layers.json` from the
   sibling `EmblemPrintShop` extraction.
+- `scripts/build_backdrops.py` — regenerates the residual *colour* back-sheet per
+  emblem. **Rerun for an emblem whenever its figure set changes** (a stale
+  backdrop keeps a hole where a removed figure used to be).
+- `scripts/cut_region.py` / `scripts/transplant_cutout.py` — position-safe ways
+  to add figure cards (cut in place / borrow a mask shape, frame-aligned);
+  registration ≈ 1.0 by construction. Styleguide §9.
+- `scripts/declare_page_furniture.py` — auto-declares motto/epigram/page-edge
+  strips as `flat` in `coverage_regions.json` for full-page scans.
 - `scripts/coverage_lib.py` + `audit_coverage.py` + `test_coverage.py` — the
   coverage measurement/enforcement system (see below).
 - `data/coverage_regions.json` — budget + declared-flat-region ledger.
@@ -40,9 +48,10 @@ must stay enabled (PCFSoft). If shadows look like rectangles, the
 ## Coverage / extraction quality
 
 The papercraft should realize the **whole pictorial scene**, not a few big blobs.
-`build_layers.py` currently keeps only the 10 largest parts, so most engraving is
-left flat — baseline **mean coverage 22.8%**. Enforce better cuts with the coverage
-system (all in normalized `[0,1]²` space matching the renderer):
+Backdrops closed completeness (mean coverage **96.9%**, gate 51/51 under tightened
+budgets); the open work is decomposition — lifting more real figures out of the
+backdrops. Enforce with the coverage system (all in normalized `[0,1]²` space
+matching the renderer):
 
 - `python scripts/audit_coverage.py` → `reports/coverage.{json,md}` + per-emblem
   overlays (`reports/coverage/emblem-NN.png`: green=covered ink, **red=stranded ink

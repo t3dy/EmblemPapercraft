@@ -54,6 +54,16 @@
     "nw": 1.0,
     "nh": 1.0,
     "depth": 0.0
+   },
+   {
+    "file": "emblem-01/boreas.png",
+    "label": "Boreas, the wind",
+    "category": "figure",
+    "cx": 0.5029,
+    "cy": 0.3801,
+    "nw": 0.4492,
+    "nh": 0.4128,
+    "depth": 0.75
    }
   ]
  },

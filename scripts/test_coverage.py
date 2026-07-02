@@ -61,6 +61,9 @@ def main():
     npass = nfail = 0
     for n in nums:
         if not cov.plate_path(n).exists():
+            if args.emblem is not None:      # an explicit ask must never silently pass
+                print(f"FAIL emblem-{n:02d}  no plate at {cov.plate_path(n)}")
+                nfail += 1
             continue
         res = cov.analyze(n, layers, regions)
         ok, fails = check(res)
@@ -77,7 +80,7 @@ def main():
                 print(f"       - {f}")
 
     print(f"\n{npass} passed, {nfail} failed")
-    sys.exit(1 if nfail else 0)
+    sys.exit(1 if nfail or not npass else 0)   # zero emblems checked is a failure, not a pass
 
 
 if __name__ == "__main__":

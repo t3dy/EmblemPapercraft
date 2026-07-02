@@ -225,3 +225,56 @@ crops, masking the border out deletes real engraving (it stripped 34% of emblem-
 ink); and a genuinely-ambiguous figure (emblem-25's archer) matched three different
 figures equally. So mis-placed cutouts are resolved by eye — re-place if the true
 location is unmistakable, otherwise remove — never by blind correlation.
+
+---
+
+## 9. Position-safe cutting tools (2026-07-02)
+
+Auto-*placement* is banned (§8), but two ways of making new cards never need placement
+at all — the position is correct **by construction**, so registration ≈ 1.0:
+
+- **Cut in place** — `python scripts/cut_region.py --emblem N --name slug --bbox x0 y0 x1 y1 --depth D`
+  lifts the engraved silhouette inside a normalised bbox straight off the plate
+  (closing + hole-fill, specks dropped, components must touch the bbox core). `cx,cy`
+  are recorded from where the pixels came from. Caveat: on *densely* engraved regions
+  the closing fuses figure and background into a panel — inspect with `--dry-run` first.
+- **Mask transplant** — `python scripts/transplant_cutout.py --emblem N --name slug --mask <png>`
+  borrows only the cut *shape* from an EmblemPrintShop extraction (different scan!),
+  aligns it frame-to-frame via each scan's detected pictorial border box, and cuts the
+  RGBA from **our** colour plate under the mapped mask. This is how emblem-01 got its
+  Boreas card back. Frame alignment is the one landmark both scans share; it is *not*
+  the rejected pixel auto-correlation.
+
+After either tool: `python scripts/build_backdrops.py --emblem N` (punch the new hole),
+then audit + gate.
+
+### Page-furniture ledger is auto-populated
+
+The plates mix three scan types (full-page 1200×1434; full-page 705×949 for 11, 12, 14,
+20, 25; landscape picture-crops for the rest). `python scripts/declare_page_furniture.py`
+detects each full-page plate's pictorial frame and writes the four outside strips
+(motto, epigram, staves, book edges) as `flat` rects in `data/coverage_regions.json`.
+Picture-crop (landscape) plates are all-picture and are intentionally left undeclared.
+Rerun after adding plates; spot-check the grey regions in the overlays.
+
+### Backdrops are colour
+
+`build_backdrops.py` keeps the RGB of the hand-tinted scan (it used to grayscale it).
+The backdrop must be rebuilt for an emblem whenever its figure set changes — a stale
+backdrop keeps a hole where a removed figure used to be (this bit emblems 01 and 25
+after the Phase-4 removals).
+
+## 10. Current baseline (2026-07-02)
+
+With page furniture declared flat, the metric now measures the *pictorial scene* only:
+
+- mean **coverage 96.9%**, floor 90.9% (emblem-30), largest single gap anywhere 1.6%
+  (emblem-22) — all real pictorial debt, no page-edge noise.
+- Budgets tightened accordingly: `min_coverage 0.89`, `max_gap_frac 0.02`,
+  `min_figure_coverage 0.002` (outlaws backdrop-only plates — every emblem must have at
+  least one real pop; emblem-01's Boreas closed the last zero).
+- **Gate: 51/51 pass.** `test_coverage.py --emblem N` now fails (not silently passes)
+  when the plate is missing, and a run that checks zero emblems exits nonzero.
+
+Open work remains *decomposition depth*: thinnest figure shares are 36, 21, 20, 04, 06
+(single small figures over big backdrops). Use §9's tools to lift more.

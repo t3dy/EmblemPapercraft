@@ -269,10 +269,11 @@ function show(i) {
   const emb = emblems[idx];
   buildEmblem(emb);
   const numeral = emb.roman_numeral || (emb.number === 0 ? '—' : emb.number);
-  const n = (layersByNum[emb.number] || []).length;
+  const figs = (layersByNum[emb.number] || []).filter((L) => L.role !== 'backdrop').length;
   document.getElementById('label').textContent = `${numeral} · ${emb.label || ('Emblem ' + emb.number)}`;
   document.getElementById('count').textContent =
-    `${idx + 1} / ${emblems.length}` + (n >= 2 ? ` · ${n} paper layers` : ' · flat plate');
+    `${idx + 1} / ${emblems.length}` +
+    (figs >= 1 ? ` · ${figs} paper cutout${figs > 1 ? 's' : ''}` : ' · backdrop only');
 }
 
 document.getElementById('prev').addEventListener('click', () => show(idx - 1));
@@ -289,6 +290,7 @@ backingBtn?.addEventListener('click', () => {
 });
 updateBackingLabel();
 window.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT') return;   // arrows on the depth slider move it, not the book
   if (e.key === 'ArrowRight') show(idx + 1);
   else if (e.key === 'ArrowLeft') show(idx - 1);
 });

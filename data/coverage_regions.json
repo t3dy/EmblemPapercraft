@@ -7,17 +7,445 @@
   "emblems: per-emblem overrides keyed by emblem number as a string.",
   "  flat: [[x0,y0,x1,y1], ...] normalised rectangles of engraving that is INTENTIONALLY",
   "        left flat on the backing (motto banner, epigram text, plate border). Excluded",
-  "        from both the coverage denominator and the gap search — declaring a region flat",
+  "        from both the coverage denominator and the gap search \u2014 declaring a region flat",
   "        is you certifying 'this is backing, not a missing cutout'.",
   "  any DEFAULTS key (min_coverage, max_gap_frac, ...) overrides the budget for that emblem.",
   "",
-  "Full-page plates (emblems 00-09, 1200x1434) carry motto + epigram text: add flat bands",
-  "for them here. Square picture-crops (10+) are all-picture, so whole-plate coverage applies."
+  "The corpus mixes scan types: full-page portrait scans (00-09 at 1200x1434; 11,12,14,20,25",
+  "at 705x949) carry motto/epigram/page furniture, declared flat by scripts/declare_page_furniture.py",
+  "(auto-detected pictorial frame; rerun after adding plates). Landscape picture-crops are",
+  "all-picture, so whole-plate coverage applies and nothing is declared.",
+  "",
+  "Budgets tightened 2026-07 once page furniture stopped diluting the metric:",
+  "observed floor coverage 0.909 / ceiling gap 0.0163 across all 51.",
+  "min_figure_coverage > 0 outlaws backdrop-only emblems (every plate needs a real pop)."
  ],
  "defaults": {
-  "min_coverage": 0.85,
-  "max_gap_frac": 0.045,
-  "min_registration": 0.20
+  "min_coverage": 0.89,
+  "max_gap_frac": 0.02,
+  "min_registration": 0.2,
+  "min_figure_coverage": 0.002
  },
- "emblems": {}
+ "emblems": {
+  "0": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.065
+    ],
+    [
+     0.0,
+     0.919,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.065,
+     0.097,
+     0.919
+    ],
+    [
+     0.875,
+     0.065,
+     1.0,
+     0.919
+    ]
+   ]
+  },
+  "1": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.154
+    ],
+    [
+     0.0,
+     0.62,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.154,
+     0.163,
+     0.62
+    ],
+    [
+     0.756,
+     0.154,
+     1.0,
+     0.62
+    ]
+   ]
+  },
+  "2": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.162
+    ],
+    [
+     0.0,
+     0.637,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.162,
+     0.148,
+     0.637
+    ],
+    [
+     0.755,
+     0.162,
+     1.0,
+     0.637
+    ]
+   ]
+  },
+  "3": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.171
+    ],
+    [
+     0.0,
+     0.625,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.171,
+     0.152,
+     0.625
+    ],
+    [
+     0.763,
+     0.171,
+     1.0,
+     0.625
+    ]
+   ]
+  },
+  "4": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.192
+    ],
+    [
+     0.0,
+     0.626,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.192,
+     0.148,
+     0.626
+    ],
+    [
+     0.743,
+     0.192,
+     1.0,
+     0.626
+    ]
+   ]
+  },
+  "5": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.19
+    ],
+    [
+     0.0,
+     0.641,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.19,
+     0.123,
+     0.641
+    ],
+    [
+     0.739,
+     0.19,
+     1.0,
+     0.641
+    ]
+   ]
+  },
+  "6": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.18
+    ],
+    [
+     0.0,
+     0.642,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.18,
+     0.126,
+     0.642
+    ],
+    [
+     0.739,
+     0.18,
+     1.0,
+     0.642
+    ]
+   ]
+  },
+  "7": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.18
+    ],
+    [
+     0.0,
+     0.64,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.18,
+     0.138,
+     0.64
+    ],
+    [
+     0.767,
+     0.18,
+     1.0,
+     0.64
+    ]
+   ]
+  },
+  "8": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.172
+    ],
+    [
+     0.0,
+     0.615,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.172,
+     0.126,
+     0.615
+    ],
+    [
+     0.736,
+     0.172,
+     1.0,
+     0.615
+    ]
+   ]
+  },
+  "9": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.176
+    ],
+    [
+     0.0,
+     0.654,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.176,
+     0.141,
+     0.654
+    ],
+    [
+     0.73,
+     0.176,
+     1.0,
+     0.654
+    ]
+   ]
+  },
+  "11": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.126
+    ],
+    [
+     0.0,
+     0.67,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.126,
+     0.067,
+     0.67
+    ],
+    [
+     0.828,
+     0.126,
+     1.0,
+     0.67
+    ]
+   ]
+  },
+  "12": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.149
+    ],
+    [
+     0.0,
+     0.683,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.149,
+     0.031,
+     0.683
+    ],
+    [
+     0.798,
+     0.149,
+     1.0,
+     0.683
+    ]
+   ]
+  },
+  "14": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.14
+    ],
+    [
+     0.0,
+     0.641,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.14,
+     0.018,
+     0.641
+    ],
+    [
+     0.823,
+     0.14,
+     1.0,
+     0.641
+    ]
+   ]
+  },
+  "20": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.151
+    ],
+    [
+     0.0,
+     0.661,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.151,
+     0.028,
+     0.661
+    ],
+    [
+     0.794,
+     0.151,
+     1.0,
+     0.661
+    ]
+   ]
+  },
+  "25": {
+   "flat": [
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.154
+    ],
+    [
+     0.0,
+     0.667,
+     1.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.154,
+     0.031,
+     0.667
+    ],
+    [
+     0.835,
+     0.154,
+     1.0,
+     0.667
+    ]
+   ]
+  }
+ }
 }
