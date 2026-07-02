@@ -1,6 +1,6 @@
 # Papercraft coverage audit
 
-51 emblems · mean ink coverage **96.9%** · grade distribution A:51, B:0, C:0, D:0, F:0
+51 emblems · mean ink coverage **96.8%** · grade distribution A:51, B:0, C:0, D:0, F:0
 
 Coverage = fraction of engraved (non-flat) ink with a paper card in front of it.
 Red areas in `reports/coverage/emblem-NN.png` are engraving left flat on the backing.
@@ -30,9 +30,9 @@ Red areas in `reports/coverage/emblem-NN.png` are engraving left flat on the bac
 | 01 | A | 98.0% | 2 | 0 | 0 | 4 |
 | 02 | A | 98.3% | 5 | 0 | 0 | 4 |
 | 03 | A | 98.9% | 5 | 0 | 0 | 4 |
-| 04 | A | 99.6% | 2 | 0 | 0 | 4 |
+| 04 | A | 99.0% | 3 | 0 | 0 | 4 |
 | 05 | A | 98.8% | 10 | 0 | 0 | 4 |
-| 06 | A | 99.8% | 2 | 0 | 0 | 4 |
+| 06 | A | 98.9% | 3 | 0 | 0 | 4 |
 | 07 | A | 98.9% | 2 | 0 | 0 | 4 |
 | 08 | A | 98.1% | 5 | 0 | 0 | 4 |
 | 09 | A | 100.0% | 2 | 0 | 0 | 4 |
@@ -46,8 +46,8 @@ Red areas in `reports/coverage/emblem-NN.png` are engraving left flat on the bac
 | 17 | A | 97.5% | 7 | 0 | 0 | 0 |
 | 18 | A | 94.4% | 6 | 1 | 0 | 0 |
 | 19 | A | 96.3% | 3 | 1 | 0 | 0 |
-| 20 | A | 99.8% | 3 | 0 | 0 | 4 |
-| 21 | A | 97.7% | 2 | 1 | 0 | 0 |
+| 20 | A | 98.5% | 4 | 0 | 0 | 4 |
+| 21 | A | 97.6% | 3 | 1 | 0 | 0 |
 | 22 | A | 92.8% | 6 | 1 | 0 | 0 |
 | 23 | A | 94.3% | 2 | 2 | 0 | 0 |
 | 24 | A | 94.9% | 4 | 2 | 0 | 0 |
@@ -62,7 +62,7 @@ Red areas in `reports/coverage/emblem-NN.png` are engraving left flat on the bac
 | 33 | A | 94.8% | 5 | 1 | 0 | 0 |
 | 34 | A | 95.7% | 5 | 1 | 0 | 0 |
 | 35 | A | 98.2% | 3 | 1 | 0 | 0 |
-| 36 | A | 99.3% | 3 | 0 | 0 | 0 |
+| 36 | A | 99.2% | 6 | 0 | 0 | 0 |
 | 37 | A | 97.2% | 2 | 0 | 0 | 0 |
 | 38 | A | 97.7% | 3 | 1 | 0 | 0 |
 | 39 | A | 97.5% | 3 | 0 | 0 | 0 |

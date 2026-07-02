@@ -28,12 +28,12 @@ from scipy import ndimage
 
 import coverage_lib as cov
 
-CLOSE_IT = 6        # closing scale — matches build_backdrops.py
+CLOSE_IT = 6        # closing scale — matches build_backdrops.py; override with --close
 MIN_COMP = 0.005    # drop silhouette components smaller than this fraction of the crop
 CORE     = 0.6      # components must touch the central CORE fraction of the bbox
 
 
-def cut(n, bbox, thr):
+def cut(n, bbox, thr, close_it=CLOSE_IT):
     """(rgba_uint8_cropped, [cx, cy, nw, nh]) for the silhouette inside bbox."""
     im = Image.open(cov.plate_path(n))
     rgb = np.asarray(im.convert("RGB"), dtype=np.uint8)
@@ -44,7 +44,7 @@ def cut(n, bbox, thr):
     ink = gray[y0:y1, x0:x1] < thr
 
     st = ndimage.generate_binary_structure(2, 2)
-    sil = ndimage.binary_fill_holes(ndimage.binary_closing(ink, structure=st, iterations=CLOSE_IT))
+    sil = ndimage.binary_fill_holes(ndimage.binary_closing(ink, structure=st, iterations=close_it))
     lbl, nc = ndimage.label(sil)
     if not nc:
         raise SystemExit("no ink found in bbox")
@@ -86,12 +86,15 @@ def main():
     ap.add_argument("--label", default=None)
     ap.add_argument("--category", default="figure")
     ap.add_argument("--dry-run", action="store_true", help="write the PNG, skip the manifest")
+    ap.add_argument("--close", type=int, default=CLOSE_IT,
+                    help="morphological closing iterations; lower on small/dense plates "
+                         "so neighbouring hatching (clouds, foliage) doesn't fuse in")
     args = ap.parse_args()
 
     n = args.emblem
     regions = cov.load_regions()
     thr = cov.budget_for(regions, n)["ink_threshold"]
-    rgba, (cx, cy, nw, nh) = cut(n, args.bbox, thr)
+    rgba, (cx, cy, nw, nh) = cut(n, args.bbox, thr, args.close)
 
     out = cov.CUTOUTS / f"emblem-{n:02d}" / f"{args.name}.png"
     out.parent.mkdir(parents=True, exist_ok=True)

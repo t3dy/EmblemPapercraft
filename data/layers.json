@@ -217,6 +217,16 @@
     "nh": 0.1363,
     "score": 0.43,
     "depth": 0.3015
+   },
+   {
+    "file": "emblem-04/man_with_goblet.png",
+    "label": "man offering the goblet",
+    "category": "figure",
+    "cx": 0.5988,
+    "cy": 0.4432,
+    "nw": 0.2542,
+    "nh": 0.3326,
+    "depth": 0.7
    }
   ]
  },
@@ -363,6 +373,16 @@
     "nh": 0.1121,
     "score": 0.439,
     "depth": 0.579
+   },
+   {
+    "file": "emblem-06/sower.png",
+    "label": "the sower",
+    "category": "figure",
+    "cx": 0.525,
+    "cy": 0.4467,
+    "nw": 0.24,
+    "nh": 0.3257,
+    "depth": 0.7
    }
   ]
  },
@@ -1055,6 +1075,16 @@
     "nh": 0.4171,
     "score": 0.291,
     "depth": 0.7104
+   },
+   {
+    "file": "emblem-20/nature_figure.png",
+    "label": "Nature",
+    "category": "figure",
+    "cx": 0.2241,
+    "cy": 0.4336,
+    "nw": 0.2184,
+    "nh": 0.3404,
+    "depth": 0.7
    }
   ]
  },
@@ -1084,6 +1114,16 @@
     "nh": 0.0829,
     "score": 0.25,
     "depth": 0.8795
+   },
+   {
+    "file": "emblem-21/person.png",
+    "label": "figure",
+    "category": "figure",
+    "cx": 0.5943,
+    "cy": 0.6065,
+    "nw": 0.0875,
+    "nh": 0.2377,
+    "depth": 0.6
    }
   ]
  },
@@ -1860,6 +1900,36 @@
     "nh": 0.0415,
     "score": 0.275,
     "depth": 0.5806
+   },
+   {
+    "file": "emblem-36/cube_falling.png",
+    "label": "the falling stone",
+    "category": "figure",
+    "cx": 0.322,
+    "cy": 0.0614,
+    "nw": 0.0778,
+    "nh": 0.0772,
+    "depth": 0.6
+   },
+   {
+    "file": "emblem-36/cube_falling_02.png",
+    "label": "the falling stone II",
+    "category": "figure",
+    "cx": 0.4421,
+    "cy": 0.0719,
+    "nw": 0.0662,
+    "nh": 0.0772,
+    "depth": 0.62
+   },
+   {
+    "file": "emblem-36/cube_falling_03.png",
+    "label": "the falling stone III",
+    "category": "figure",
+    "cx": 0.5513,
+    "cy": 0.0737,
+    "nw": 0.0695,
+    "nh": 0.0632,
+    "depth": 0.64
    }
   ]
  },

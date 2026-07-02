@@ -350,13 +350,13 @@
    1200,
    1434
   ],
-  "n_cards": 2,
-  "n_figures": 1,
+  "n_cards": 3,
+  "n_figures": 2,
   "has_backdrop": true,
-  "coverage": 0.9963,
-  "figure_coverage": 0.0202,
+  "coverage": 0.9898,
+  "figure_coverage": 0.2696,
   "ink_frac": 0.149,
-  "overlap_frac": 0.0,
+  "overlap_frac": 0.0418,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -365,9 +365,9 @@
     "file": "emblem-04/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.4216,
+    "area_frac": 0.3757,
     "registration": 0.998,
-    "ink_px": 578746,
+    "ink_px": 508026,
     "bbox": [
      0.0,
      0.0,
@@ -388,6 +388,21 @@
      0.235,
      0.629,
      0.371
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-04/man_with_goblet.png",
+    "role": null,
+    "depth": 0.7,
+    "area_frac": 0.0464,
+    "registration": 0.995,
+    "ink_px": 69596,
+    "bbox": [
+     0.472,
+     0.277,
+     0.726,
+     0.61
     ],
     "stranded": false
    }
@@ -590,11 +605,11 @@
    1200,
    1434
   ],
-  "n_cards": 2,
-  "n_figures": 1,
+  "n_cards": 3,
+  "n_figures": 2,
   "has_backdrop": true,
-  "coverage": 0.9982,
-  "figure_coverage": 0.0202,
+  "coverage": 0.9893,
+  "figure_coverage": 0.1748,
   "ink_frac": 0.1709,
   "overlap_frac": 0.0,
   "largest_gap": 0.0,
@@ -605,9 +620,9 @@
     "file": "emblem-06/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.4371,
+    "area_frac": 0.4055,
     "registration": 0.997,
-    "ink_px": 607494,
+    "ink_px": 557428,
     "bbox": [
      0.0,
      0.0,
@@ -628,6 +643,21 @@
      0.525,
      0.789,
      0.637
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-06/sower.png",
+    "role": null,
+    "depth": 0.7,
+    "area_frac": 0.0295,
+    "registration": 0.999,
+    "ink_px": 46617,
+    "bbox": [
+     0.405,
+     0.284,
+     0.645,
+     0.61
     ],
     "stranded": false
    }
@@ -1875,13 +1905,13 @@
    705,
    949
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 4,
+  "n_figures": 3,
   "has_backdrop": true,
-  "coverage": 0.9976,
-  "figure_coverage": 0.0142,
+  "coverage": 0.985,
+  "figure_coverage": 0.1025,
   "ink_frac": 0.1585,
-  "overlap_frac": 0.1409,
+  "overlap_frac": 0.0869,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -1890,9 +1920,9 @@
     "file": "emblem-20/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.395,
+    "area_frac": 0.3636,
     "registration": 1.0,
-    "ink_px": 119219,
+    "ink_px": 108167,
     "bbox": [
      -0.001,
      -0.001,
@@ -1930,6 +1960,21 @@
      0.952
     ],
     "stranded": false
+   },
+   {
+    "file": "emblem-20/nature_figure.png",
+    "role": null,
+    "depth": 0.7,
+    "area_frac": 0.0281,
+    "registration": 1.0,
+    "ink_px": 9309,
+    "bbox": [
+     0.115,
+     0.263,
+     0.333,
+     0.603
+    ],
+    "stranded": false
    }
   ],
   "n_stranded": 0,
@@ -1950,11 +1995,11 @@
    594,
    568
   ],
-  "n_cards": 2,
-  "n_figures": 1,
+  "n_cards": 3,
+  "n_figures": 2,
   "has_backdrop": true,
-  "coverage": 0.9771,
-  "figure_coverage": 0.0066,
+  "coverage": 0.9762,
+  "figure_coverage": 0.0199,
   "ink_frac": 0.4572,
   "overlap_frac": 0.0,
   "largest_gap": 0.0041,
@@ -1979,9 +2024,9 @@
     "file": "emblem-21/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.9438,
+    "area_frac": 0.9301,
     "registration": 1.0,
-    "ink_px": 149270,
+    "ink_px": 147095,
     "bbox": [
      0.0,
      0.0,
@@ -2002,6 +2047,21 @@
      0.839,
      0.55,
      0.922
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-21/person.png",
+    "role": null,
+    "depth": 0.6,
+    "area_frac": 0.0114,
+    "registration": 1.0,
+    "ink_px": 2040,
+    "bbox": [
+     0.551,
+     0.487,
+     0.638,
+     0.724
     ],
     "stranded": false
    }
@@ -3534,11 +3594,11 @@
    604,
    570
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 6,
+  "n_figures": 5,
   "has_backdrop": true,
-  "coverage": 0.9933,
-  "figure_coverage": 0.0039,
+  "coverage": 0.9921,
+  "figure_coverage": 0.0148,
   "ink_frac": 0.4519,
   "overlap_frac": 0.0,
   "largest_gap": 0.0,
@@ -3549,9 +3609,9 @@
     "file": "emblem-36/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.9378,
+    "area_frac": 0.9248,
     "registration": 1.0,
-    "ink_px": 153494,
+    "ink_px": 151600,
     "bbox": [
      0.0,
      0.0,
@@ -3587,6 +3647,51 @@
      0.56,
      0.938,
      0.602
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-36/cube_falling.png",
+    "role": null,
+    "depth": 0.6,
+    "area_frac": 0.0037,
+    "registration": 1.0,
+    "ink_px": 634,
+    "bbox": [
+     0.282,
+     0.023,
+     0.36,
+     0.1
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-36/cube_falling_02.png",
+    "role": null,
+    "depth": 0.62,
+    "area_frac": 0.003,
+    "registration": 1.0,
+    "ink_px": 596,
+    "bbox": [
+     0.409,
+     0.033,
+     0.475,
+     0.111
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-36/cube_falling_03.png",
+    "role": null,
+    "depth": 0.64,
+    "area_frac": 0.0023,
+    "registration": 1.0,
+    "ink_px": 467,
+    "bbox": [
+     0.517,
+     0.042,
+     0.586,
+     0.105
     ],
     "stranded": false
    }
