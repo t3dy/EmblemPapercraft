@@ -605,6 +605,16 @@
     "nh": 0.1694,
     "score": 0.312,
     "depth": 0.4752
+   },
+   {
+    "file": "emblem-11/woman_stooping.png",
+    "label": "the stooping figure",
+    "category": "figure",
+    "cx": 0.2397,
+    "cy": 0.4104,
+    "nw": 0.3064,
+    "nh": 0.3783,
+    "depth": 0.65
    }
   ]
  },
@@ -1035,6 +1045,16 @@
     "nh": 0.1332,
     "score": 0.322,
     "depth": 0.5864
+   },
+   {
+    "file": "emblem-19/three_figures.png",
+    "label": "the three figures",
+    "category": "figure",
+    "cx": 0.2608,
+    "cy": 0.5981,
+    "nw": 0.4851,
+    "nh": 0.6491,
+    "depth": 0.7
    }
   ]
  },
@@ -1317,6 +1337,16 @@
     "nh": 0.3374,
     "score": 0.393,
     "depth": 0.2837
+   },
+   {
+    "file": "emblem-25/archer.png",
+    "label": "the archer",
+    "category": "figure",
+    "cx": 0.3993,
+    "cy": 0.295,
+    "nw": 0.1064,
+    "nh": 0.1201,
+    "depth": 0.7
    }
   ]
  },
@@ -1860,6 +1890,16 @@
     "nh": 0.1579,
     "score": 0.274,
     "depth": 0.7243
+   },
+   {
+    "file": "emblem-35/leaping_figure.png",
+    "label": "the leaping figure",
+    "category": "figure",
+    "cx": 0.482,
+    "cy": 0.352,
+    "nw": 0.1934,
+    "nh": 0.2261,
+    "depth": 0.7
    }
   ]
  },
@@ -2421,6 +2461,16 @@
     "nh": 0.2753,
     "score": 0.397,
     "depth": 0.8165
+   },
+   {
+    "file": "emblem-48/king.png",
+    "label": "the king",
+    "category": "figure",
+    "cx": 0.4257,
+    "cy": 0.615,
+    "nw": 0.4363,
+    "nh": 0.6516,
+    "depth": 0.7
    }
   ]
  },

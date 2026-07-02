@@ -86,6 +86,12 @@ def main():
     st = ndimage.generate_binary_structure(2, 2)
     full = ndimage.binary_closing(full, structure=st, iterations=3)   # smooth scissor line
 
+    # drop detached specks (segmentation debris) — keep components >= 3% of the largest
+    lbl, nc = ndimage.label(full, structure=st)
+    if nc > 1:
+        sizes = ndimage.sum(np.ones_like(lbl), lbl, range(1, nc + 1))
+        full = np.isin(lbl, [i + 1 for i, s in enumerate(sizes) if s >= 0.03 * sizes.max()])
+
     ys, xs = np.where(full)
     ty0, ty1, tx0, tx1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
     alpha = (full[ty0:ty1, tx0:tx1] * 255).astype(np.uint8)
