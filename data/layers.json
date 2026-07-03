@@ -16,17 +16,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-00/sti_mortar.png",
-    "label": "sti mortar",
-    "category": "equipment",
-    "cx": 0.8641,
-    "cy": 0.7973,
-    "nw": 0.2469,
-    "nh": 0.2875,
-    "score": 0.322,
-    "depth": 0.7866
-   },
-   {
     "file": "emblem-00/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -36,6 +25,16 @@
     "nh": 0.1044,
     "score": 0.271,
     "depth": 0.8201
+   },
+   {
+    "file": "emblem-00/sti_mortar.png",
+    "label": "sti mortar",
+    "category": "equipment",
+    "cx": 0.7617,
+    "cy": 0.742,
+    "nw": 0.1883,
+    "nh": 0.2413,
+    "depth": 0.7866
    }
   ]
  },
@@ -109,22 +108,20 @@
     "file": "emblem-02/pestle.png",
     "label": "pestle",
     "category": "equipment",
-    "cx": 0.3381,
-    "cy": 0.6242,
-    "nw": 0.2037,
-    "nh": 0.171,
-    "score": 0.282,
+    "cx": 0.3533,
+    "cy": 0.4585,
+    "nw": 0.1217,
+    "nh": 0.0788,
     "depth": 0.619
    },
    {
     "file": "emblem-02/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
-    "cx": 0.2484,
-    "cy": 0.7205,
-    "nw": 0.3331,
-    "nh": 0.4135,
-    "score": 0.297,
+    "cx": 0.3,
+    "cy": 0.5031,
+    "nw": 0.1983,
+    "nh": 0.1918,
     "depth": 0.6999
    }
   ]
@@ -146,17 +143,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-03/philosophical_egg.png",
-    "label": "philosophical egg",
-    "category": "equipment",
-    "cx": 0.7675,
-    "cy": 0.2431,
-    "nw": 0.4213,
-    "nh": 0.4424,
-    "score": 0.296,
-    "depth": 0.2152
-   },
-   {
     "file": "emblem-03/pestle.png",
     "label": "pestle",
     "category": "equipment",
@@ -168,25 +154,33 @@
     "depth": 0.3509
    },
    {
+    "file": "emblem-03/philosophical_egg.png",
+    "label": "philosophical egg",
+    "category": "equipment",
+    "cx": 0.6162,
+    "cy": 0.2845,
+    "nw": 0.2508,
+    "nh": 0.1967,
+    "depth": 0.2152
+   },
+   {
     "file": "emblem-03/cauldron_mortar.png",
     "label": "cauldron mortar",
     "category": "equipment",
-    "cx": 0.7369,
-    "cy": 0.6484,
-    "nw": 0.4838,
-    "nh": 0.4813,
-    "score": 0.449,
+    "cx": 0.6138,
+    "cy": 0.4644,
+    "nw": 0.2558,
+    "nh": 0.2134,
     "depth": 0.6135
    },
    {
     "file": "emblem-03/distillation_vessel.png",
     "label": "distillation vessel mortar",
     "category": "equipment",
-    "cx": 0.5822,
-    "cy": 0.8155,
-    "nw": 0.1744,
-    "nh": 0.2742,
-    "score": 0.422,
+    "cx": 0.5058,
+    "cy": 0.5387,
+    "nw": 0.1033,
+    "nh": 0.122,
     "depth": 0.8084
    }
   ]
@@ -247,61 +241,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-05/castle_02.png",
-    "label": "castle",
-    "category": "architecture",
-    "cx": 0.4988,
-    "cy": 0.3348,
-    "nw": 0.9675,
-    "nh": 0.6238,
-    "score": 0.266,
-    "depth": 0.0042
-   },
-   {
-    "file": "emblem-05/castle_temple.png",
-    "label": "castle temple",
-    "category": "architecture",
-    "cx": 0.3844,
-    "cy": 0.2673,
-    "nw": 0.1325,
-    "nh": 0.1392,
-    "score": 0.267,
-    "depth": 0.0245
-   },
-   {
-    "file": "emblem-05/tower.png",
-    "label": "tower",
-    "category": "architecture",
-    "cx": 0.3772,
-    "cy": 0.2666,
-    "nw": 0.0644,
-    "nh": 0.1378,
-    "score": 0.257,
-    "depth": 0.0253
-   },
-   {
-    "file": "emblem-05/building_house_02.png",
-    "label": "building house",
-    "category": "architecture",
-    "cx": 0.7681,
-    "cy": 0.3383,
-    "nw": 0.4263,
-    "nh": 0.6281,
-    "score": 0.316,
-    "depth": 0.0582
-   },
-   {
-    "file": "emblem-05/castle.png",
-    "label": "castle",
-    "category": "architecture",
-    "cx": 0.2316,
-    "cy": 0.3762,
-    "nw": 0.4331,
-    "nh": 0.5396,
-    "score": 0.303,
-    "depth": 0.1011
-   },
-   {
     "file": "emblem-05/window.png",
     "label": "window",
     "category": "architecture",
@@ -324,25 +263,73 @@
     "depth": 0.1762
    },
    {
+    "file": "emblem-05/castle_02.png",
+    "label": "castle",
+    "category": "architecture",
+    "cx": 0.4304,
+    "cy": 0.3438,
+    "nw": 0.5842,
+    "nh": 0.2789,
+    "depth": 0.0042
+   },
+   {
+    "file": "emblem-05/castle_temple.png",
+    "label": "castle temple",
+    "category": "architecture",
+    "cx": 0.3617,
+    "cy": 0.3142,
+    "nw": 0.08,
+    "nh": 0.0621,
+    "depth": 0.0245
+   },
+   {
+    "file": "emblem-05/tower.png",
+    "label": "tower",
+    "category": "architecture",
+    "cx": 0.3571,
+    "cy": 0.3138,
+    "nw": 0.0392,
+    "nh": 0.0614,
+    "depth": 0.0253
+   },
+   {
+    "file": "emblem-05/building_house_02.png",
+    "label": "building house",
+    "category": "architecture",
+    "cx": 0.5929,
+    "cy": 0.3455,
+    "nw": 0.2575,
+    "nh": 0.281,
+    "depth": 0.0582
+   },
+   {
+    "file": "emblem-05/castle.png",
+    "label": "castle",
+    "category": "architecture",
+    "cx": 0.2692,
+    "cy": 0.3626,
+    "nw": 0.2617,
+    "nh": 0.2413,
+    "depth": 0.1011
+   },
+   {
     "file": "emblem-05/man_old_man.png",
     "label": "man old man",
     "category": "figures",
-    "cx": 0.7669,
-    "cy": 0.4814,
-    "nw": 0.4275,
-    "nh": 0.9129,
-    "score": 0.478,
+    "cx": 0.5925,
+    "cy": 0.4097,
+    "nw": 0.2583,
+    "nh": 0.4079,
     "depth": 0.6229
    },
    {
     "file": "emblem-05/woman.png",
     "label": "woman",
     "category": "figures",
-    "cx": 0.5837,
-    "cy": 0.5682,
-    "nw": 0.4763,
-    "nh": 0.7495,
-    "score": 0.374,
+    "cx": 0.4821,
+    "cy": 0.4484,
+    "nw": 0.2875,
+    "nh": 0.3347,
     "depth": 0.7146
    }
   ]
@@ -364,17 +351,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-06/cauldron.png",
-    "label": "cauldron",
-    "category": "equipment",
-    "cx": 0.7294,
-    "cy": 0.581,
-    "nw": 0.12,
-    "nh": 0.1121,
-    "score": 0.439,
-    "depth": 0.579
-   },
-   {
     "file": "emblem-06/sower.png",
     "label": "the sower",
     "category": "figure",
@@ -383,6 +359,16 @@
     "nw": 0.24,
     "nh": 0.3257,
     "depth": 0.7
+   },
+   {
+    "file": "emblem-06/cauldron.png",
+    "label": "cauldron",
+    "category": "equipment",
+    "cx": 0.57,
+    "cy": 0.446,
+    "nw": 0.0717,
+    "nh": 0.0495,
+    "depth": 0.579
    }
   ]
  },
@@ -432,17 +418,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-08/pestle.png",
-    "label": "pestle",
-    "category": "equipment",
-    "cx": 0.3984,
-    "cy": 0.2374,
-    "nw": 0.1419,
-    "nh": 0.3292,
-    "score": 0.429,
-    "depth": 0.2304
-   },
-   {
     "file": "emblem-08/furnace.png",
     "label": "furnace",
     "category": "equipment",
@@ -454,25 +429,33 @@
     "depth": 0.4206
    },
    {
+    "file": "emblem-08/pestle.png",
+    "label": "pestle",
+    "category": "equipment",
+    "cx": 0.3729,
+    "cy": 0.2817,
+    "nw": 0.0842,
+    "nh": 0.1395,
+    "depth": 0.2304
+   },
+   {
     "file": "emblem-08/athanor_retort.png",
     "label": "athanor retort",
     "category": "equipment",
-    "cx": 0.7309,
-    "cy": 0.4978,
-    "nw": 0.5194,
-    "nh": 0.9548,
-    "score": 0.25,
+    "cx": 0.5958,
+    "cy": 0.3919,
+    "nw": 0.2567,
+    "nh": 0.4045,
     "depth": 0.4234
    },
    {
     "file": "emblem-08/philosophical_egg_ca.png",
     "label": "philosophical egg cauldron",
     "category": "equipment",
-    "cx": 0.3719,
-    "cy": 0.7251,
-    "nw": 0.0862,
-    "nh": 0.1464,
-    "score": 0.378,
+    "cx": 0.3571,
+    "cy": 0.4885,
+    "nw": 0.0508,
+    "nh": 0.0621,
     "depth": 0.7232
    }
   ]
@@ -638,23 +621,31 @@
     "file": "emblem-12/pestle.png",
     "label": "pestle",
     "category": "equipment",
-    "cx": 0.4988,
-    "cy": 0.0596,
-    "nw": 0.2725,
-    "nh": 0.0886,
-    "score": 0.282,
+    "cx": 0.4121,
+    "cy": 0.1876,
+    "nw": 0.2057,
+    "nh": 0.0464,
     "depth": 0.056
    },
    {
     "file": "emblem-12/philosophical_egg.png",
     "label": "philosophical egg",
     "category": "equipment",
-    "cx": 0.6734,
-    "cy": 0.1469,
-    "nw": 0.6169,
-    "nh": 0.2632,
-    "score": 0.261,
+    "cx": 0.544,
+    "cy": 0.2323,
+    "nw": 0.4638,
+    "nh": 0.1359,
     "depth": 0.1226
+   },
+   {
+    "file": "emblem-12/boat.png",
+    "label": "the boat",
+    "category": "figure",
+    "cx": 0.6454,
+    "cy": 0.4257,
+    "nw": 0.0511,
+    "nh": 0.0295,
+    "depth": 0.35
    }
   ]
  },
@@ -704,17 +695,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-14/mortar.png",
-    "label": "mortar",
-    "category": "equipment",
-    "cx": 0.5103,
-    "cy": 0.2619,
-    "nw": 0.1394,
-    "nh": 0.2249,
-    "score": 0.262,
-    "depth": 0.2572
-   },
-   {
     "file": "emblem-14/distillation_vessel.png",
     "label": "distillation vessel",
     "category": "equipment",
@@ -724,6 +704,16 @@
     "nh": 0.5668,
     "score": 0.392,
     "depth": 0.6113
+   },
+   {
+    "file": "emblem-14/mortar.png",
+    "label": "mortar",
+    "category": "equipment",
+    "cx": 0.4277,
+    "cy": 0.2757,
+    "nw": 0.1121,
+    "nh": 0.1099,
+    "depth": 0.2572
    }
   ]
  },
@@ -1075,28 +1065,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-20/distillation_vessel.png",
-    "label": "distillation vessel pestle",
-    "category": "equipment",
-    "cx": 0.6406,
-    "cy": 0.5906,
-    "nw": 0.22,
-    "nh": 0.1134,
-    "score": 0.294,
-    "depth": 0.5869
-   },
-   {
-    "file": "emblem-20/distillation_vessel_02.png",
-    "label": "distillation vessel",
-    "category": "equipment",
-    "cx": 0.505,
-    "cy": 0.7425,
-    "nw": 0.5125,
-    "nh": 0.4171,
-    "score": 0.291,
-    "depth": 0.7104
-   },
-   {
     "file": "emblem-20/nature_figure.png",
     "label": "Nature",
     "category": "figure",
@@ -1105,6 +1073,26 @@
     "nw": 0.2184,
     "nh": 0.3404,
     "depth": 0.7
+   },
+   {
+    "file": "emblem-20/distillation_vessel.png",
+    "label": "distillation vessel pestle",
+    "category": "equipment",
+    "cx": 0.5184,
+    "cy": 0.4494,
+    "nw": 0.1688,
+    "nh": 0.0558,
+    "depth": 0.5869
+   },
+   {
+    "file": "emblem-20/distillation_vessel_02.png",
+    "label": "distillation vessel",
+    "category": "equipment",
+    "cx": 0.4142,
+    "cy": 0.5253,
+    "nw": 0.3915,
+    "nh": 0.2076,
+    "depth": 0.7104
    }
   ]
  },
@@ -1317,28 +1305,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-25/distillation_vessel.png",
-    "label": "distillation vessel",
-    "category": "equipment",
-    "cx": 0.4553,
-    "cy": 0.2827,
-    "nw": 0.1351,
-    "nh": 0.2126,
-    "score": 0.313,
-    "depth": 0.2783
-   },
-   {
-    "file": "emblem-25/pestle.png",
-    "label": "pestle",
-    "category": "equipment",
-    "cx": 0.6048,
-    "cy": 0.2892,
-    "nw": 0.1076,
-    "nh": 0.3374,
-    "score": 0.393,
-    "depth": 0.2837
-   },
-   {
     "file": "emblem-25/archer.png",
     "label": "the archer",
     "category": "figure",
@@ -1347,6 +1313,16 @@
     "nw": 0.1064,
     "nh": 0.1201,
     "depth": 0.7
+   },
+   {
+    "file": "emblem-25/pestle.png",
+    "label": "pestle",
+    "category": "equipment",
+    "cx": 0.5177,
+    "cy": 0.3051,
+    "nw": 0.0851,
+    "nh": 0.1675,
+    "depth": 0.2837
    }
   ]
  },
@@ -2190,17 +2166,6 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-42/mortar.png",
-    "label": "mortar",
-    "category": "equipment",
-    "cx": 0.9259,
-    "cy": 0.4554,
-    "nw": 0.1044,
-    "nh": 0.1507,
-    "score": 0.279,
-    "depth": 0.453
-   },
-   {
     "file": "emblem-42/distillation_vessel.png",
     "label": "distillation vessel philosophical",
     "category": "equipment",
@@ -2210,6 +2175,16 @@
     "nh": 0.8414,
     "score": 0.293,
     "depth": 0.4895
+   },
+   {
+    "file": "emblem-42/mortar.png",
+    "label": "mortar",
+    "category": "equipment",
+    "cx": 0.9302,
+    "cy": 0.452,
+    "nw": 0.1062,
+    "nh": 0.1508,
+    "depth": 0.453
    }
   ]
  },
