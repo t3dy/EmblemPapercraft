@@ -335,8 +335,24 @@ function animate() {
   renderer.render(scene, camera);
 }
 
-// Debug handle so the view can be driven from the console during development
-window._pc = { scene, camera, controls, renderer, key, show: (n) => show(emblems.findIndex(x => x.number === n)) };
+// Debug handle so the view can be driven from the console during development.
+// snapshot() forces a synchronous render and returns a downscaled JPEG data URL —
+// works even in a hidden/zero-size preview window where the browser throttles the
+// rAF loop and OS-level screenshots capture nothing.
+window._pc = {
+  scene, camera, controls, renderer, key,
+  show: (n) => show(emblems.findIndex(x => x.number === n)),
+  snapshot: (width = 640, quality = 0.72) => {
+    renderer.render(scene, camera);
+    const src = renderer.domElement;
+    const oc = document.createElement('canvas');
+    oc.width = width; oc.height = Math.round(src.height * (width / src.width));
+    const ctx = oc.getContext('2d');
+    ctx.fillStyle = '#171310'; ctx.fillRect(0, 0, oc.width, oc.height);
+    ctx.drawImage(src, 0, 0, oc.width, oc.height);
+    return oc.toDataURL('image/jpeg', quality);
+  },
+};
 
 Promise.all([
   fetch('data/emblems.json', { cache: 'no-store' }).then(r => r.json()),
