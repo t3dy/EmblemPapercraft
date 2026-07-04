@@ -676,6 +676,16 @@
     "nw": 0.0511,
     "nh": 0.0295,
     "depth": 0.35
+   },
+   {
+    "file": "emblem-12/chapel_tomb.png",
+    "label": "the chapel monument",
+    "category": "architecture",
+    "cx": 0.3695,
+    "cy": 0.5969,
+    "nw": 0.2511,
+    "nh": 0.1486,
+    "depth": 0.6
    }
   ]
  },
@@ -1075,6 +1085,26 @@
     "nw": 0.4851,
     "nh": 0.6491,
     "depth": 0.7
+   },
+   {
+    "file": "emblem-19/club_man.png",
+    "label": "the man with the club",
+    "category": "figure",
+    "cx": 0.7293,
+    "cy": 0.5745,
+    "nw": 0.3295,
+    "nh": 0.7792,
+    "depth": 0.85
+   },
+   {
+    "file": "emblem-19/head_carrier.png",
+    "label": "the fourth man",
+    "category": "figure",
+    "cx": 0.5091,
+    "cy": 0.5094,
+    "nw": 0.1738,
+    "nh": 0.5321,
+    "depth": 0.7
    }
   ]
  },
@@ -1365,6 +1395,26 @@
     "nh": 0.3381,
     "score": 0.296,
     "depth": 0.5817
+   },
+   {
+    "file": "emblem-24/lying_king.png",
+    "label": "the devoured king",
+    "category": "figure",
+    "cx": 0.549,
+    "cy": 0.7537,
+    "nw": 0.8497,
+    "nh": 0.4591,
+    "depth": 0.85
+   },
+   {
+    "file": "emblem-24/dog_in_fire.png",
+    "label": "the wolf in the fire",
+    "category": "animals",
+    "cx": 0.8897,
+    "cy": 0.3736,
+    "nw": 0.2141,
+    "nh": 0.1822,
+    "depth": 0.5
    }
   ]
  },
@@ -2474,6 +2524,16 @@
     "nh": 0.3788,
     "score": 0.341,
     "depth": 0.7527
+   },
+   {
+    "file": "emblem-43/motto_scroll.png",
+    "label": "the birds' motto scroll",
+    "category": "objects",
+    "cx": 0.2441,
+    "cy": 0.189,
+    "nw": 0.4614,
+    "nh": 0.2898,
+    "depth": 0.5
    }
   ]
  },

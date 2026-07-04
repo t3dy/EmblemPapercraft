@@ -1,6 +1,6 @@
 # Papercraft coverage audit
 
-51 emblems · mean ink coverage **96.6%** · grade distribution A:51, B:0, C:0, D:0, F:0
+51 emblems · mean ink coverage **96.5%** · grade distribution A:51, B:0, C:0, D:0, F:0
 
 Coverage = fraction of engraved (non-flat) ink with a paper card in front of it.
 Red areas in `reports/coverage/emblem-NN.png` are engraving left flat on the backing.
@@ -15,9 +15,9 @@ Red areas in `reports/coverage/emblem-NN.png` are engraving left flat on the bac
 | 23 | A | 93.5% | 5 | 0.5% | (0.978, 0.271) |
 | 32 | A | 93.5% | 11 | 0.6% | (0.556, 0.005) |
 | 18 | A | 94.4% | 6 | 1.0% | (0.743, 0.221) |
-| 19 | A | 94.7% | 4 | 0.5% | (0.328, 0.049) |
+| 24 | A | 94.7% | 6 | 0.8% | (0.499, 0.994) |
+| 19 | A | 94.8% | 6 | 0.5% | (0.328, 0.049) |
 | 33 | A | 94.8% | 5 | 0.9% | (0.769, 0.838) |
-| 24 | A | 94.9% | 4 | 0.8% | (0.499, 0.994) |
 | 10 | A | 95.0% | 5 | 0.7% | (0.568, 0.006) |
 | 29 | A | 95.0% | 2 | 0.5% | (0.404, 0.031) |
 | 15 | A | 95.0% | 7 | 0.7% | (0.689, 0.909) |
@@ -38,19 +38,19 @@ Red areas in `reports/coverage/emblem-NN.png` are engraving left flat on the bac
 | 09 | A | 100.0% | 3 | 0 | 0 | 4 |
 | 10 | A | 95.0% | 5 | 1 | 0 | 0 |
 | 11 | A | 98.0% | 4 | 0 | 0 | 4 |
-| 12 | A | 99.2% | 4 | 0 | 0 | 4 |
+| 12 | A | 98.6% | 5 | 0 | 0 | 4 |
 | 13 | A | 96.8% | 2 | 0 | 0 | 0 |
 | 14 | A | 98.9% | 3 | 0 | 0 | 4 |
 | 15 | A | 95.0% | 7 | 1 | 0 | 0 |
 | 16 | A | 96.0% | 3 | 1 | 0 | 0 |
 | 17 | A | 97.5% | 7 | 0 | 0 | 0 |
 | 18 | A | 94.4% | 6 | 1 | 0 | 0 |
-| 19 | A | 94.7% | 4 | 1 | 0 | 0 |
+| 19 | A | 94.8% | 6 | 1 | 0 | 0 |
 | 20 | A | 97.6% | 5 | 0 | 0 | 4 |
 | 21 | A | 97.7% | 4 | 0 | 0 | 0 |
 | 22 | A | 92.8% | 6 | 1 | 0 | 0 |
 | 23 | A | 93.5% | 5 | 2 | 0 | 0 |
-| 24 | A | 94.9% | 4 | 2 | 0 | 0 |
+| 24 | A | 94.7% | 6 | 1 | 0 | 0 |
 | 25 | A | 97.9% | 6 | 0 | 0 | 4 |
 | 26 | A | 95.5% | 2 | 2 | 0 | 0 |
 | 27 | A | 96.1% | 3 | 1 | 0 | 0 |
@@ -69,7 +69,7 @@ Red areas in `reports/coverage/emblem-NN.png` are engraving left flat on the bac
 | 40 | A | 97.2% | 7 | 0 | 0 | 0 |
 | 41 | A | 95.0% | 4 | 2 | 0 | 0 |
 | 42 | A | 96.4% | 3 | 0 | 0 | 0 |
-| 43 | A | 97.1% | 3 | 1 | 0 | 0 |
+| 43 | A | 96.7% | 4 | 1 | 0 | 0 |
 | 44 | A | 96.7% | 5 | 0 | 0 | 0 |
 | 45 | A | 92.0% | 5 | 2 | 0 | 0 |
 | 46 | A | 96.7% | 4 | 0 | 0 | 0 |

@@ -1159,13 +1159,13 @@
    705,
    949
   ],
-  "n_cards": 4,
-  "n_figures": 3,
+  "n_cards": 5,
+  "n_figures": 4,
   "has_backdrop": true,
-  "coverage": 0.9915,
-  "figure_coverage": 0.1098,
+  "coverage": 0.986,
+  "figure_coverage": 0.2397,
   "ink_frac": 0.1649,
-  "overlap_frac": 0.1109,
+  "overlap_frac": 0.0607,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -1174,9 +1174,9 @@
     "file": "emblem-12/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.4305,
+    "area_frac": 0.3952,
     "registration": 1.0,
-    "ink_px": 117074,
+    "ink_px": 101798,
     "bbox": [
      -0.001,
      -0.001,
@@ -1227,6 +1227,21 @@
      0.411,
      0.671,
      0.44
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-12/chapel_tomb.png",
+    "role": null,
+    "depth": 0.6,
+    "area_frac": 0.0325,
+    "registration": 1.0,
+    "ink_px": 14239,
+    "bbox": [
+     0.243,
+     0.522,
+     0.494,
+     0.671
     ],
     "stranded": false
    }
@@ -1891,13 +1906,13 @@
    604,
    530
   ],
-  "n_cards": 4,
-  "n_figures": 3,
+  "n_cards": 6,
+  "n_figures": 5,
   "has_backdrop": true,
-  "coverage": 0.9473,
-  "figure_coverage": 0.19,
+  "coverage": 0.9478,
+  "figure_coverage": 0.5013,
   "ink_frac": 0.4766,
-  "overlap_frac": 0.0836,
+  "overlap_frac": 0.102,
   "largest_gap": 0.0055,
   "n_gaps": 1,
   "gaps": [
@@ -1920,9 +1935,9 @@
     "file": "emblem-19/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.7343,
+    "area_frac": 0.4368,
     "registration": 1.0,
-    "ink_px": 114948,
+    "ink_px": 67788,
     "bbox": [
      0.0,
      0.0,
@@ -1973,6 +1988,36 @@
      0.274,
      0.504,
      0.923
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-19/club_man.png",
+    "role": null,
+    "depth": 0.85,
+    "area_frac": 0.238,
+    "registration": 1.0,
+    "ink_px": 37363,
+    "bbox": [
+     0.564,
+     0.184,
+     0.893,
+     0.963
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-19/head_carrier.png",
+    "role": null,
+    "depth": 0.7,
+    "area_frac": 0.0896,
+    "registration": 1.0,
+    "ink_px": 17307,
+    "bbox": [
+     0.421,
+     0.243,
+     0.595,
+     0.775
     ],
     "stranded": false
    }
@@ -2456,15 +2501,15 @@
    612,
    538
   ],
-  "n_cards": 4,
-  "n_figures": 3,
+  "n_cards": 6,
+  "n_figures": 5,
   "has_backdrop": true,
-  "coverage": 0.949,
-  "figure_coverage": 0.1381,
+  "coverage": 0.9465,
+  "figure_coverage": 0.5375,
   "ink_frac": 0.5454,
-  "overlap_frac": 0.0,
+  "overlap_frac": 0.1523,
   "largest_gap": 0.0079,
-  "n_gaps": 2,
+  "n_gaps": 1,
   "gaps": [
    {
     "area_frac": 0.0079,
@@ -2478,19 +2523,6 @@
      0.499,
      0.994
     ]
-   },
-   {
-    "area_frac": 0.0049,
-    "bbox": [
-     0.448,
-     0.006,
-     0.998,
-     0.634
-    ],
-    "centroid": [
-     0.929,
-     0.262
-    ]
    }
   ],
   "cards": [
@@ -2498,9 +2530,9 @@
     "file": "emblem-24/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.8357,
+    "area_frac": 0.4761,
     "registration": 1.0,
-    "ink_px": 144924,
+    "ink_px": 73029,
     "bbox": [
      0.0,
      0.0,
@@ -2551,6 +2583,36 @@
      0.441,
      0.6,
      0.779
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-24/lying_king.png",
+    "role": null,
+    "depth": 0.85,
+    "area_frac": 0.3874,
+    "registration": 1.0,
+    "ink_px": 80834,
+    "bbox": [
+     0.124,
+     0.523,
+     0.974,
+     0.982
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-24/dog_in_fire.png",
+    "role": null,
+    "depth": 0.5,
+    "area_frac": 0.0376,
+    "registration": 1.0,
+    "ink_px": 6407,
+    "bbox": [
+     0.782,
+     0.283,
+     0.996,
+     0.465
     ],
     "stranded": false
    }
@@ -4612,13 +4674,13 @@
    596,
    566
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 4,
+  "n_figures": 3,
   "has_backdrop": true,
-  "coverage": 0.9711,
-  "figure_coverage": 0.1938,
+  "coverage": 0.9673,
+  "figure_coverage": 0.3,
   "ink_frac": 0.4525,
-  "overlap_frac": 0.0,
+  "overlap_frac": 0.0351,
   "largest_gap": 0.0063,
   "n_gaps": 1,
   "gaps": [
@@ -4641,9 +4703,9 @@
     "file": "emblem-43/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.7919,
+    "area_frac": 0.6667,
     "registration": 1.0,
-    "ink_px": 118338,
+    "ink_px": 101584,
     "bbox": [
      0.0,
      0.0,
@@ -4679,6 +4741,21 @@
      0.595,
      0.698,
      0.973
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-43/motto_scroll.png",
+    "role": null,
+    "depth": 0.5,
+    "area_frac": 0.1311,
+    "registration": 1.0,
+    "ink_px": 17926,
+    "bbox": [
+     0.013,
+     0.044,
+     0.474,
+     0.334
     ],
     "stranded": false
    }
