@@ -350,13 +350,13 @@
    1200,
    1434
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 4,
+  "n_figures": 3,
   "has_backdrop": true,
-  "coverage": 0.9898,
-  "figure_coverage": 0.2696,
+  "coverage": 0.9818,
+  "figure_coverage": 0.6145,
   "ink_frac": 0.149,
-  "overlap_frac": 0.0418,
+  "overlap_frac": 0.0188,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -365,9 +365,9 @@
     "file": "emblem-04/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.3757,
+    "area_frac": 0.3101,
     "registration": 0.998,
-    "ink_px": 508026,
+    "ink_px": 410863,
     "bbox": [
      0.0,
      0.0,
@@ -403,6 +403,21 @@
      0.277,
      0.726,
      0.61
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-04/embracing_couple.png",
+    "role": null,
+    "depth": 0.75,
+    "area_frac": 0.0636,
+    "registration": 0.998,
+    "ink_px": 92095,
+    "bbox": [
+     0.242,
+     0.286,
+     0.468,
+     0.578
     ],
     "stranded": false
    }
@@ -1980,13 +1995,13 @@
    705,
    949
   ],
-  "n_cards": 4,
-  "n_figures": 3,
+  "n_cards": 5,
+  "n_figures": 4,
   "has_backdrop": true,
-  "coverage": 0.977,
-  "figure_coverage": 0.1668,
+  "coverage": 0.9756,
+  "figure_coverage": 0.4253,
   "ink_frac": 0.1585,
-  "overlap_frac": 0.0658,
+  "overlap_frac": 0.0781,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -1995,9 +2010,9 @@
     "file": "emblem-20/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.3736,
+    "area_frac": 0.3032,
     "registration": 1.0,
-    "ink_px": 103675,
+    "ink_px": 75266,
     "bbox": [
      -0.001,
      -0.001,
@@ -2050,6 +2065,21 @@
      0.63
     ],
     "stranded": false
+   },
+   {
+    "file": "emblem-20/knight_shield.png",
+    "role": null,
+    "depth": 0.8,
+    "area_frac": 0.0763,
+    "registration": 1.0,
+    "ink_px": 31952,
+    "bbox": [
+     0.362,
+     0.222,
+     0.577,
+     0.598
+    ],
+    "stranded": false
    }
   ],
   "n_stranded": 0,
@@ -2070,38 +2100,24 @@
    594,
    568
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 4,
+  "n_figures": 3,
   "has_backdrop": true,
-  "coverage": 0.9762,
-  "figure_coverage": 0.0199,
+  "coverage": 0.9766,
+  "figure_coverage": 0.3697,
   "ink_frac": 0.4572,
   "overlap_frac": 0.0,
-  "largest_gap": 0.0041,
-  "n_gaps": 1,
-  "gaps": [
-   {
-    "area_frac": 0.0041,
-    "bbox": [
-     0.0,
-     0.387,
-     0.008,
-     0.988
-    ],
-    "centroid": [
-     0.004,
-     0.677
-    ]
-   }
-  ],
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
   "cards": [
    {
     "file": "emblem-21/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.9301,
+    "area_frac": 0.6529,
     "registration": 1.0,
-    "ink_px": 147095,
+    "ink_px": 93334,
     "bbox": [
      0.0,
      0.0,
@@ -2137,6 +2153,21 @@
      0.487,
      0.638,
      0.724
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-21/philosopher_compass.png",
+    "role": null,
+    "depth": 0.85,
+    "area_frac": 0.2752,
+    "registration": 1.0,
+    "ink_px": 53895,
+    "bbox": [
+     0.005,
+     0.085,
+     0.325,
+     0.964
     ],
     "stranded": false
    }
@@ -3729,11 +3760,11 @@
    604,
    570
   ],
-  "n_cards": 6,
-  "n_figures": 5,
+  "n_cards": 7,
+  "n_figures": 6,
   "has_backdrop": true,
-  "coverage": 0.9921,
-  "figure_coverage": 0.0148,
+  "coverage": 0.9884,
+  "figure_coverage": 0.0847,
   "ink_frac": 0.4519,
   "overlap_frac": 0.0,
   "largest_gap": 0.0,
@@ -3744,9 +3775,9 @@
     "file": "emblem-36/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.9248,
+    "area_frac": 0.8661,
     "registration": 1.0,
-    "ink_px": 151600,
+    "ink_px": 140198,
     "bbox": [
      0.0,
      0.0,
@@ -3827,6 +3858,21 @@
      0.042,
      0.586,
      0.105
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-36/travellers.png",
+    "role": null,
+    "depth": 0.75,
+    "area_frac": 0.0554,
+    "registration": 1.0,
+    "ink_px": 10850,
+    "bbox": [
+     0.363,
+     0.623,
+     0.577,
+     0.886
     ],
     "stranded": false
    }

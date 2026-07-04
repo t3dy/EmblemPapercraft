@@ -221,6 +221,16 @@
     "nw": 0.2542,
     "nh": 0.3326,
     "depth": 0.7
+   },
+   {
+    "file": "emblem-04/embracing_couple.png",
+    "label": "embracing couple",
+    "category": "figure",
+    "cx": 0.355,
+    "cy": 0.432,
+    "nw": 0.2267,
+    "nh": 0.2922,
+    "depth": 0.75
    }
   ]
  },
@@ -1113,6 +1123,16 @@
     "nw": 0.3915,
     "nh": 0.2076,
     "depth": 0.7104
+   },
+   {
+    "file": "emblem-20/knight_shield.png",
+    "label": "knight shield",
+    "category": "figure",
+    "cx": 0.4688,
+    "cy": 0.4094,
+    "nw": 0.2142,
+    "nh": 0.3762,
+    "depth": 0.8
    }
   ]
  },
@@ -1152,6 +1172,16 @@
     "nw": 0.0875,
     "nh": 0.2377,
     "depth": 0.6
+   },
+   {
+    "file": "emblem-21/philosopher_compass.png",
+    "label": "philosopher compass",
+    "category": "figure",
+    "cx": 0.165,
+    "cy": 0.5238,
+    "nw": 0.3199,
+    "nh": 0.8785,
+    "depth": 0.85
    }
   ]
  },
@@ -1995,6 +2025,16 @@
     "nw": 0.0695,
     "nh": 0.0632,
     "depth": 0.64
+   },
+   {
+    "file": "emblem-36/travellers.png",
+    "label": "travellers",
+    "category": "figure",
+    "cx": 0.4694,
+    "cy": 0.7544,
+    "nw": 0.2136,
+    "nh": 0.2632,
+    "depth": 0.75
    }
   ]
  },
