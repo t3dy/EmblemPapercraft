@@ -80,26 +80,27 @@
 
 <script>
 const pad = n => String(n).padStart(2, '0');
-function card(emb, count, feat) {
+function card(emb, figs, feat) {
   const numeral = emb.roman_numeral || (emb.number === 0 ? '—' : emb.number);
   const title = (emb.label || ('Emblem ' + emb.number));
-  const pop = count >= 2;
+  const pop = figs >= 1;
   const a = document.createElement('a');
   a.className = 'card' + (feat ? ' feat' : '');
   a.href = 'index.html?emblem=' + emb.number;
+  if (emb.motto_english) a.title = emb.motto_english;
   a.innerHTML =
     `<div class="thumb" style="background-image:url(images/emblems/emblem-${pad(emb.number)}.jpg)"></div>` +
     `<div class="meta"><span class="num">${numeral}</span><span class="title">${title}</span></div>` +
-    `<div class="badge${pop ? ' pop' : ''}">${pop ? count + ' paper layers' : 'flat plate'}</div>`;
+    `<div class="badge${pop ? ' pop' : ''}">${pop ? figs + ' figure pop' + (figs > 1 ? 's' : '') : 'backdrop only'}</div>`;
   return a;
 }
 
 Promise.all([
-  fetch('data/emblems.json').then(r => r.json()),
-  fetch('data/layers.json').then(r => r.json()),
+  fetch('data/emblems.json', { cache: 'no-store' }).then(r => r.json()),
+  fetch('data/layers.json', { cache: 'no-store' }).then(r => r.json()),
 ]).then(([emblems, layers]) => {
   const countByNum = {};
-  layers.forEach(x => { countByNum[x.number] = (x.layers || []).length; });
+  layers.forEach(x => { countByNum[x.number] = (x.layers || []).filter(l => l.role !== 'backdrop').length; });
 
   const featured = emblems
     .filter(e => (countByNum[e.number] || 0) >= 5)

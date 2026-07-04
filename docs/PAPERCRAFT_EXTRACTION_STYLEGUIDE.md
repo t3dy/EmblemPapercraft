@@ -278,3 +278,19 @@ With page furniture declared flat, the metric now measures the *pictorial scene*
 
 Open work remains *decomposition depth*: thinnest figure shares are 36, 21, 20, 04, 06
 (single small figures over big backdrops). Use §9's tools to lift more.
+
+## 11. Decomposition sweep (2026-07-04)
+
+Passes 3–6 lifted 35 new cards across 22 emblems with §9's `cut_region.py` (all
+in-place cuts, registration ≈ 1.0 by construction): every named figure on the
+worst-decomposed plates now pops — Sol/Luna/dragon (25), Ceres nursing (35), the
+Rebis and Mercury+Venus (38), the ages of man (39), Jupiter (46), the king's court
+(48), the fountain scene (40), the devoured king (24), the club fight (19), the
+philosopher with compass (21), the knight (20), the embracing couple (04), etc.
+
+- mean **figure_coverage 22.8% → 41.6%**; mean coverage 96.5%; **gate 51/51**.
+- The remaining low-figure plates (36, 00, 31, 06, 29, 13) are genuinely
+  landscape/cartouche-dominant — their pictorial subjects are all popped; the
+  residue is scene, correctly carried by the backdrop.
+- One dry-run reject: emblem-36's small horseman fused with fence hatching into
+  junk — discarded rather than shipped (cut quality > count).

@@ -35,9 +35,10 @@
     cursor: pointer; transition: border-color .18s, color .18s;
   }
   #nav button:hover { border-color: #c8a040; color: #f5ecd8; }
-  #label-wrap { text-align: center; min-width: 280px; }
+  #label-wrap { text-align: center; min-width: 280px; max-width: 520px; }
   #label { font-size: 1.0rem; color: #ecdfc4; }
-  #count { font-size: 0.66rem; color: #6a5a40; letter-spacing: 0.1em; margin-top: 0.2rem; }
+  #motto { font-size: 0.72rem; color: #9a8a6c; font-style: italic; margin-top: 0.25rem; line-height: 1.45; }
+  #count { font-size: 0.66rem; color: #6a5a40; letter-spacing: 0.1em; margin-top: 0.25rem; }
 
   #hint {
     position: absolute; bottom: 1.7rem; right: 1.6rem;
@@ -80,6 +81,7 @@
     <button id="prev" title="Previous (←)">&larr;</button>
     <div id="label-wrap">
       <div id="label">—</div>
+      <div id="motto"></div>
       <div id="count">— / —</div>
     </div>
     <button id="next" title="Next (→)">&rarr;</button>
@@ -98,6 +100,6 @@
   }
 }
 </script>
-<script type="module" src="./js/papercraft.js?v=11"></script>
+<script type="module" src="./js/papercraft.js?v=12"></script>
 </body>
 </html>

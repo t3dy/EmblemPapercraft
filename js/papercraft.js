@@ -271,6 +271,8 @@ function show(i) {
   const numeral = emb.roman_numeral || (emb.number === 0 ? '—' : emb.number);
   const figs = (layersByNum[emb.number] || []).filter((L) => L.role !== 'backdrop').length;
   document.getElementById('label').textContent = `${numeral} · ${emb.label || ('Emblem ' + emb.number)}`;
+  const motto = emb.motto_english || emb.motto_latin || '';
+  document.getElementById('motto').textContent = motto;
   document.getElementById('count').textContent =
     `${idx + 1} / ${emblems.length}` +
     (figs >= 1 ? ` · ${figs} paper cutout${figs > 1 ? 's' : ''}` : ' · backdrop only');
