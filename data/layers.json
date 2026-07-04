@@ -1403,6 +1403,36 @@
     "nw": 0.0851,
     "nh": 0.1675,
     "depth": 0.2837
+   },
+   {
+    "file": "emblem-25/sol_club.png",
+    "label": "Sol with his club",
+    "category": "figure",
+    "cx": 0.1745,
+    "cy": 0.4642,
+    "nw": 0.2213,
+    "nh": 0.3235,
+    "depth": 0.8
+   },
+   {
+    "file": "emblem-25/luna_club.png",
+    "label": "Luna with her club",
+    "category": "figure",
+    "cx": 0.5993,
+    "cy": 0.4842,
+    "nw": 0.2709,
+    "nh": 0.3235,
+    "depth": 0.8
+   },
+   {
+    "file": "emblem-25/dragon.png",
+    "label": "the dragon",
+    "category": "animals",
+    "cx": 0.3993,
+    "cy": 0.5242,
+    "nw": 0.3106,
+    "nh": 0.2034,
+    "depth": 0.65
    }
   ]
  },
@@ -1653,6 +1683,16 @@
     "nh": 0.2891,
     "score": 0.336,
     "depth": 0.6499
+   },
+   {
+    "file": "emblem-31/kicking_legs.png",
+    "label": "the king's kicking legs",
+    "category": "figure",
+    "cx": 0.8093,
+    "cy": 0.4796,
+    "nw": 0.2127,
+    "nh": 0.2333,
+    "depth": 0.6
    }
   ]
  },
@@ -1955,6 +1995,26 @@
     "nw": 0.1934,
     "nh": 0.2261,
     "depth": 0.7
+   },
+   {
+    "file": "emblem-35/nursing_ceres.png",
+    "label": "Ceres nursing the child",
+    "category": "figure",
+    "cx": 0.2098,
+    "cy": 0.579,
+    "nw": 0.3705,
+    "nh": 0.7904,
+    "depth": 0.85
+   },
+   {
+    "file": "emblem-35/woman_at_fire.png",
+    "label": "the child laid in the fire",
+    "category": "figure",
+    "cx": 0.7246,
+    "cy": 0.4586,
+    "nw": 0.2426,
+    "nh": 0.432,
+    "depth": 0.6
    }
   ]
  },
@@ -2104,6 +2164,36 @@
     "nh": 0.1805,
     "score": 0.354,
     "depth": 0.6953
+   },
+   {
+    "file": "emblem-38/rebis.png",
+    "label": "the two-headed Rebis",
+    "category": "figure",
+    "cx": 0.5091,
+    "cy": 0.1893,
+    "nw": 0.2907,
+    "nh": 0.3679,
+    "depth": 0.55
+   },
+   {
+    "file": "emblem-38/mercury_venus.png",
+    "label": "Mercury and Venus",
+    "category": "figure",
+    "cx": 0.4792,
+    "cy": 0.6491,
+    "nw": 0.5897,
+    "nh": 0.6482,
+    "depth": 0.8
+   },
+   {
+    "file": "emblem-38/cupid.png",
+    "label": "Cupid",
+    "category": "figure",
+    "cx": 0.8696,
+    "cy": 0.775,
+    "nw": 0.2508,
+    "nh": 0.3393,
+    "depth": 0.7
    }
   ]
  },
@@ -2144,6 +2234,36 @@
     "nh": 0.1837,
     "score": 0.251,
     "depth": 0.799
+   },
+   {
+    "file": "emblem-39/man_adult.png",
+    "label": "the man in his prime",
+    "category": "figure",
+    "cx": 0.4793,
+    "cy": 0.6693,
+    "nw": 0.2301,
+    "nh": 0.6082,
+    "depth": 0.85
+   },
+   {
+    "file": "emblem-39/old_man_cane.png",
+    "label": "the old man on three legs",
+    "category": "figure",
+    "cx": 0.7392,
+    "cy": 0.664,
+    "nw": 0.2699,
+    "nh": 0.5585,
+    "depth": 0.8
+   },
+   {
+    "file": "emblem-39/walking_soldier.png",
+    "label": "walking soldier",
+    "category": "figure",
+    "cx": 0.3088,
+    "cy": 0.4291,
+    "nw": 0.1738,
+    "nh": 0.2943,
+    "depth": 0.55
    }
   ]
  },
@@ -2184,6 +2304,46 @@
     "nh": 0.7002,
     "score": 0.25,
     "depth": 0.5886
+   },
+   {
+    "file": "emblem-40/workman.png",
+    "label": "the workman at the basin",
+    "category": "figure",
+    "cx": 0.3395,
+    "cy": 0.6598,
+    "nw": 0.2709,
+    "nh": 0.5089,
+    "depth": 0.8
+   },
+   {
+    "file": "emblem-40/robed_group.png",
+    "label": "robed onlookers",
+    "category": "figure",
+    "cx": 0.5794,
+    "cy": 0.6045,
+    "nw": 0.2692,
+    "nh": 0.4804,
+    "depth": 0.7
+   },
+   {
+    "file": "emblem-40/boy_statue_left.png",
+    "label": "spouting statue (left)",
+    "category": "figure",
+    "cx": 0.0794,
+    "cy": 0.4795,
+    "nw": 0.1488,
+    "nh": 0.4696,
+    "depth": 0.45
+   },
+   {
+    "file": "emblem-40/boy_statue_right.png",
+    "label": "spouting statue (right)",
+    "category": "figure",
+    "cx": 0.8997,
+    "cy": 0.4598,
+    "nw": 0.1906,
+    "nh": 0.4696,
+    "depth": 0.45
    }
   ]
  },
@@ -2475,6 +2635,16 @@
     "nh": 0.2556,
     "score": 0.443,
     "depth": 0.1573
+   },
+   {
+    "file": "emblem-46/jupiter.png",
+    "label": "Jupiter with the two eagles",
+    "category": "figure",
+    "cx": 0.5298,
+    "cy": 0.5292,
+    "nw": 0.4503,
+    "nh": 0.8887,
+    "depth": 0.8
    }
   ]
  },
@@ -2565,6 +2735,16 @@
     "nw": 0.4363,
     "nh": 0.6516,
     "depth": 0.7
+   },
+   {
+    "file": "emblem-48/kings_group.png",
+    "label": "the king and his court",
+    "category": "figure",
+    "cx": 0.8096,
+    "cy": 0.5845,
+    "nw": 0.3709,
+    "nh": 0.7195,
+    "depth": 0.75
    }
   ]
  },

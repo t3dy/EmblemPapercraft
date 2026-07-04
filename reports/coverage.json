@@ -2573,13 +2573,13 @@
    705,
    949
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 6,
+  "n_figures": 5,
   "has_backdrop": true,
-  "coverage": 0.9955,
-  "figure_coverage": 0.0282,
+  "coverage": 0.9793,
+  "figure_coverage": 0.7199,
   "ink_frac": 0.1671,
-  "overlap_frac": 0.0,
+  "overlap_frac": 0.1381,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -2588,9 +2588,9 @@
     "file": "emblem-25/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.4308,
-    "registration": 1.0,
-    "ink_px": 122754,
+    "area_frac": 0.2392,
+    "registration": 0.999,
+    "ink_px": 41791,
     "bbox": [
      -0.001,
      -0.001,
@@ -2626,6 +2626,51 @@
      0.222,
      0.56,
      0.389
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-25/sol_club.png",
+    "role": null,
+    "depth": 0.8,
+    "area_frac": 0.0706,
+    "registration": 1.0,
+    "ink_px": 27694,
+    "bbox": [
+     0.064,
+     0.303,
+     0.285,
+     0.626
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-25/luna_club.png",
+    "role": null,
+    "depth": 0.8,
+    "area_frac": 0.0803,
+    "registration": 1.0,
+    "ink_px": 32145,
+    "bbox": [
+     0.465,
+     0.323,
+     0.735,
+     0.646
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-25/dragon.png",
+    "role": null,
+    "depth": 0.65,
+    "area_frac": 0.0611,
+    "registration": 1.0,
+    "ink_px": 30933,
+    "bbox": [
+     0.245,
+     0.422,
+     0.555,
+     0.625
     ],
     "stranded": false
    }
@@ -3134,11 +3179,11 @@
    616,
    540
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 4,
+  "n_figures": 3,
   "has_backdrop": true,
-  "coverage": 0.9535,
-  "figure_coverage": 0.0922,
+  "coverage": 0.9503,
+  "figure_coverage": 0.1471,
   "ink_frac": 0.4109,
   "overlap_frac": 0.0,
   "largest_gap": 0.0,
@@ -3149,9 +3194,9 @@
     "file": "emblem-31/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.8814,
+    "area_frac": 0.8291,
     "registration": 1.0,
-    "ink_px": 117316,
+    "ink_px": 109395,
     "bbox": [
      0.0,
      0.0,
@@ -3187,6 +3232,21 @@
      0.531,
      0.782,
      0.82
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-31/kicking_legs.png",
+    "role": null,
+    "depth": 0.6,
+    "area_frac": 0.0489,
+    "registration": 1.0,
+    "ink_px": 7483,
+    "bbox": [
+     0.704,
+     0.363,
+     0.916,
+     0.596
     ],
     "stranded": false
    }
@@ -3656,13 +3716,13 @@
    610,
    544
   ],
-  "n_cards": 4,
-  "n_figures": 3,
+  "n_cards": 6,
+  "n_figures": 5,
   "has_backdrop": true,
-  "coverage": 0.9794,
-  "figure_coverage": 0.0442,
+  "coverage": 0.9666,
+  "figure_coverage": 0.4633,
   "ink_frac": 0.4789,
-  "overlap_frac": 0.0,
+  "overlap_frac": 0.0134,
   "largest_gap": 0.0043,
   "n_gaps": 1,
   "gaps": [
@@ -3685,9 +3745,9 @@
     "file": "emblem-35/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.9122,
+    "area_frac": 0.5287,
     "registration": 1.0,
-    "ink_px": 148301,
+    "ink_px": 79804,
     "bbox": [
      0.0,
      0.0,
@@ -3738,6 +3798,36 @@
      0.238,
      0.579,
      0.464
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-35/nursing_ceres.png",
+    "role": null,
+    "depth": 0.85,
+    "area_frac": 0.2857,
+    "registration": 1.0,
+    "ink_px": 53879,
+    "bbox": [
+     0.025,
+     0.184,
+     0.395,
+     0.974
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-35/woman_at_fire.png",
+    "role": null,
+    "depth": 0.6,
+    "area_frac": 0.0871,
+    "registration": 1.0,
+    "ink_px": 13692,
+    "bbox": [
+     0.603,
+     0.242,
+     0.846,
+     0.674
     ],
     "stranded": false
    }
@@ -3955,38 +4045,24 @@
    602,
    560
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 6,
+  "n_figures": 5,
   "has_backdrop": true,
-  "coverage": 0.9773,
-  "figure_coverage": 0.0641,
+  "coverage": 0.9774,
+  "figure_coverage": 0.6245,
   "ink_frac": 0.472,
-  "overlap_frac": 0.0,
-  "largest_gap": 0.004,
-  "n_gaps": 1,
-  "gaps": [
-   {
-    "area_frac": 0.004,
-    "bbox": [
-     0.01,
-     0.002,
-     0.997,
-     0.111
-    ],
-    "centroid": [
-     0.528,
-     0.013
-    ]
-   }
-  ],
+  "overlap_frac": 0.114,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
   "cards": [
    {
     "file": "emblem-38/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.8376,
+    "area_frac": 0.3539,
     "registration": 1.0,
-    "ink_px": 144973,
+    "ink_px": 55996,
     "bbox": [
      0.0,
      0.0,
@@ -4024,6 +4100,51 @@
      0.79
     ],
     "stranded": false
+   },
+   {
+    "file": "emblem-38/rebis.png",
+    "role": null,
+    "depth": 0.55,
+    "area_frac": 0.0856,
+    "registration": 1.0,
+    "ink_px": 12197,
+    "bbox": [
+     0.363,
+     0.005,
+     0.654,
+     0.373
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-38/mercury_venus.png",
+    "role": null,
+    "depth": 0.8,
+    "area_frac": 0.3736,
+    "registration": 1.0,
+    "ink_px": 69275,
+    "bbox": [
+     0.184,
+     0.324,
+     0.773,
+     0.972
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-38/cupid.png",
+    "role": null,
+    "depth": 0.7,
+    "area_frac": 0.0843,
+    "registration": 1.0,
+    "ink_px": 18366,
+    "bbox": [
+     0.743,
+     0.605,
+     0.994,
+     0.945
+    ],
+    "stranded": false
    }
   ],
   "n_stranded": 0,
@@ -4044,13 +4165,13 @@
    604,
    564
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 6,
+  "n_figures": 5,
   "has_backdrop": true,
-  "coverage": 0.9754,
-  "figure_coverage": 0.0921,
+  "coverage": 0.9649,
+  "figure_coverage": 0.4577,
   "ink_frac": 0.4518,
-  "overlap_frac": 0.0,
+  "overlap_frac": 0.0288,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -4059,9 +4180,9 @@
     "file": "emblem-39/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.8723,
+    "area_frac": 0.5416,
     "registration": 1.0,
-    "ink_px": 135635,
+    "ink_px": 77877,
     "bbox": [
      0.0,
      0.0,
@@ -4099,6 +4220,51 @@
      0.902
     ],
     "stranded": false
+   },
+   {
+    "file": "emblem-39/man_adult.png",
+    "role": null,
+    "depth": 0.85,
+    "area_frac": 0.1369,
+    "registration": 1.0,
+    "ink_px": 23057,
+    "bbox": [
+     0.363,
+     0.364,
+     0.594,
+     0.973
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-39/old_man_cane.png",
+    "role": null,
+    "depth": 0.8,
+    "area_frac": 0.1443,
+    "registration": 1.0,
+    "ink_px": 26946,
+    "bbox": [
+     0.603,
+     0.384,
+     0.873,
+     0.942
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-39/walking_soldier.png",
+    "role": null,
+    "depth": 0.55,
+    "area_frac": 0.0476,
+    "registration": 1.0,
+    "ink_px": 8057,
+    "bbox": [
+     0.223,
+     0.282,
+     0.397,
+     0.576
+    ],
+    "stranded": false
    }
   ],
   "n_stranded": 0,
@@ -4119,38 +4285,24 @@
    598,
    560
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 7,
+  "n_figures": 6,
   "has_backdrop": true,
-  "coverage": 0.9677,
-  "figure_coverage": 0.1559,
+  "coverage": 0.9723,
+  "figure_coverage": 0.5229,
   "ink_frac": 0.5209,
-  "overlap_frac": 0.2065,
-  "largest_gap": 0.0066,
-  "n_gaps": 1,
-  "gaps": [
-   {
-    "area_frac": 0.0066,
-    "bbox": [
-     0.609,
-     0.045,
-     0.998,
-     0.998
-    ],
-    "centroid": [
-     0.957,
-     0.578
-    ]
-   }
-  ],
+  "overlap_frac": 0.2445,
+  "largest_gap": 0.0,
+  "n_gaps": 0,
+  "gaps": [],
   "cards": [
    {
     "file": "emblem-40/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.7931,
+    "area_frac": 0.476,
     "registration": 1.0,
-    "ink_px": 141242,
+    "ink_px": 78192,
     "bbox": [
      0.0,
      0.0,
@@ -4186,6 +4338,66 @@
      0.275,
      0.37,
      0.975
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-40/workman.png",
+    "role": null,
+    "depth": 0.8,
+    "area_frac": 0.1378,
+    "registration": 1.0,
+    "ink_px": 27363,
+    "bbox": [
+     0.204,
+     0.404,
+     0.475,
+     0.913
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-40/robed_group.png",
+    "role": null,
+    "depth": 0.7,
+    "area_frac": 0.1291,
+    "registration": 1.0,
+    "ink_px": 25834,
+    "bbox": [
+     0.444,
+     0.365,
+     0.713,
+     0.846
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-40/boy_statue_left.png",
+    "role": null,
+    "depth": 0.45,
+    "area_frac": 0.0689,
+    "registration": 1.0,
+    "ink_px": 14038,
+    "bbox": [
+     0.004,
+     0.246,
+     0.153,
+     0.715
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-40/boy_statue_right.png",
+    "role": null,
+    "depth": 0.45,
+    "area_frac": 0.0893,
+    "registration": 1.0,
+    "ink_px": 17485,
+    "bbox": [
+     0.804,
+     0.224,
+     0.995,
+     0.694
     ],
     "stranded": false
    }
@@ -4726,13 +4938,13 @@
    604,
    566
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 4,
+  "n_figures": 3,
   "has_backdrop": true,
-  "coverage": 0.9712,
-  "figure_coverage": 0.1093,
+  "coverage": 0.967,
+  "figure_coverage": 0.4897,
   "ink_frac": 0.4659,
-  "overlap_frac": 0.0,
+  "overlap_frac": 0.0785,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -4741,9 +4953,9 @@
     "file": "emblem-46/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.8512,
+    "area_frac": 0.4862,
     "registration": 1.0,
-    "ink_px": 136765,
+    "ink_px": 75738,
     "bbox": [
      0.0,
      0.0,
@@ -4779,6 +4991,21 @@
      0.045,
      0.413,
      0.301
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-46/jupiter.png",
+    "role": null,
+    "depth": 0.8,
+    "area_frac": 0.395,
+    "registration": 1.0,
+    "ink_px": 67225,
+    "bbox": [
+     0.305,
+     0.086,
+     0.755,
+     0.974
     ],
     "stranded": false
    }
@@ -4891,13 +5118,13 @@
    612,
    574
   ],
-  "n_cards": 3,
-  "n_figures": 2,
+  "n_cards": 4,
+  "n_figures": 3,
   "has_backdrop": true,
-  "coverage": 0.9838,
-  "figure_coverage": 0.1518,
+  "coverage": 0.9806,
+  "figure_coverage": 0.431,
   "ink_frac": 0.5356,
-  "overlap_frac": 0.0,
+  "overlap_frac": 0.0031,
   "largest_gap": 0.0,
   "n_gaps": 0,
   "gaps": [],
@@ -4906,9 +5133,9 @@
     "file": "emblem-48/_backdrop.png",
     "role": "backdrop",
     "depth": 0.0,
-    "area_frac": 0.8,
+    "area_frac": 0.5383,
     "registration": 1.0,
-    "ink_px": 155543,
+    "ink_px": 102762,
     "bbox": [
      0.0,
      0.0,
@@ -4944,6 +5171,21 @@
      0.289,
      0.645,
      0.941
+    ],
+    "stranded": false
+   },
+   {
+    "file": "emblem-48/kings_group.png",
+    "role": null,
+    "depth": 0.75,
+    "area_frac": 0.2593,
+    "registration": 1.0,
+    "ink_px": 52468,
+    "bbox": [
+     0.623,
+     0.226,
+     0.994,
+     0.945
     ],
     "stranded": false
    }
