@@ -337,8 +337,8 @@ function animate() {
 window._pc = { scene, camera, controls, renderer, key, show: (n) => show(emblems.findIndex(x => x.number === n)) };
 
 Promise.all([
-  fetch('data/emblems.json').then(r => r.json()),
-  fetch('data/layers.json').then(r => r.json()),
+  fetch('data/emblems.json', { cache: 'no-store' }).then(r => r.json()),
+  fetch('data/layers.json', { cache: 'no-store' }).then(r => r.json()),
 ]).then(([e, l]) => {
   emblems = e;
   l.forEach(x => { layersByNum[x.number] = x.layers; });

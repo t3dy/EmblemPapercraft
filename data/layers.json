@@ -398,6 +398,16 @@
     "nh": 0.6064,
     "score": 0.303,
     "depth": 0.6039
+   },
+   {
+    "file": "emblem-07/eagle_nest.png",
+    "label": "eagle nest",
+    "category": "animal",
+    "cx": 0.495,
+    "cy": 0.3016,
+    "nw": 0.205,
+    "nh": 0.0816,
+    "depth": 0.7
    }
   ]
  },
@@ -486,6 +496,16 @@
     "nh": 0.9748,
     "score": 0.316,
     "depth": 0.3541
+   },
+   {
+    "file": "emblem-09/reaching_elder.png",
+    "label": "reaching elder",
+    "category": "figure",
+    "cx": 0.5,
+    "cy": 0.4895,
+    "nw": 0.195,
+    "nh": 0.2162,
+    "depth": 0.75
    }
   ]
  },
@@ -1234,6 +1254,36 @@
     "nh": 0.2098,
     "score": 0.31,
     "depth": 0.4903
+   },
+   {
+    "file": "emblem-23/vulcan_smith.png",
+    "label": "vulcan smith",
+    "category": "figure",
+    "cx": 0.2136,
+    "cy": 0.5095,
+    "nw": 0.2233,
+    "nh": 0.7732,
+    "depth": 0.75
+   },
+   {
+    "file": "emblem-23/patient_elder.png",
+    "label": "patient elder",
+    "category": "figure",
+    "cx": 0.4644,
+    "cy": 0.6493,
+    "nw": 0.3172,
+    "nh": 0.6257,
+    "depth": 0.85
+   },
+   {
+    "file": "emblem-23/eagle_creature.png",
+    "label": "eagle creature",
+    "category": "animal",
+    "cx": 0.6837,
+    "cy": 0.5293,
+    "nw": 0.2573,
+    "nh": 0.4839,
+    "depth": 0.7
    }
   ]
  },
@@ -1343,15 +1393,14 @@
     "depth": 0.0
    },
    {
-    "file": "emblem-26/distillation_vessel.png",
-    "label": "distillation vessel",
-    "category": "equipment",
-    "cx": 0.2525,
-    "cy": 0.5513,
-    "nw": 0.29,
-    "nh": 0.4597,
-    "score": 0.281,
-    "depth": 0.5313
+    "file": "emblem-26/allegorical_woman.png",
+    "label": "allegorical woman",
+    "category": "figure",
+    "cx": 0.4292,
+    "cy": 0.54,
+    "nw": 0.6911,
+    "nh": 0.8691,
+    "depth": 0.8
    }
   ]
  },
@@ -2254,6 +2303,36 @@
     "nh": 0.4292,
     "score": 0.251,
     "depth": 0.7116
+   },
+   {
+    "file": "emblem-44/two_men.png",
+    "label": "two men",
+    "category": "figure",
+    "cx": 0.4792,
+    "cy": 0.3587,
+    "nw": 0.387,
+    "nh": 0.5053,
+    "depth": 0.75
+   },
+   {
+    "file": "emblem-44/attendant_right.png",
+    "label": "attendant right",
+    "category": "figure",
+    "cx": 0.8995,
+    "cy": 0.4488,
+    "nw": 0.1877,
+    "nh": 0.5866,
+    "depth": 0.7
+   },
+   {
+    "file": "emblem-44/fleeing_woman.png",
+    "label": "fleeing woman",
+    "category": "figure",
+    "cx": 0.1196,
+    "cy": 0.2995,
+    "nw": 0.2259,
+    "nh": 0.4859,
+    "depth": 0.65
    }
   ]
  },
@@ -2475,6 +2554,26 @@
     "nh": 0.3086,
     "score": 0.395,
     "depth": 0.6783
+   },
+   {
+    "file": "emblem-49/men_left.png",
+    "label": "men left",
+    "category": "figure",
+    "cx": 0.2094,
+    "cy": 0.4991,
+    "nw": 0.4056,
+    "nh": 0.6847,
+    "depth": 0.7
+   },
+   {
+    "file": "emblem-49/men_right.png",
+    "label": "men right",
+    "category": "figure",
+    "cx": 0.8096,
+    "cy": 0.4739,
+    "nw": 0.3675,
+    "nh": 0.7352,
+    "depth": 0.75
    }
   ]
  },
